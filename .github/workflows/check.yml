@@ -16,6 +16,13 @@ jobs:
       - name: Display changed files
         run: |
           echo "Changed files: ${{ steps.modified.outputs.modified }}"
-      - name: display JSON
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: install ms3
         run: |
-          cat ${HOME}/files_modified.json
+          pip install ms3
+      - name: Run ms3 check
+        run: |
+          ms3 check -f ${HOME}/files_modified.json --assertion --log check.log
