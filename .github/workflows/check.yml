@@ -16,3 +16,6 @@ jobs:
       - name: Display changed files
         run: |
           echo "Changed files: ${{ steps.modified.outputs.modified }}"
+      - name: display JSON
+        run: |
+          cat ${HOME}/files_modified.json
