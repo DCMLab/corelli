@@ -9,23 +9,10 @@ jobs:
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-        continue-on-error: true
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v1
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        id: changed_files
         with:
-          python-version: 3.8
-      - name: Clone ms3
-        uses: actions/checkout@v2
-        with:
-          repository: johentsch/ms3
-          ref: workflow
-          path: ./ms3
-      - name: Install ms3
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Display changed files
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install -e ms3
-      - name: Run ms3 check
-        run: |
-          ms3 check -f ${{ steps.files.outputs.added_modified }} --assertion --log check.log
+          echo "Changed files: ${{ steps.changed_files.outputs.changed_files }}"
