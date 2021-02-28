@@ -25,4 +25,4 @@ jobs:
           pip install ms3
       - name: Run ms3 check
         run: |
-          ms3 check -f files_modified.json --assertion --log check.log
+          ms3 check -f ~/files_modified.json --assertion --log check.log
