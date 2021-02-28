@@ -10,9 +10,9 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v2
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
-        id: changed_files
+        id: modified
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
         run: |
-          echo "Changed files: ${{ steps.changed_files.outputs.changed_files }}"
+          echo "Changed files: ${{ steps.modified.outputs.modified }}"
