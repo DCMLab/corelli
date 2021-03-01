@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Store info if something was modified
         id: modcheck
-        run: echo "::set-output name=hasmodified::${{ steps.modified.outputs.modified[0] == null }}"
+        run: echo "::set-output name=hasmodified::${{ steps.modified.outputs.modified[0] != null }}"
         
   perform_check:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
     steps:
       - name: Display changed files
         run: |
-          cat ${HOME}/files_modified.json
+          echo "${{ needs.collect_modified.outputs.hasmodified }}"
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
