@@ -3,15 +3,20 @@ name: check_labels
 on: push
 
 jobs:
-  check:
+  perform_check:
     runs-on: ubuntu-latest
-
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-        continue-on-error: true
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        id: modified
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Display changed files
+        run: |
+          echo "${{ steps.modified.outputs.modified }}"
+          echo "${{ join(steps.modified.outputs.modified) }}"
+          cat ${HOME}/files_modified.json
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
@@ -28,4 +33,4 @@ jobs:
           python -m pip install -e ms3
       - name: Run ms3 check
         run: |
-          ms3 check -f ${{ steps.files.outputs.added_modified }} --assertion --log check.log
+          ms3 check -f ${HOME}/files_modified.json --assertion --log check.log
