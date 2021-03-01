@@ -26,13 +26,16 @@ jobs:
         with:
           path: main
           ref: ${{ github.event.pull_request.head.ref }}
-      - id: files
-        uses: jitterbit/get-changed-files@v1
-        continue-on-error: true
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        id: modified
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Display changed files
+        run: cat ${HOME}/files_modified.json
       - name: Run ms3 check
         working-directory: ./main
         run: |
-          ms3 compare -f ${{ steps.files.outputs.added_modified }}
+          ms3 compare -f ${HOME}/files_modified.json
       - name: Push comparison files
         working-directory: ./main
         run: |
