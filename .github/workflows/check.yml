@@ -15,24 +15,21 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
-        if: steps.modified.outputs.modified[0] == null
         run: |
-          echo "${{ steps.modified.outputs.modified}}"
+          echo "${{ steps.modified.outputs.modified }}"
           echo "${{ join(steps.modified.outputs.modified) }}"
+          cat ${HOME}/files_modified.json
       - name: Set up Python 3.8
-        if: steps.modified.outputs.modified[0] != null
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
       - name: Clone ms3
-        if: steps.modified.outputs.modified[0] != null
         uses: actions/checkout@v2
         with:
           repository: johentsch/ms3
           ref: workflow
           path: ./ms3
       - name: Install ms3
-        if: steps.modified.outputs.modified[0] != null
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ms3
