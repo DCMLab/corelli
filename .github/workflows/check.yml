@@ -17,25 +17,5 @@ jobs:
       - name: Display changed files
         if: steps.modified.outputs.modified[0] == null
         run: |
-          cat ${HOME}/files_modified.json
-      - name: Set up Python 3.8
-        if: steps.modified.outputs.modified[0] == null
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.8
-      - name: Clone ms3
-        if: steps.modified.outputs.modified[0] == null
-        uses: actions/checkout@v2
-        with:
-          repository: johentsch/ms3
-          ref: workflow
-          path: ./ms3
-      - name: Install ms3
-        if: steps.modified.outputs.modified[0] == null
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -e ms3
-      - name: Run ms3 check
-        if: steps.modified.outputs.modified[0] == null
-        run: |
-          ms3 check -f ${HOME}/files_modified.json --assertion --log check.log
+          echo "${{ steps.modified.outputs.modified[0] }}"
+
