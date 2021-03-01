@@ -18,7 +18,7 @@ jobs:
         if: steps.modified.outputs.modified[0] == null
         run: |
           echo "${{ steps.modified.outputs.modified}}"
-          echo "${{ steps.modified.outputs.modified[0] }}"
+          echo "${{ toJSON(steps.modified.outputs.modified[0]) }}"
       - name: Set up Python 3.8
         if: steps.modified.outputs.modified[0] != null
         uses: actions/setup-python@v1
