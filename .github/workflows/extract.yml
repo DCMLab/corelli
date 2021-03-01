@@ -1,10 +1,11 @@
-name: label_comparison
+name: ms3
 
-on: pull_request
-
-
+on:
+  push:
+    branches:
+      - main
 jobs:
-  compare:
+  extract:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,12 +37,12 @@ jobs:
       - name: Run ms3 check
         working-directory: ./main
         run: |
-          ms3 compare -f ${HOME}/files_modified.json
+          ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies
       - name: Push comparison files
         working-directory: ./main
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Added comparison files for review"
+          git commit -m "Automatically added TSV files from parse with ms3"
           git push

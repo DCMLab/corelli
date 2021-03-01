@@ -1,12 +1,13 @@
-name: check_changed_labels
+name: check_labels
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   perform_check:
     runs-on: ubuntu-latest
-    outputs:
-      hasmodified: ${{ steps.modcheck.outputs.hasmodified }}
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
