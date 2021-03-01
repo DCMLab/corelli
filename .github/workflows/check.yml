@@ -3,9 +3,10 @@ name: check_changed_labels
 on: [push]
 
 jobs:
-  perform_check:
+  collect_modified:
     runs-on: ubuntu-latest
-
+    outputs:
+      hasmodified: ${{ steps.modcheck.outputs.hasmodified }}
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
@@ -13,9 +14,15 @@ jobs:
         id: modified
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Stop if nothing was modified
-        if: steps.modified.outputs.modified[0] == null
-        run: exit 0
+      - name: Store info if something was modified
+        id: modcheck
+        run: echo "::set-output name=hasmodified::${{ steps.modified.outputs.modified[0] == null }}"
+        
+  perform_check:
+    runs-on: ubuntu-latest
+    needs: collect_modified
+    if: needs.collect_modified.outputs.hasmodified
+    steps:
       - name: Display changed files
         run: |
           cat ${HOME}/files_modified.json
