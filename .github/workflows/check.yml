@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
-        if: steps.modified.outputs.modified[0] == null
+        if: steps.modified.outputs.modified[0] != null
         run: |
-          echo "${{ steps.modified.outputs.modified[0] }}"
+          echo "${{ steps.modified.outputs.modified }}"
 
