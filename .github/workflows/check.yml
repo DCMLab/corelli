@@ -13,6 +13,9 @@ jobs:
         id: modified
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Stop if nothing was modified
+        if: steps.modified.outputs.modified[0] == null
+        run: exit 0
       - name: Display changed files
         run: |
           cat ${HOME}/files_modified.json
