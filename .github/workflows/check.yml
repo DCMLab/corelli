@@ -35,6 +35,5 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -e ms3
       - name: Run ms3 check
-        if: steps.modified.outputs.modified[0] != null
         run: |
           ms3 check -f ${HOME}/files_modified.json --assertion --log check.log

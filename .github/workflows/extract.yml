@@ -34,11 +34,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
         run: cat ${HOME}/files_modified.json
-      - name: Run ms3 check
+      - name: Run ms3 extract
         working-directory: ./main
         run: |
           ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies
-      - name: Push comparison files
+      - name: Push extracted files
         working-directory: ./main
         run: |
           git config --global user.name "github-actions[bot]"
