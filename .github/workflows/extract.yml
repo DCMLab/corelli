@@ -40,6 +40,7 @@ jobs:
           ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies
       - name: Push extracted files
         working-directory: ./main
+        continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
