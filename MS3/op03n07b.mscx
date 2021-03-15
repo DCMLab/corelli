@@ -4939,16 +4939,23 @@
             <name>{</name>
             </Harmony>
           <Rest>
-            <dots>1</dots>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6</name>
+            <name>ii%2</name>
+            <offset x="0" y="-2.75749"/>
             </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
