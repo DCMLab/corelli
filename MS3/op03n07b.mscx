@@ -5951,21 +5951,11 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V7-V(64)</name>
+            <name>V7</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    <fractions>-1/2</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
@@ -5973,18 +5963,10 @@
           <location>
             <fractions>-1/4</fractions>
             </location>
-          <FiguredBass>
-            <onNote>0</onNote>
-            <ticks>1/4</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>6</digit>
-              </FiguredBassItem>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <digit>4</digit>
-              </FiguredBassItem>
-            </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -6002,19 +5984,11 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)-V</name>
+            <name>V(4)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    <fractions>1/2</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               <pitch>47</pitch>
               <tpc>19</tpc>
               </Note>
@@ -6022,14 +5996,10 @@
           <location>
             <fractions>-1/4</fractions>
             </location>
-          <FiguredBass>
-            <onNote>0</onNote>
-            <ticks>1/4</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
-              <prefix>4</prefix>
-              </FiguredBassItem>
-            </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
