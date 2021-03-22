@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: main
-          ref: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.MS3_BOT_TOKEN }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         id: modified
         with:
@@ -37,13 +37,22 @@ jobs:
       - name: Run ms3 extract
         working-directory: ./main
         run: |
-          ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies
-      - name: Push extracted files
+          ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies -D
+      - name: Pull current workflow
+        working-directory: ./main
+        run: |
+          wget https://github.com/DCMLab/annotation_workflow_template/archive/refs/heads/main.zip
+          unzip main.zip
+          cp -r annotation_workflow_template-main/. .
+          rm -r annotation_workflow_template-main/
+          rm main.zip
+      - name: Push files
         working-directory: ./main
         continue-on-error: true
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
           git add -A
           git commit -m "Automatically added TSV files from parse with ms3"
           git push
