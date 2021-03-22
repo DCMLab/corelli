@@ -6,6 +6,7 @@ on:
       - main
 jobs:
   extract:
+    if: github.event.pusher.name != 'ms3-bot'
     runs-on: ubuntu-latest
 
     steps:
@@ -13,6 +14,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          path: main
+          token: ${{ secrets.MS3_BOT_TOKEN }}
       - name: Clone ms3
         uses: actions/checkout@v2
         with:
@@ -23,11 +29,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ./ms3
-      - name: Checkout PR
-        uses: actions/checkout@v2
-        with:
-          path: main
-          token: ${{ secrets.MS3_BOT_TOKEN }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         id: modified
         with:
@@ -38,14 +39,6 @@ jobs:
         working-directory: ./main
         run: |
           ms3 extract -f ${HOME}/files_modified.json -M -N -X -D
-      - name: Pull current workflow
-        working-directory: ./main
-        run: |
-          wget https://github.com/DCMLab/annotation_workflow_template/archive/refs/heads/main.zip
-          unzip main.zip
-          cp -r annotation_workflow_template-main/. .
-          rm -r annotation_workflow_template-main/
-          rm main.zip
       - name: Push files
         working-directory: ./main
         continue-on-error: true

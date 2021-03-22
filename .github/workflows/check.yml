@@ -7,10 +7,15 @@ on:
 
 jobs:
   perform_check:
+    if: github.event.pusher.name != 'ms3-bot'
     runs-on: ubuntu-latest
+
     steps:
       - name: Clone repo
         uses: actions/checkout@v2
+        with:
+          path: main
+          token: ${{ secrets.MS3_BOT_TOKEN }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         id: modified
         with:
@@ -20,6 +25,24 @@ jobs:
           echo "${{ steps.modified.outputs.modified }}"
           echo "${{ join(steps.modified.outputs.modified) }}"
           cat ${HOME}/files_modified.json
+      - name: Pull current workflow
+        working-directory: ./main
+        run: |
+          wget https://github.com/DCMLab/annotation_workflow_template/archive/refs/heads/main.zip
+          unzip main.zip
+          cp -r annotation_workflow_template-main/. .
+          rm -r annotation_workflow_template-main/
+          rm main.zip
+      - name: Configure git and push updated workflow
+        working-directory: ./main
+        continue-on-error: true
+        run: |
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
+          git add -A
+          git commit -m "Current version of workflows"
+          git push
       - name: Set up Python 3.8
         uses: actions/setup-python@v1
         with:
@@ -36,4 +59,4 @@ jobs:
           python -m pip install -e ms3
       - name: Run ms3 check
         run: |
-          ms3 check -f ${HOME}/files_modified.json --assertion --log check.log
+          ms3 check -f ${HOME}/files_modified.json --assertion
