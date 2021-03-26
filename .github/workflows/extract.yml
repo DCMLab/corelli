@@ -6,6 +6,7 @@ on:
       - main
 jobs:
   extract:
+    if: github.event.pusher.name != 'ms3-bot'
     runs-on: ubuntu-latest
 
     steps:
@@ -13,6 +14,11 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          path: main
+          token: ${{ secrets.MS3_BOT_TOKEN }}
       - name: Clone ms3
         uses: actions/checkout@v2
         with:
@@ -23,11 +29,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -e ./ms3
-      - name: Checkout PR
-        uses: actions/checkout@v2
-        with:
-          path: main
-          ref: ${{ github.event.pull_request.head.ref }}
       - uses: lots0logs/gh-action-get-changed-files@2.1.4
         id: modified
         with:
@@ -37,13 +38,14 @@ jobs:
       - name: Run ms3 extract
         working-directory: ./main
         run: |
-          ms3 extract -f ${HOME}/files_modified.json -M ../measures -N ../notes -X ../harmonies
-      - name: Push extracted files
+          ms3 extract -f ${HOME}/files_modified.json -M -N -X -D
+      - name: Push files
         working-directory: ./main
         continue-on-error: true
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "ms3-bot"
+          git config --global user.email dcml.annotators@epfl.ch
+          git config --global user.token ${{ secrets.MS3_BOT_TOKEN }}
           git add -A
           git commit -m "Automatically added TSV files from parse with ms3"
           git push
