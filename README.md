@@ -1,18 +1,9 @@
 # Arcangelo Corelli: Trio Sonatas 
 
 
-
-
-
 # Overview
 |file_name|measures|labels|   annotators    |reviewers|
 |---------|-------:|-----:|-----------------|---------|
-|op03n05b |      49|   176|                 |         |
-|op03n05c |      36|    80|                 |         |
-|op03n05d |      33|   125|                 |         |
-|op03n06a |      33|   119|                 |         |
-|op03n07d |      28|    84|                 |         |
-|op04n06b |      25|    85|                 |         |
 |op01n07a |      40|   151|                 |         |
 |op01n07b |      14|    56|                 |         |
 |op01n07c |      51|   165|                 |         |
