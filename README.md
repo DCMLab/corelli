@@ -28,22 +28,22 @@
 |op01n06b |      40|   182|        |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n06c |      38|    87|        |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n06d |      69|   136|        |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n07a |      40|   151|        |                           |         |
-|op01n07b |      14|    56|        |                           |         |
-|op01n07c |      51|   165|        |                           |         |
-|op01n08a |      16|    55|        |                           |         |
-|op01n08b |      20|    74|        |                           |         |
-|op01n08c |      27|   118|        |                           |         |
-|op01n08d |      39|    70|        |                           |         |
-|op01n09a |      39|    43|        |                           |         |
-|op01n09b |      37|   147|        |                           |         |
-|op01n09c |      36|    72|        |                           |         |
-|op01n09d |      54|    56|        |                           |         |
-|op01n10a |      12|    45|        |                           |         |
-|op01n10b |      17|    75|        |                           |         |
-|op01n10c |      29|   104|        |                           |         |
-|op01n10d |      24|    55|        |                           |         |
-|op01n10e |      84|   137|        |                           |         |
+|op01n07a |      40|   151|        |Kristine Kier Jørgensen    |         |
+|op01n07b |      14|    56|        |Cristiana Palandri         |         |
+|op01n07c |      51|   165|        |Cristiana Palandri         |         |
+|op01n08a |      16|    55|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n08b |      20|    74|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n08c |      27|   118|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n08d |      39|    70|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09a |      39|    43|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09b |      37|   147|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09c |      36|    72|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09d |      54|    56|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10a |      12|    45|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10b |      17|    75|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10c |      29|   104|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10d |      24|    55|        |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10e |      84|   137|        |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n11a |      18|     0|        |                           |         |
 |op01n11b |      34|     0|        |                           |         |
 |op01n11c |      33|     0|        |                           |         |
@@ -69,25 +69,25 @@
 |op03n04c |      55|     0|        |                           |         |
 |op03n04d |      50|     0|        |                           |         |
 |op03n05a |      21|    58|        |Mastaneh Nazarian          |         |
-|op03n05b |      49|   176|        |                           |         |
-|op03n05c |      36|    80|        |                           |         |
-|op03n05d |      33|   125|        |                           |         |
-|op03n06a |      33|   119|        |                           |         |
+|op03n05b |      49|   176|        |John Heilig                |         |
+|op03n05c |      36|    80|        |John Heilig                |         |
+|op03n05d |      33|   125|        |John Heilig                |         |
+|op03n06a |      33|   119|        |Kyle Quarles               |         |
 |op03n06b |      14|     0|        |                           |         |
 |op03n06c |      38|     0|        |                           |         |
 |op03n06d |      41|     0|        |                           |         |
-|op03n07a |      20|    76|        |                           |         |
-|op03n07b |      35|   131|        |                           |         |
-|op03n07c |      38|    92|        |                           |         |
-|op03n07d |      28|    84|        |                           |         |
-|op03n08a |      20|    90|        |                           |         |
+|op03n07a |      20|    76|        |Hanné Becker               |         |
+|op03n07b |      35|   131|        |Hanné Becker               |         |
+|op03n07c |      38|    92|        |Hanné Becker               |         |
+|op03n07d |      28|    84|        |Hanné Becker               |         |
+|op03n08a |      20|    90|        |Matthew Chiu               |         |
 |op03n08b |      39|     0|        |                           |         |
-|op03n08c |      31|    74|        |                           |         |
+|op03n08c |      31|    74|        |Matthew Chiu               |         |
 |op03n08d |      40|     0|        |                           |         |
-|op03n09a |      30|    69|        |                           |         |
-|op03n09b |      28|   103|        |                           |         |
-|op03n09c |      38|    85|        |                           |         |
-|op03n09d |      28|   121|        |                           |         |
+|op03n09a |      30|    69|        |John Heilig                |         |
+|op03n09b |      28|   103|        |John Heilig                |         |
+|op03n09c |      38|    85|        |John Heilig                |         |
+|op03n09d |      28|   121|        |John Heilig                |         |
 |op03n10a |      14|     0|        |                           |         |
 |op03n10b |      38|     0|        |                           |         |
 |op03n10c |      11|     0|        |                           |         |
@@ -123,7 +123,7 @@
 |op04n05b |      28|     0|        |                           |         |
 |op04n05c |      39|     0|        |                           |         |
 |op04n05d |      12|     0|        |                           |         |
-|op04n06b |      25|    85|        |                           |         |
+|op04n06b |      25|    85|        |Tim Girard                 |         |
 |op04n06c |      30|     0|        |                           |         |
 |op04n07a |      15|     0|        |                           |         |
 |op04n07c |      32|     0|        |                           |         |
@@ -131,14 +131,14 @@
 |op04n08a |      38|     0|        |                           |         |
 |op04n08b |      23|     0|        |                           |         |
 |op04n08c |      16|     0|        |                           |         |
-|op04n09a |      13|    76|        |                           |         |
+|op04n09a |      13|    76|        |Victor Zheng               |         |
 |op04n09b |      44|     0|        |                           |         |
 |op04n09c |      12|     0|        |                           |         |
 |op04n09d |      56|     0|        |                           |         |
-|op04n10b |      14|    51|        |                           |         |
+|op04n10b |      14|    51|        |Kevin Davis                |         |
 |op04n10c |      48|     0|        |                           |         |
 |op04n11a |      24|     0|        |                           |         |
-|op04n11b |      73|   119|        |                           |         |
+|op04n11b |      73|   119|        |Amelia Brey                |         |
 |op04n11c |      36|     0|        |                           |         |
 |op04n12a |      35|     0|        |                           |         |
 |op04n12b |      39|     0|        |                           |         |
