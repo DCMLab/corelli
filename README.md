@@ -87,8 +87,8 @@
 |op03n08d         |      40|     0|        |                           |         |
 |op03n09a         |      30|    69|2.3.0   |John Heilig                |JH       |
 |op03n09b         |      28|   103|2.3.0   |John Heilig                |AN       |
-|op03n09c         |      38|    85|2.3.0   |John Heilig                |         |
-|op03n09d         |      28|   121|2.3.0   |John Heilig                |         |
+|op03n09c         |      38|    85|2.3.0   |John Heilig                |AN       |
+|op03n09d         |      28|   121|2.3.0   |John Heilig                |AN       |
 |op03n10a         |      14|     0|        |                           |         |
 |op03n10b         |      38|     0|        |                           |         |
 |op03n10c         |      11|     0|        |                           |         |
