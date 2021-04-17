@@ -87,8 +87,8 @@
 |op03n08d         |      40|     0|        |                           |         |
 |op03n09a         |      30|    69|2.3.0   |John Heilig                |JH       |
 |op03n09b         |      28|   103|2.3.0   |John Heilig                |AN       |
-|op03n09c         |      38|    85|2.3.0   |John Heilig                |         |
-|op03n09d         |      28|   121|2.3.0   |John Heilig                |         |
+|op03n09c         |      38|    85|2.3.0   |John Heilig                |AN       |
+|op03n09d         |      28|   121|2.3.0   |John Heilig                |AN       |
 |op03n10a         |      14|     0|        |                           |         |
 |op03n10b         |      38|     0|        |                           |         |
 |op03n10c         |      11|     0|        |                           |         |
@@ -124,7 +124,7 @@
 |op04n05b         |      28|     0|        |                           |         |
 |op04n05c         |      39|     0|        |                           |         |
 |op04n05d         |      12|     0|        |                           |         |
-|op04n06b         |      25|    85|2.3.0   |Tim Girard                 |         |
+|op04n06b         |      25|    85|2.3.0   |Tim Girard                 |AN       |
 |op04n06c         |      30|     0|        |                           |         |
 |op04n07a         |      15|     0|        |                           |         |
 |op04n07c         |      32|     0|        |                           |         |
@@ -132,14 +132,14 @@
 |op04n08a         |      38|     0|        |                           |         |
 |op04n08b         |      23|     0|        |                           |         |
 |op04n08c         |      16|     0|        |                           |         |
-|op04n09a         |      13|    76|2.3.0   |Victor Zheng               |         |
+|op04n09a         |      13|    76|2.3.0   |Victor Zheng               |AN       |
 |op04n09b         |      44|     0|        |                           |         |
 |op04n09c         |      12|     0|        |                           |         |
 |op04n09d         |      56|     0|        |                           |         |
-|op04n10b         |      14|    51|2.3.0   |Kevin Davis                |         |
+|op04n10b         |      14|    51|2.3.0   |Kevin Davis                |AN       |
 |op04n10c         |      48|     0|        |                           |         |
 |op04n11a         |      24|     0|        |                           |         |
-|op04n11b         |      73|   119|2.3.0   |Amelia Brey                |         |
+|op04n11b         |      73|   119|2.3.0   |Amelia Brey                |AN       |
 |op04n11c         |      36|     0|        |                           |         |
 |op04n12a         |      35|     0|        |                           |         |
 |op04n12b         |      39|     0|        |                           |         |
