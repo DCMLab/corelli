@@ -70,7 +70,6 @@
 |op03n04d         |      50|     0|        |                           |         |
 |op03n05a         |      21|    58|2.1.1   |Mastaneh Nazarian          |         |
 |op03n05b         |      49|   176|2.3.0   |John Heilig                |AN       |
-|op03n05b_reviewed|      49|   184|2.3.0   |John Heilig                |AN       |
 |op03n05c         |      36|    80|2.3.0   |John Heilig                |AN       |
 |op03n05d         |      33|   125|2.3.0   |John Heilig                |AN       |
 |op03n06a         |      33|   119|2.3.0   |Kyle Quarles               |AN       |
