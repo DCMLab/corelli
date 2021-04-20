@@ -100,6 +100,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -2408,7 +2409,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>d.i</name>
+            <name>d.i{</name>
             <placement>above</placement>
             </Harmony>
           <Chord>
@@ -2460,6 +2461,11 @@
               <suffix>7</suffix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2479,6 +2485,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2494,6 +2505,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2509,6 +2525,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2528,6 +2549,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(2)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2547,6 +2573,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -2557,6 +2588,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2580,6 +2616,11 @@
               <prefix>3</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v.i{</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2630,6 +2671,11 @@
               <suffix>7</suffix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio6</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2652,6 +2698,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i6</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2667,6 +2718,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2682,6 +2738,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2701,6 +2762,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(2)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2720,6 +2786,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -2730,6 +2801,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2738,6 +2814,11 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V{</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2757,6 +2838,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#VIM7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2775,6 +2861,11 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2797,6 +2888,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(4)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2812,6 +2908,11 @@
               <digit>3</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2831,6 +2932,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(7)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2850,6 +2956,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(6)</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -2864,6 +2975,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(9)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2883,10 +2999,20 @@
               <digit>8</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|IAC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2895,6 +3021,17 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i{</name>
+            <placement>above</placement>
+            </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <FiguredBass>
             <ticks>1/4</ticks>
             <FiguredBassItem>
@@ -2906,6 +3043,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(9)/iv</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2925,6 +3067,11 @@
               <digit>8</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/iv</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -2940,6 +3087,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2963,6 +3115,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -2978,6 +3135,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2997,6 +3159,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3008,6 +3175,11 @@
               <prefix>2</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3027,6 +3199,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.V{</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3037,6 +3214,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>#VIM7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -3055,6 +3237,11 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -3081,6 +3268,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(4)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3100,6 +3292,11 @@
               <digit>3</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3110,6 +3307,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(7)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3130,6 +3332,11 @@
               <suffix>2</suffix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(b6)</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3145,6 +3352,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(9)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3164,9 +3376,19 @@
               <digit>8</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3175,6 +3397,14 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i{</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3190,6 +3420,11 @@
               <prefix>3</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV(9)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3209,6 +3444,11 @@
               <digit>8</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3223,6 +3463,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3246,6 +3491,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3261,6 +3511,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3280,6 +3535,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3290,6 +3550,11 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -3309,6 +3574,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i(+6){</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3320,6 +3590,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v(2)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3339,6 +3614,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3349,6 +3629,11 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI(7)</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -3368,6 +3653,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI(6)</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -3383,6 +3673,11 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7|HC</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>up</StemDirection>
@@ -3406,6 +3701,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(64)</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3421,6 +3721,11 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            <placement>above</placement>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -3432,10 +3737,20 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <placement>above</placement>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            <placement>above</placement>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
