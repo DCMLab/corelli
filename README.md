@@ -44,7 +44,7 @@
 |op01n10c |      29|   104|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10d |      24|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10e |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n11a |      18|    62|2.3.0   |Hanné Becker               |         |
+|op01n11a |      18|    60|2.3.0   |Hanné Becker               |JH       |
 |op01n11b |      34|     0|        |                           |         |
 |op01n11c |      33|     0|        |                           |         |
 |op01n11d |      18|     0|        |                           |         |
