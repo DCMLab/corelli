@@ -44,7 +44,7 @@
 |op01n10c |      29|   104|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10d |      24|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10e |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n11a |      18|    62|2.3.0   |Hanné Becker               |         |
+|op01n11a |      18|    60|2.3.0   |Hanné Becker               |JH       |
 |op01n11b |      34|     0|        |                           |         |
 |op01n11c |      33|     0|        |                           |         |
 |op01n11d |      18|     0|        |                           |         |
@@ -125,7 +125,7 @@
 |op04n05d |      12|     0|        |                           |         |
 |op04n06b |      25|    76|2.3.0   |Tim Girard                 |         |
 |op04n06c |      30|     0|        |                           |         |
-|op04n07a |      15|     0|        |                           |         |
+|op04n07a |      15|    80|        |Justin Franklin            |         |
 |op04n07c |      32|     0|        |                           |         |
 |op04n07d |      27|     0|        |                           |         |
 |op04n08a |      38|     0|        |                           |         |
@@ -138,7 +138,7 @@
 |op04n10b |      14|    51|2.3.0   |Kevin Davis                |         |
 |op04n10c |      48|     0|        |                           |         |
 |op04n11a |      24|     0|        |                           |         |
-|op04n11b |      73|   116|2.3.0   |Amelia Brey                |         |
+|op04n11b |      73|   116|2.3.0   |Amelia Brey                |AN       |
 |op04n11c |      36|     0|        |                           |         |
 |op04n12a |      35|     0|        |                           |         |
 |op04n12b |      39|     0|        |                           |         |
