@@ -1,9 +1,9 @@
-INFO     op03n10d.ms3 -- Attempting to parse op03n10d.mscx
-WARNING  op03n10d.ms3 -- These values in mc_info[3] are not included in mc_info[1]: mc
-1    2/2
-Name: timesig, dtype: object
-WARNING  op03n10d.ms3 -- These values in mc_info[4] are not included in mc_info[1]: mc
-1    2/2
-Name: timesig, dtype: object
-INFO     op03n10d.ms3 -- Done parsing op03n10d.mscx
-
+2021-03-29 15:48:29 WARNING  op03n10d:MeasureList -- bs4_measures.py (line 552) compress():
+	mc 0    1
+	Name: mc, dtype: int64: The values ['8' '2'] in 'voice/TimeSig/sigD' of staff [2 3] are lost.
+2021-03-29 15:48:29 WARNING  op03n10d:MeasureList -- bs4_measures.py (line 552) compress():
+	mc 0    1
+	Name: mc, dtype: int64: The values ['12' '2'] in 'voice/TimeSig/sigN' of staff [2 3] are lost.
+2021-03-29 15:48:29 WARNING  op03n10d:MeasureList -- bs4_measures.py (line 546) compress():
+	mc 0    1
+	Name: mc, dtype: int64: The missing value in 'voice/TimeSig/subtype' was replaced by '2', present in staff [3].
