@@ -1,4 +1,4 @@
-# Arcangelo Corelli: Trio Sonatas 
+# Arcangelo Corelli: Trio Sonatas
 
 
 # Overview
@@ -132,12 +132,14 @@
 |op04n08b         |      23|     0|        |                           |         |
 |op04n08c         |      16|     0|        |                           |         |
 |op04n09a         |      13|    77|2.3.0   |Victor Zheng               |         |
-|op04n09a_reviewed|      13|   101|2.3.0   |Victor Zheng               |         |
 |op04n09b         |      44|     0|        |                           |         |
 |op04n09c         |      12|     0|        |                           |         |
 |op04n09d         |      56|     0|        |                           |         |
-|op04n10b         |      14|    51|2.3.0   |Kevin Davis                |         |
-|op04n10c         |      48|     0|        |                           |         |
+|op04n10a         |       2|     0|        |                           |         |
+|op04n10b         |      33|     0|        |                           |         |
+|op04n10c         |       4|     0|        |                           |         |
+|op04n10d         |      14|    51|2.3.0   |Kevin Davis                |AN, JH   |
+|op04n10e         |      48|     0|        |                           |         |
 |op04n11a         |      24|     0|        |                           |         |
 |op04n11b         |      73|   116|2.3.0   |Amelia Brey                |AN       |
 |op04n11c         |      36|     0|        |                           |         |
