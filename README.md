@@ -1,4 +1,4 @@
-# Arcangelo Corelli: Trio Sonatas 
+# Arcangelo Corelli: Trio Sonatas
 
 
 # Overview
@@ -132,7 +132,6 @@
 |op04n08b         |      23|     0|        |                           |         |
 |op04n08c         |      16|     0|        |                           |         |
 |op04n09a         |      13|    77|2.3.0   |Victor Zheng               |         |
-|op04n09a_reviewed|      13|   101|2.3.0   |Victor Zheng               |         |
 |op04n09b         |      44|     0|        |                           |         |
 |op04n09c         |      12|     0|        |                           |         |
 |op04n09d         |      56|     0|        |                           |         |
