@@ -47,7 +47,7 @@
 |op01n11a |      18|    60|2.3.0   |Hanné Becker               |JH       |
 |op01n11b |      34|   123|2.3.0   |Hanné Becker               |JH       |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker               |         |
-|op01n11d |      18|    71|2.3.0   |Hanné Becker               |         |
+|op01n11d |      18|    81|2.3.0   |Hanné Becker               |         |
 |op01n12a |      19|     0|        |                           |         |
 |op01n12b |      36|     0|        |                           |         |
 |op01n12c |      13|     0|        |                           |         |
