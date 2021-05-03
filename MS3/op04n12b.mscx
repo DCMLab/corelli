@@ -85,6 +85,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -4588,10 +4589,6 @@
             <sigN>2</sigN>
             <sigD>2</sigD>
             </TimeSig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>b.i{</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4603,6 +4600,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>b.i{</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -5029,7 +5030,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V42</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5608,10 +5609,6 @@
           <BarLine>
             <subtype>double</subtype>
             </BarLine>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>III.I{</name>
-            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5623,6 +5620,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III.I{</name>
+            </Harmony>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -5832,7 +5833,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio/iv</name>
+            <name>iio6/iv</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -5964,7 +5965,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V2</name>
+            <name>V42</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6226,7 +6227,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.V7/III</name>
+            <name>V7/III</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6301,7 +6302,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65</name>
+            <name>V6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6313,6 +6314,10 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6-V7</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
