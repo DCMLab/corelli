@@ -47,7 +47,7 @@
 |op01n11a |      18|    60|2.3.0   |Hanné Becker               |JH       |
 |op01n11b |      34|   123|2.3.0   |Hanné Becker               |JH       |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker               |         |
-|op01n11d |      18|    71|2.3.0   |Hanné Becker               |         |
+|op01n11d |      18|    81|2.3.0   |Hanné Becker               |         |
 |op01n12a |      19|     0|        |                           |         |
 |op01n12b |      36|     0|        |                           |         |
 |op01n12c |      13|     0|        |                           |         |
@@ -139,17 +139,17 @@
 |op04n08b |      23|     0|        |                           |         |
 |op04n08c |      16|     0|        |                           |         |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng               |         |
-|op04n09b |      44|     0|        |                           |         |
+|op04n09b |      44|   107|        |                           |         |
 |op04n09c |      12|     0|        |                           |         |
 |op04n09d |      56|     0|        |                           |         |
-|op04n10a |       2|     0|        |                           |         |
-|op04n10b |      33|     0|        |                           |         |
+|op04n10a |       2|     4|2.3.0   |                           |         |
+|op04n10b |      33|   111|        |                           |         |
 |op04n10c |       4|     0|        |                           |         |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                |AN, JH   |
 |op04n10e |      48|     0|        |                           |         |
 |op04n11a |      24|     0|        |                           |         |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                |AN       |
 |op04n11c |      36|     0|        |                           |         |
-|op04n12a |      35|    77|        |                           |AN       |
+|op04n12a |      35|    77|2.3.0   |Andrew Wilson              |AN       |
 |op04n12b |      39|     0|        |                           |         |
 |op04n12c |      19|    62|        |                           |         |
