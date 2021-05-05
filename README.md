@@ -30,19 +30,25 @@
 |op01n06d         |      69|   136|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n07a         |      40|   151|2.1.1   |Kristine Kier Jørgensen    |         |
 |op01n07b         |      14|    56|2.1.1   |Cristiana Palandri         |         |
-|op01n07c         |      51|   165|2.1.1   |Cristiana Palandri         |         |
-|op01n08a         |      16|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n07c         |      51|   164|2.1.1   |Cristiana Palandri         |         |
+|op01n07c_reviewed|      51|   164|2.1.1   |Cristiana Palandri         |         |
+|op01n08a         |      16|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n08a_reviewed|      16|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n08b         |      20|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n08c         |      27|   118|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n08d         |      39|    70|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n09a         |      39|    43|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09a         |      39|    42|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09a_reviewed|      39|    42|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n09b         |      37|   147|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n09c         |      36|    72|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n09d         |      54|    56|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09d         |      54|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n09d_reviewed|      54|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10a         |      12|    45|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n10b         |      17|    75|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10b         |      17|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10b_reviewed|      17|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10c         |      29|   104|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
-|op01n10d         |      24|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10d         |      24|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
+|op01n10d_reviewed|      24|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10e         |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n11a         |      18|    60|2.3.0   |Hanné Becker               |JH       |
 |op01n11b         |      34|   123|2.3.0   |Hanné Becker               |JH       |
@@ -133,7 +139,7 @@
 |op04n07a         |      15|    86|2.3.0   |Justin Franklin            |JH       |
 |op04n07b         |      46|     0|        |                           |         |
 |op04n07c         |       6|     0|        |                           |         |
-|op04n07d         |      32|     0|        |                           |         |
+|op04n07d         |      32|    92|2.3.0   |Justin Franklin            |         |
 |op04n07e         |      27|     0|        |                           |         |
 |op04n08a         |      38|     0|        |                           |         |
 |op04n08b         |      23|     0|        |                           |         |
