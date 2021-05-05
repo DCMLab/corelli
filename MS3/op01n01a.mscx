@@ -39,6 +39,7 @@
       <pedalLineWidth>0.11</pedalLineWidth>
       <pedalFontFace>Edwin</pedalFontFace>
       <harmonyFretDist>0.5</harmonyFretDist>
+      <romanNumeralPlacement>0</romanNumeralPlacement>
       <harmonyPlay>0</harmonyPlay>
       <chordSymbolPosBelow x="0" y="-5"/>
       <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
@@ -144,20 +145,19 @@
       <usePre_3_6_defaults>1</usePre_3_6_defaults>
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.75</Spatium>
-      <romanNumeralPlacement>0</romanNumeralPlacement>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotators">Lars Opfermann, Ya-Chuan Wu</metaTag>
+    <metaTag name="annotators">Lars Opfermann (2.1.1), Ya-Chuan Wu, Hanné Becker (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer">Corelli, Arcangelo</metaTag>
     <metaTag name="copyright">Copyright 1994, Center for Computer Assisted Research in the Humanities</metaTag>
     <metaTag name="creationDate">2018-10-12</metaTag>
     <metaTag name="electronic editor">W.B. Hewlett</metaTag>
     <metaTag name="electronic encoder">Frances Bennion &amp; Steven Rasmussen</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">Movement 1.</metaTag>
     <metaTag name="movementTitle">Grave</metaTag>
@@ -362,6 +362,11 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <program value="0"/>
+          <controller ctrl="10" value="63"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="harmony">
           <program value="0"/>
           <controller ctrl="10" value="63"/>
           <synti>Fluid</synti>
@@ -3182,7 +3187,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>F.I</name>
+            <name>F.I{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3319,7 +3324,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3333,6 +3338,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
             </Beam>
@@ -3701,7 +3710,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3713,7 +3722,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.I6</name>
+            <name>I.I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3942,7 +3951,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3965,7 +3974,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.IV6</name>
+            <name>I.IV6{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -4280,7 +4289,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4299,7 +4308,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6</name>
+            <name>IV6{</name>
             </Harmony>
           <Chord>
             <BeamMode>no</BeamMode>
@@ -4617,7 +4626,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
