@@ -146,7 +146,7 @@
 |op04n10b |      33|   111|        |                                                         |         |
 |op04n10c |       4|     8|        |                                                         |         |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                              |AN, JH   |
-|op04n10e |      48|     0|        |                                                         |         |
+|op04n10e |      48|   152|2.3.0   |Kevin Davis                                              |         |
 |op04n11a |      24|     0|        |                                                         |         |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                              |AN       |
 |op04n11c |      36|     0|        |                                                         |         |
