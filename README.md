@@ -1,4 +1,4 @@
-# Arcangelo Corelli: Trio Sonatas 
+# Arcangelo Corelli: Trio Sonatas
 
 
 # Overview
@@ -45,9 +45,9 @@
 |op01n10d |      24|    55|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n10e |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu|         |
 |op01n11a |      18|    60|2.3.0   |Hanné Becker               |JH       |
-|op01n11b |      34|     0|        |                           |         |
-|op01n11c |      33|     0|        |                           |         |
-|op01n11d |      18|     0|        |                           |         |
+|op01n11b |      34|   123|2.3.0   |Hanné Becker               |JH       |
+|op01n11c |      33|    79|2.3.0   |Hanné Becker               |         |
+|op01n11d |      18|    81|2.3.0   |Hanné Becker               |         |
 |op01n12a |      19|     0|        |                           |         |
 |op01n12b |      36|     0|        |                           |         |
 |op01n12c |      13|     0|        |                           |         |
@@ -123,23 +123,33 @@
 |op04n05b |      28|     0|        |                           |         |
 |op04n05c |      39|     0|        |                           |         |
 |op04n05d |      12|     0|        |                           |         |
-|op04n06b |      25|    76|2.3.0   |Tim Girard                 |         |
-|op04n06c |      30|     0|        |                           |         |
-|op04n07a |      15|    80|        |Justin Franklin            |         |
-|op04n07c |      32|     0|        |                           |         |
-|op04n07d |      27|     0|        |                           |         |
+|op04n06a |       6|     0|        |                           |         |
+|op04n06b |      23|     0|        |                           |         |
+|op04n06c |       7|     0|        |                           |         |
+|op04n06d |      28|     0|        |                           |         |
+|op04n06e |      10|     0|        |                           |         |
+|op04n06f |      25|    76|2.3.0   |Tim Girard                 |         |
+|op04n06g |      30|     0|        |                           |         |
+|op04n07a |      15|    86|2.3.0   |Justin Franklin            |JH       |
+|op04n07b |      46|     0|        |                           |         |
+|op04n07c |       6|     0|        |                           |         |
+|op04n07d |      32|     0|        |                           |         |
+|op04n07e |      27|     0|        |                           |         |
 |op04n08a |      38|     0|        |                           |         |
 |op04n08b |      23|     0|        |                           |         |
 |op04n08c |      16|     0|        |                           |         |
-|op04n09a |      13|    76|2.3.0   |Victor Zheng               |         |
+|op04n09a |      13|    77|2.3.0   |Victor Zheng               |         |
 |op04n09b |      44|     0|        |                           |         |
 |op04n09c |      12|     0|        |                           |         |
 |op04n09d |      56|     0|        |                           |         |
-|op04n10b |      14|    51|2.3.0   |Kevin Davis                |         |
-|op04n10c |      48|     0|        |                           |         |
+|op04n10a |       2|     4|2.3.0   |                           |         |
+|op04n10b |      33|   111|        |                           |         |
+|op04n10c |       4|     0|        |                           |         |
+|op04n10d |      14|    51|2.3.0   |Kevin Davis                |AN, JH   |
+|op04n10e |      48|     0|        |                           |         |
 |op04n11a |      24|     0|        |                           |         |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                |AN       |
 |op04n11c |      36|     0|        |                           |         |
-|op04n12a |      35|     0|        |                           |         |
+|op04n12a |      35|    77|2.3.0   |Andrew Wilson              |AN       |
 |op04n12b |      39|     0|        |                           |         |
-|op04n12c |      19|     0|        |                           |         |
+|op04n12c |      19|    62|        |                           |         |
