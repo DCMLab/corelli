@@ -46,8 +46,8 @@
 |op01n10e |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |         |
 |op01n11a |      18|    60|2.3.0   |Hanné Becker                                                     |JH       |
 |op01n11b |      34|   123|2.3.0   |Hanné Becker                                                     |JH       |
-|op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |         |
-|op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |         |
+|op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |AN       |
+|op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN       |
 |op01n12a |      19|     0|        |                                                                 |         |
 |op01n12b |      36|     0|        |                                                                 |         |
 |op01n12c |      13|     0|        |                                                                 |         |
@@ -64,7 +64,7 @@
 |op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                   |         |
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |         |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |         |
-|op03n04a |      23|     0|        |                                                                 |         |
+|op03n04a |      23|     0|        |Kelsey Lussier                                                   |         |
 |op03n04b |      39|     0|        |                                                                 |         |
 |op03n04c |      55|     0|        |                                                                 |         |
 |op03n04d |      50|     0|        |                                                                 |         |
@@ -86,9 +86,9 @@
 |op03n08d |      40|     0|        |                                                                 |         |
 |op03n09a |      30|    69|2.3.0   |John Heilig                                                      |JH       |
 |op03n09b |      28|   103|2.3.0   |John Heilig                                                      |AN       |
-|op03n09c |      38|    85|2.3.0   |John Heilig                                                      |         |
+|op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN       |
 |op03n09d |      28|   121|2.3.0   |John Heilig                                                      |AN       |
-|op03n10a |      14|     0|        |                                                                 |         |
+|op03n10a |      14|     0|        |Tal Soker                                                        |         |
 |op03n10b |      38|     0|        |                                                                 |         |
 |op03n10c |      11|     0|        |                                                                 |         |
 |op03n10d |      31|     0|        |                                                                 |         |
