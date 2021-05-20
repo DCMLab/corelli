@@ -150,6 +150,6 @@
 |op04n11a |      24|     0|        |                                                                 |         |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN       |
 |op04n11c |      36|     0|        |                                                                 |         |
-|op04n12a |      35|    77|2.3.0   |Andrew Wilson                                                    |AN       |
-|op04n12b |      39|     0|        |                                                                 |         |
+|op04n12a |      35|     0|2.3.0   |Andrew Wilson                                                    |         |
+|op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                    |AN       |
 |op04n12c |      19|    62|        |                                                                 |         |
