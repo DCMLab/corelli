@@ -6,7 +6,7 @@
 |---------|-------:|-----:|--------|-----------------------------------------------------------------|---------|
 |op01n01a |      14|    64|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)        |HB, JH   |
 |op01n01b |      38|   141|2.3.0   |Lars Opfermann , Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)       |HB, JH   |
-|op01n01c |      37|    98|2.3.0   |Lars Opfermann and Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)     |         |
+|op01n01c |      37|    97|2.3.0   |Lars Opfermann and Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)     |AN, HB   |
 |op01n01d |      98|   144|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|         |
 |op01n02a |      19|    72|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |         |
 |op01n02b |      36|   120|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |         |
