@@ -54,7 +54,7 @@
 |op01n12d |      62|     0|        |                                                                 |         |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN       |
 |op03n01b |      37|   150|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN       |
-|op03n01c |      61|   125|2.1.1   |Gabriela Ortiz Würth                                             |         |
+|op03n01c |      61|   119|2.1.1   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN       |
 |op03n01d |      40|   158|2.1.1   |Gabriela Ortiz Würth                                             |         |
 |op03n02a |      19|    68|2.1.1   |Moritz Heffter                                                   |         |
 |op03n02b |      31|   117|2.1.1   |Moritz Heffter                                                   |         |
