@@ -122,7 +122,7 @@
 |op04n05a |      20|     0|        |                                                            |          |
 |op04n05b |      28|   107|2.3.0   |Andrew Wilson                                               |          |
 |op04n05c |      39|    71|2.3.0   |Andrew Wilson                                               |          |
-|op04n05d |      12|     0|        |                                                            |          |
+|op04n05d |      12|    38|2.3.0   |Andrew Wilson                                               |          |
 |op04n06a |       6|     0|        |                                                            |          |
 |op04n06b |      23|     0|        |                                                            |          |
 |op04n06c |       7|     0|        |                                                            |          |
