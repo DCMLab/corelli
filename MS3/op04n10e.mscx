@@ -179,6 +179,12 @@
           <midiPort>0</midiPort>
           <midiChannel>0</midiChannel>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>6</midiChannel>
+          </Channel>
         </Instrument>
       </Part>
     <Part>
@@ -558,6 +564,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2169,7 +2179,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6</name>
+            <name>viio6/V</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2183,7 +2193,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I(4)</name>
+            <name>V(4)</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2198,7 +2208,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV</name>
+            <name>I</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2209,7 +2219,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii6</name>
+            <name>V.ii6</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3706,7 +3716,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.I6</name>
+            <name>V6</name>
             <placement>above</placement>
             <minDistance>-999</minDistance>
             <offset x="-0.631579" y="-3.11052"/>
@@ -3727,7 +3737,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio6(2)</name>
+            <name>viio6(2)/V</name>
             <placement>above</placement>
             <offset x="-0.130607" y="-3.24113"/>
             </Harmony>
