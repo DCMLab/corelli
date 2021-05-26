@@ -127,7 +127,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n04d |      31|   104|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n05a |      20|   101|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                    |JH                    |
-|op04n05c |      39|    71|2.3.0   |Andrew Wilson                                                    |                      |
+|op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                    |                      |
 |op04n06a |       6|     0|        |                                                                 |                      |
 |op04n06b |      23|     0|        |                                                                 |                      |
