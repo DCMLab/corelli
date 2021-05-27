@@ -15,7 +15,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n01c |      37|    97|2.3.0   |Lars Opfermann and Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)     |AN, HB                |
 |op01n01d |      98|   147|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)        |HB, AN, JH            |
 |op01n02a |      19|    76|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
-|op01n02b |      36|   120|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n02b |      36|   121|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n02c |      29|    64|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n02d |     117|   169|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n03a |      17|    65|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
