@@ -146,7 +146,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n08c |      16|     0|        |                                                                 |                      |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |                      |
 |op04n09b |      44|   103|2.3.0   |Victor Zheng                                                     |AN                    |
-|op04n09c |      12|    48|        |                                                                 |                      |
+|op04n09c |      12|    49|2.3.0   |Victor Zheng                                                     |JH                    |
 |op04n09d |      56|   134|        |                                                                 |                      |
 |op04n10a |       2|     4|2.3.0   |Kevin Davis                                                      |JH                    |
 |op04n10b |      33|   111|        |                                                                 |                      |
