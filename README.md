@@ -1,5 +1,11 @@
 # Arcangelo Corelli: Trio Sonatas
 
+To display all Roman numerals above the system by default, insert this line into the source code as an addition within the `<Style>` tag at the beginning of the document:
+
+    <romanNumeralPlacement>0</romanNumeralPlacement>
+
+It does not really matter where you place it, but MuseScore will put it within a certain order, usually between `<harmonyFretDist>` and `harmonyPlay`.
+
 
 # Overview
 |file_name|measures|labels|standard|                           annotators                            |      reviewers       |
@@ -119,9 +125,9 @@
 |op04n04b |      41|    79|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04c |      17|    96|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04d |      31|   104|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n05a |      20|     0|        |                                                                 |                      |
+|op04n05a |      20|   101|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                    |JH                    |
-|op04n05c |      39|    71|2.3.0   |Andrew Wilson                                                    |                      |
+|op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                    |                      |
 |op04n06a |       6|     0|        |                                                                 |                      |
 |op04n06b |      23|     0|        |                                                                 |                      |
@@ -139,14 +145,14 @@
 |op04n08b |      23|     0|        |                                                                 |                      |
 |op04n08c |      16|     0|        |                                                                 |                      |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |                      |
-|op04n09b |      44|   103|        |                                                                 |                      |
-|op04n09c |      12|     0|        |                                                                 |                      |
-|op04n09d |      56|     0|        |                                                                 |                      |
+|op04n09b |      44|   103|2.3.0   |Victor Zheng                                                     |AN                    |
+|op04n09c |      12|    48|        |                                                                 |                      |
+|op04n09d |      56|   134|        |                                                                 |                      |
 |op04n10a |       2|     4|2.3.0   |Kevin Davis                                                      |JH                    |
 |op04n10b |      33|   111|        |                                                                 |                      |
 |op04n10c |       4|     8|3.2.0   |Kevin Davis                                                      |                      |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                      |AN, JH                |
-|op04n10e |      48|   152|2.3.0   |Kevin Davis                                                      |                      |
+|op04n10e |      48|   147|2.3.0   |Kevin Davis                                                      |                      |
 |op04n11a |      24|     0|        |                                                                 |                      |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11c |      36|     0|        |                                                                 |                      |
