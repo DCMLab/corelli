@@ -1,5 +1,9 @@
 mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord	numeral	form	figbass	changes	relativeroot	cadence	phraseend	chord_type	globalkey_is_minor	localkey_is_minor	chord_tones	added_tones	root	bass_note
-2	2	0	0	2/2	3	1	Bb.V{	Bb	I		V	V						{	M	0	0	1, 5, 2		1	1
+1	1	0	0	2/2	3	1	Bb.V{	Bb	I		V	V						{	M	0	0	1, 5, 2		1	1
+1	1	1/4	1/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+1	1	1/2	1/2	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
+1	1	3/4	3/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+2	2	0	0	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
 2	2	1/4	1/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
 2	2	1/2	1/2	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 2	2	3/4	3/4	2/2	3	1	iii7	Bb	I		iii7	iii		7					mm7	0	0	4, 1, 5, 2		4	4
@@ -10,30 +14,53 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 4	4	0	0	2/2	3	1	ii65	Bb	I		ii65	ii		65					mm7	0	0	-1, 3, 0, 2		2	-1
 4	4	1/4	1/4	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
 4	4	1/2	1/2	2/2	3	1	I|PAC}	Bb	I		I	I					PAC	}	M	0	0	0, 4, 1		0	0
-5	5	1/2	1/2	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+5	5	0	0	2/2	3	1	I(2){	Bb	I		I(2)	I			2			{	M	0	0	2, 4, 1		0	2
+5	5	1/4	1/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
+5	5	1/2	1/2	2/2	3	1	I(2)	Bb	I		I(2)	I			2				M	0	0	2, 4, 1		0	2
+5	5	3/4	3/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
+6	6	0	0	2/2	3	1	I(2)	Bb	I		I(2)	I			2				M	0	0	2, 4, 1		0	2
+6	6	1/4	1/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 6	6	1/2	1/2	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
-7	7	1/2	1/2	2/2	3	1	ii	Bb	I		ii	ii							m	0	0	2, -1, 3		2	2
+7	7	0	0	2/2	3	1	ii(2)	Bb	I		ii(2)	ii			2				m	0	0	4, -1, 3		2	4
+7	7	1/4	1/4	2/2	3	1	V6/ii	Bb	I		V6/ii	V		6		ii			M	0	0	7, 4, 3		3	7
+7	7	1/2	1/2	2/2	3	1	ii(2)	Bb	I		ii(2)	ii			2				m	0	0	4, -1, 3		2	4
+7	7	3/4	3/4	2/2	3	1	V6/ii	Bb	I		V6/ii	V		6		ii			M	0	0	7, 4, 3		3	7
+8	8	0	0	2/2	3	1	ii(2)	Bb	I		ii(2)	ii			2				m	0	0	4, -1, 3		2	4
+8	8	1/4	1/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 8	8	1/2	1/2	2/2	3	1	ii	Bb	I		ii	ii							m	0	0	2, -1, 3		2	2
-9	9	1/2	1/2	2/2	3	1	iii	Bb	I		iii	iii							m	0	0	4, 1, 5		4	4
+9	9	0	0	2/2	3	1	iii(2)	Bb	I		iii(2)	iii			2				m	0	0	-1, 1, 5		4	-1
+9	9	1/4	1/4	2/2	3	1	V6/iii	Bb	I		V6/iii	V		6		iii			M	0	0	9, 6, 5		5	9
+9	9	1/2	1/2	2/2	3	1	iii(2)	Bb	I		iii(2)	iii			2				m	0	0	-1, 1, 5		4	-1
+9	9	3/4	3/4	2/2	3	1	V6/iii	Bb	I		V6/iii	V		6		iii			M	0	0	9, 6, 5		5	9
+10	10	0	0	2/2	3	1	iii	Bb	I		iii	iii							m	0	0	4, 1, 5		4	4
+10	10	1/4	1/4	2/2	3	1	V6/iii	Bb	I		V6/iii	V		6		iii			M	0	0	9, 6, 5		5	9
 10	10	1/2	1/2	2/2	3	1	iii	Bb	I		iii	iii							m	0	0	4, 1, 5		4	4
-11	11	0	0	2/2	3	1	iii.iio6(42){	Bb	iii		iio6(42)	ii	o	6	42			{	o	0	1	1, -4, -3		2	1
+11	11	0	0	2/2	3	1	iii.iio6(42)	Bb	iii		iio6(42)	ii	o	6	42				o	0	1	1, -4, -3		2	1
 11	11	1/4	1/4	2/2	3	1	iio6	Bb	iii		iio6	ii	o	6					o	0	1	-1, -4, 2		2	-1
 11	11	1/2	1/2	2/2	3	1	V	Bb	iii		V	V							M	0	1	1, 5, 2		1	1
 11	11	3/4	3/4	2/2	3	1	i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
 12	12	0	0	2/2	3	1	V(4)	Bb	iii		V(4)	V			4				M	0	1	1, 0, 2		1	1
 12	12	1/4	1/4	2/2	3	1	V	Bb	iii		V	V							M	0	1	1, 5, 2		1	1
-12	12	1/2	1/2	2/2	3	1	i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
-13	13	0	0	2/2	3	1	iio6(42)	Bb	iii		iio6(42)	ii	o	6	42				o	0	1	1, -4, -3		2	1
+12	12	1/2	1/2	2/2	3	1	i|PAC}	Bb	iii		i	i					PAC	}	m	0	1	0, -3, 1		0	0
+13	13	0	0	2/2	3	1	iio6(42){	Bb	iii		iio6(42)	ii	o	6	42			{	o	0	1	1, -4, -3		2	1
 13	13	1/4	1/4	2/2	3	1	iio6	Bb	iii		iio6	ii	o	6					o	0	1	-1, -4, 2		2	-1
 13	13	1/2	1/2	2/2	3	1	V	Bb	iii		V	V							M	0	1	1, 5, 2		1	1
 13	13	3/4	3/4	2/2	3	1	i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
 14	14	0	0	2/2	3	1	V(4)	Bb	iii		V(4)	V			4				M	0	1	1, 0, 2		1	1
 14	14	1/4	1/4	2/2	3	1	V	Bb	iii		V	V							M	0	1	1, 5, 2		1	1
 14	14	1/2	1/2	2/2	3	1	i|PAC}	Bb	iii		i	i					PAC	}	m	0	1	0, -3, 1		0	0
-15	15	1/2	1/2	2/2	3	1	I.I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+15	15	0	0	2/2	3	1	I.I(2){	Bb	I		I(2)	I			2			{	M	0	0	2, 4, 1		0	2
+15	15	1/4	1/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
+15	15	1/2	1/2	2/2	3	1	I(2)	Bb	I		I(2)	I			2				M	0	0	2, 4, 1		0	2
+15	15	3/4	3/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
+16	16	0	0	2/2	3	1	I(2)	Bb	I		I(2)	I			2				M	0	0	2, 4, 1		0	2
+16	16	1/4	1/4	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 16	16	1/2	1/2	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
-17	17	1/2	1/2	2/2	3	1	IV{	Bb	I		IV	IV						{	M	0	0	-1, 3, 0		-1	-1
-18	18	1/2	1/2	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
+17	17	0	0	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+17	17	1/4	1/4	2/2	3	1	IV	Bb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
+17	17	3/8	3/8	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
+17	17	1/2	1/2	2/2	3	1	IV	Bb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
+18	18	1/2	1/2	2/2	3	1	V|HC}{	Bb	I		V	V					HC	}{	M	0	0	1, 5, 2		1	1
 19	19	0	0	2/2	3	1	I6	Bb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 19	19	1/2	1/2	2/2	3	1	IV	Bb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
 20	20	0	0	2/2	3	1	ii	Bb	I		ii	ii							m	0	0	2, -1, 3		2	2
@@ -45,8 +72,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 22	22	3/4	3/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
 23	23	0	0	2/2	3	1	V(4)	Bb	I		V(4)	V			4				M	0	0	1, 0, 2		1	1
 23	23	1/4	1/4	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
-23	23	1/2	1/2	2/2	3	1	I|PAC}	Bb	I		I	I					PAC	}	M	0	0	0, 4, 1		0	0
-24	24	0	0	2/2	3	1	I6{	Bb	I		I6	I		6				{	M	0	0	4, 1, 0		0	4
+23	23	1/2	1/2	2/2	3	1	I|PAC}{	Bb	I		I	I					PAC	}{	M	0	0	0, 4, 1		0	0
+24	24	0	0	2/2	3	1	I6	Bb	I		I6	I		6					M	0	0	4, 1, 0		0	4
 24	24	1/2	1/2	2/2	3	1	IV	Bb	I		IV	IV							M	0	0	-1, 3, 0		-1	-1
 25	25	0	0	2/2	3	1	ii	Bb	I		ii	ii							m	0	0	2, -1, 3		2	2
 25	25	1/2	1/2	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
@@ -58,13 +85,13 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 28	28	0	0	2/2	3	1	V(4)	Bb	I		V(4)	V			4				M	0	0	1, 0, 2		1	1
 28	28	1/4	1/4	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
 28	28	1/2	1/2	2/2	3	1	I|PAC}	Bb	I		I	I					PAC	}	M	0	0	0, 4, 1		0	0
-29	29	0	0	2/2	3	1	vi.V6{	Bb	vi		V6	V		6				{	M	0	1	5, 2, 1		1	5
+29	29	0	0	2/2	3	1	vi.V65{	Bb	vi		V65	V		65				{	Mm7	0	1	5, 2, -1, 1		1	5
 29	29	1/2	1/2	2/2	3	1	i	Bb	vi		i	i							m	0	1	0, -3, 1		0	0
 29	29	3/4	3/4	2/2	3	1	V6	Bb	vi		V6	V		6					M	0	1	5, 2, 1		1	5
 30	30	0	0	2/2	3	1	i	Bb	vi		i	i							m	0	1	0, -3, 1		0	0
 30	30	1/4	1/4	2/2	3	1	V6	Bb	vi		V6	V		6					M	0	1	5, 2, 1		1	5
 30	30	1/2	1/2	2/2	3	1	i|IAC}	Bb	vi		i	i					IAC	}	m	0	1	0, -3, 1		0	0
-31	31	0	0	2/2	3	1	ii.V6{	Bb	ii		V6	V		6				{	M	0	1	5, 2, 1		1	5
+31	31	0	0	2/2	3	1	ii.V65{	Bb	ii		V65	V		65				{	Mm7	0	1	5, 2, -1, 1		1	5
 31	31	1/2	1/2	2/2	3	1	i	Bb	ii		i	i							m	0	1	0, -3, 1		0	0
 31	31	3/4	3/4	2/2	3	1	V6	Bb	ii		V6	V		6					M	0	1	5, 2, 1		1	5
 32	32	0	0	2/2	3	1	i	Bb	ii		i	i							m	0	1	0, -3, 1		0	0
@@ -83,8 +110,9 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 35	35	3/4	3/4	2/2	3	1	V6	Bb	ii		V6	V		6					M	0	1	5, 2, 1		1	5
 36	36	0	0	2/2	3	1	i	Bb	ii		i	i							m	0	1	0, -3, 1		0	0
 36	36	1/4	1/4	2/2	3	1	V6	Bb	ii		V6	V		6					M	0	1	5, 2, 1		1	5
-36	36	1/2	1/2	2/2	3	1	i|IAC}{	Bb	ii		i	i					IAC	}{	m	0	1	0, -3, 1		0	0
-37	37	0	0	2/2	3	1	iii.i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
+36	36	1/2	1/2	2/2	3	1	i|IAC}	Bb	ii		i	i					IAC	}	m	0	1	0, -3, 1		0	0
+36	36	3/4	3/4	2/2	3	1	iii.V6{	Bb	iii		V6	V		6				{	M	0	1	5, 2, 1		1	5
+37	37	0	0	2/2	3	1	i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
 37	37	1/4	1/4	2/2	3	1	V6	Bb	iii		V6	V		6					M	0	1	5, 2, 1		1	5
 37	37	1/2	1/2	2/2	3	1	i	Bb	iii		i	i							m	0	1	0, -3, 1		0	0
 37	37	3/4	3/4	2/2	3	1	V6	Bb	iii		V6	V		6					M	0	1	5, 2, 1		1	5
@@ -97,7 +125,11 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 40	40	0	0	2/2	3	1	V(4)	Bb	iii		V(4)	V			4				M	0	1	1, 0, 2		1	1
 40	40	1/4	1/4	2/2	3	1	V	Bb	iii		V	V							M	0	1	1, 5, 2		1	1
 40	40	1/2	1/2	2/2	3	1	i|PAC}	Bb	iii		i	i					PAC	}	m	0	1	0, -3, 1		0	0
-42	42	0	0	2/2	3	1	I.V{	Bb	I		V	V						{	M	0	0	1, 5, 2		1	1
+41	41	0	0	2/2	3	1	I.V{	Bb	I		V	V						{	M	0	0	1, 5, 2		1	1
+41	41	1/4	1/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+41	41	1/2	1/2	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
+41	41	3/4	3/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
+42	42	0	0	2/2	3	1	V	Bb	I		V	V							M	0	0	1, 5, 2		1	1
 42	42	1/4	1/4	2/2	3	1	I	Bb	I		I	I							M	0	0	0, 4, 1		0	0
 42	42	1/2	1/2	2/2	3	1	V6	Bb	I		V6	V		6					M	0	0	5, 2, 1		1	5
 42	42	3/4	3/4	2/2	3	1	iii	Bb	I		iii	iii							m	0	0	4, 1, 5		4	4
