@@ -157,6 +157,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -166,6 +167,7 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -217,6 +219,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="40"/>
           <synti>Fluid</synti>
@@ -226,6 +229,7 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -2538,6 +2542,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -2546,6 +2554,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
@@ -2554,10 +2566,21 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43(4)</name>
+            </Harmony>
           <Rest>
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V43</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
