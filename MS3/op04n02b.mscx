@@ -944,7 +944,11 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -972,10 +976,12 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            <span>1</span>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <startRepeat/>
+        <irregular>1</irregular>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2291,7 +2297,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2315,10 +2321,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            <span>1</span>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <voice>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -3873,7 +3879,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
         <voice>
           <FiguredBass>
             <ticks>1/4</ticks>
@@ -3931,9 +3937,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>VI{</name>
