@@ -109,10 +109,10 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n12e |      25|     0|        |                                                                 |                      |
 |op03n12f |      37|     0|        |                                                                 |                      |
 |op03n12g |      46|     0|        |                                                                 |                      |
-|op04n01a |      17|    72|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n01b |      47|    75|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n01c |      13|    46|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n01d |      34|   137|2.1.1   |Lydia Carlisi                                                    |                      |
+|op04n01a |      17|    74|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |                      |
+|op04n01b |      47|    76|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |                      |
+|op04n01c |      13|    47|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |                      |
+|op04n01d |      34|   135|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |                      |
 |op04n02a |      20|    85|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n02b |      22|   117|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n02c |       5|     9|2.1.1   |Lydia Carlisi                                                    |                      |
