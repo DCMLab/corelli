@@ -5969,6 +5969,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5985,7 +5989,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6/V{</name>
+            <name>I6/V</name>
             <offset x="-0.144504" y="-3.29831"/>
             </Harmony>
           <Chord>
@@ -6180,10 +6184,16 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
             </Harmony>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
