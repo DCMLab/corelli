@@ -137,7 +137,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                       |                      |
 |op04n06g |      30|     0|        |                                                                 |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
-|op04n07b |      46|     0|        |                                                                 |                      |
+|op04n07b |      46|   104|2.3.0   |Justin Franklin                                                  |AN                    |
 |op04n07c |       6|     0|        |                                                                 |                      |
 |op04n07d |      32|    47|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07e |      27|     0|        |                                                                 |                      |
