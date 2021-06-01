@@ -7,6 +7,7 @@ on:
 
 jobs:
   perform_check:
+    if: github.event.pusher.name != 'ms3-bot'
     runs-on: ubuntu-latest
 
     steps:

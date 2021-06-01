@@ -5,7 +5,6 @@ on: pull_request
 
 jobs:
   compare:
-    if: github.event.pusher.name != 'ms3-bot'
     runs-on: ubuntu-latest
 
     steps:
