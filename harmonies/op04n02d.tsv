@@ -18,7 +18,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 8	8	1/4	1/4	3/4	4	1	iv6	g	i		iv6	iv		6					m	1	1	-4, 0, -1		-1	-4
 8	8	1/2	1/2	3/4	4	1	iio64	g	i		iio64	ii	o	64					o	1	1	-4, 2, -1		2	-4
 9	9	0	0	3/4	4	1	V|HC}	g	i		V	V					HC	}	M	1	1	1, 5, 2		1	1
-10	10	0	0	3/4	4	1	V6/iv{	g	i		V6/iv	V		6		iv		{	M	1	1	4, 1, 0		0	4
+9	9	1/4	1/4	3/4	4	1	{	g	i									{		1	1				
+10	10	0	0	3/4	4	1	V6/iv	g	i		V6/iv	V		6		iv			M	1	1	4, 1, 0		0	4
 11	11	0	0	3/4	4	1	iv(9)	g	i		iv(9)	iv			9				m	1	1	-1, -4, 0	1	-1	-1
 11	11	1/4	1/4	3/4	4	1	iv	g	i		iv	iv							m	1	1	-1, -4, 0		-1	-1
 12	12	0	0	3/4	4	1	V6(2)	g	i		V6(2)	V		6	2				M	1	1	5, 2, -4		1	5
@@ -34,7 +35,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 15	15	1/2	1/2	3/4	4	1	ii%65	g	i		ii%65	ii	%	65					%7	1	1	-1, -4, 0, 2		2	-1
 16	16	0	0	3/4	4	1	V(64)	g	i		V(64)	V			64				M	1	1	1, 0, -3		1	1
 16	16	1/4	1/4	3/4	4	1	V	g	i		V	V							M	1	1	1, 5, 2		1	1
-17	17	0	0	3/4	4	1	i|PAC}{	g	i		i	i					PAC	}{	m	1	1	0, -3, 1		0	0
+17	17	0	0	3/4	4	1	i|PAC}	g	i		i	i					PAC	}	m	1	1	0, -3, 1		0	0
+17	17	1/4	1/4	3/4	4	1	{	g	i									{		1	1				
 18	18	0	0	3/4	4	1	#viio(2)	g	i		#viio(2)	#vii	o		2				o	1	1	0, 2, -1		5	0
 18	18	1/4	1/4	3/4	4	1	V6	g	i		V6	V		6					M	1	1	5, 2, 1		1	5
 19	19	0	0	3/4	4	1	i	g	i		i	i							m	1	1	0, -3, 1		0	0
@@ -69,11 +71,13 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 34	34	0	0	3/4	4	1	V(64)	g	III		V(64)	V			64				M	1	0	1, 0, 4		1	1
 34	34	1/4	1/4	3/4	4	1	V	g	III		V	V							M	1	0	1, 5, 2		1	1
 35	35	0	0	3/4	4	1	I|PAC}	g	III		I	I					PAC	}	M	1	0	0, 4, 1		0	0
-35	35	1/2	1/2	3/4	4	1	i6/iii{	g	III		i6/iii	i		6		iii		{	m	1	0	1, 5, 4		4	1
+35	35	1/4	1/4	3/4	4	1	{	g	III									{		1	0				
+35	35	1/2	1/2	3/4	4	1	i6/iii	g	III		i6/iii	i		6		iii			m	1	0	1, 5, 4		4	1
 36	36	0	0	3/4	4	1	ii%65/iii	g	III		ii%65/iii	ii	%	65		iii			%7	1	0	3, 0, 4, 6		6	3
 36	36	1/4	1/4	3/4	4	1	V/iii	g	III		V/iii	V				iii			M	1	0	5, 9, 6		5	5
 37	37	0	0	3/4	4	1	i/iii|PAC}	g	III		i/iii	i				iii	PAC	}	m	1	0	4, 1, 5		4	4
-37	37	1/2	1/2	3/4	4	1	I6/V{	g	III		I6/V	I		6		V		{	M	1	0	5, 2, 1		1	5
+37	37	1/4	1/4	3/4	4	1	{	g	III									{		1	0				
+37	37	1/2	1/2	3/4	4	1	I6/V	g	III		I6/V	I		6		V			M	1	0	5, 2, 1		1	5
 38	38	0	0	3/4	4	1	ii65/V	g	III		ii65/V	ii		65		V			mm7	1	0	0, 4, 1, 3		3	0
 38	38	1/4	1/4	3/4	4	1	V/V	g	III		V/V	V				V			M	1	0	2, 6, 3		2	2
 39	39	0	0	3/4	4	1	iv.iv	g	iv		iv	iv							m	1	1	-1, -4, 0		-1	-1
@@ -82,7 +86,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 40	40	0	0	3/4	4	1	V(64)	g	iv		V(64)	V			64				M	1	1	1, 0, -3		1	1
 40	40	1/4	1/4	3/4	4	1	V	g	iv		V	V							M	1	1	1, 5, 2		1	1
 41	41	0	0	3/4	4	1	i|PAC}	g	iv		i	i					PAC	}	m	1	1	0, -3, 1		0	0
-41	41	1/2	1/2	3/4	4	1	{	g	iv									{		1	1				
+41	41	1/4	1/4	3/4	4	1	{	g	iv									{		1	1				
 42	42	0	0	3/4	4	1	i.V6(2)	g	i		V6(2)	V		6	2				M	1	1	5, 2, -4		1	5
 42	42	1/4	1/4	3/4	4	1	V6	g	i		V6	V		6					M	1	1	5, 2, 1		1	5
 43	43	0	0	3/4	4	1	i(9)	g	i		i(9)	i			9				m	1	1	0, -3, 1	2	0	0
@@ -100,7 +104,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 48	48	0	0	3/4	4	1	V(64)	g	i		V(64)	V			64				M	1	1	1, 0, -3		1	1
 48	48	1/4	1/4	3/4	4	1	V	g	i		V	V							M	1	1	1, 5, 2		1	1
 49	49	0	0	3/4	4	1	i|PAC}	g	i		i	i					PAC	}	m	1	1	0, -3, 1		0	0
-49	49	1/2	1/2	3/4	4	1	i6{	g	i		i6	i		6				{	m	1	1	-3, 1, 0		0	-3
+49	49	1/4	1/4	3/4	4	1	{	g	i									{		1	1				
+49	49	1/2	1/2	3/4	4	1	i6	g	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 50	50	0	0	3/4	4	1	IV(9)	g	i		IV(9)	IV			9				M	1	1	-1, 3, 0	1	-1	-1
 50	50	1/2	1/2	3/4	4	1	IV	g	i		IV	IV							M	1	1	-1, 3, 0		-1	-1
 51	51	0	0	3/4	4	1	V7	g	i		V7	V		7					Mm7	1	1	1, 5, 2, -1		1	1
@@ -109,7 +114,8 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	globalkey	localkey	pedal	chord
 52	52	0	0	3/4	4	1	V(64)	g	i		V(64)	V			64				M	1	1	1, 0, -3		1	1
 52	52	1/4	1/4	3/4	4	1	V	g	i		V	V							M	1	1	1, 5, 2		1	1
 53	53	0	0	3/4	4	1	i|PAC}	g	i		i	i					PAC	}	m	1	1	0, -3, 1		0	0
-53	53	1/2	1/2	3/4	4	1	i6{	g	i		i6	i		6				{	m	1	1	-3, 1, 0		0	-3
+53	53	1/4	1/4	3/4	4	1	{	g	i									{		1	1				
+53	53	1/2	1/2	3/4	4	1	i6	g	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 54	54	0	0	3/4	4	1	IV(9)	g	i		IV(9)	IV			9				M	1	1	-1, 3, 0	1	-1	-1
 54	54	1/2	1/2	3/4	4	1	IV	g	i		IV	IV							M	1	1	-1, 3, 0		-1	-1
 55	55	0	0	3/4	4	1	V7	g	i		V7	V		7					Mm7	1	1	1, 5, 2, -1		1	1
