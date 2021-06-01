@@ -154,10 +154,11 @@
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Allemanda. Allegro</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN, JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -377,6 +378,12 @@
             <offset x="0" y="-5.5"/>
             <text>Allemanda Allegro</text>
             </StaffText>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
+            </Tempo>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -937,7 +944,11 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
+        <endRepeat>2</endRepeat>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -965,10 +976,12 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            <span>1</span>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <startRepeat/>
+        <irregular>1</irregular>
+        <voice>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -2284,7 +2297,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2308,10 +2321,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            <span>1</span>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <voice>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -3554,8 +3567,13 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <pitch>47</pitch>
-              <tpc>19</tpc>
+              <Accidental>
+                <bracket>2</bracket>
+                <small>1</small>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>46</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           </voice>
@@ -3725,7 +3743,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3861,7 +3879,7 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
         <voice>
           <FiguredBass>
             <ticks>1/4</ticks>
@@ -3919,12 +3937,13 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <BarLine>
-            <subtype>end-start-repeat</subtype>
-            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="1/8">
+        <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III.I{</name>
+            <name>VI{</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3946,7 +3965,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V/VI</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3964,7 +3983,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>VI</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -3982,7 +4001,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC}</name>
+            <name>V/VI}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4000,7 +4019,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iv.i{</name>
+            <name>vii{</name>
             </Harmony>
           <Rest>
             <durationType>eighth</durationType>
@@ -4025,7 +4044,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V/vii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4053,7 +4072,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>vii</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4078,7 +4097,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC}</name>
+            <name>V/vii}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4096,7 +4115,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v.i{</name>
+            <name>i{</name>
             <offset x="0.5" y="-2.5"/>
             </Harmony>
           <Rest>
@@ -4168,7 +4187,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC}</name>
+            <name>V}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
