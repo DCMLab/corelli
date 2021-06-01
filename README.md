@@ -89,7 +89,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n08a |      20|    90|2.3.0   |Matthew Chiu                                                     |JH                    |
 |op03n08b |      39|     0|        |                                                                 |                      |
 |op03n08c |      31|    74|2.3.0   |Matthew Chiu                                                     |AN                    |
-|op03n08d |      40|     0|        |                                                                 |                      |
+|op03n08d |      40|   135|2.3.0   |Matthew Chiu                                                     |                      |
 |op03n09a |      30|    69|2.3.0   |John Heilig                                                      |JH                    |
 |op03n09b |      28|   103|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN                    |
