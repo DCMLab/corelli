@@ -156,11 +156,12 @@
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementTitle">Allemanda. Presto</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN, JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -247,6 +248,11 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>3.0666666666666664</tempo>
+            <followText>1</followText>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 184</b></text>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -4814,7 +4820,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>V.IV6</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -4823,6 +4829,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4850,7 +4860,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V.I(4)</name>
+            <name>I(4)</name>
             <offset x="-0.0523214" y="-2.50476"/>
             </Harmony>
           <Chord>
@@ -7297,7 +7307,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I</name>
+            <name>i</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
