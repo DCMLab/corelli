@@ -56,7 +56,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n12a |      19|     0|        |                                                                 |                      |
 |op01n12b |      36|     0|        |                                                                 |                      |
-|op01n12c |      13|     0|        |Tomoko Ono                                                       |                      |
+|op01n12c |      13|    42|        |Tomoko Ono                                                       |                      |
 |op01n12d |      62|     0|        |                                                                 |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
 |op03n01b |      37|   150|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
