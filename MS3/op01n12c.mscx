@@ -175,6 +175,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -229,6 +230,10 @@
           <program value="0"/>
           <synti>Fluid</synti>
           </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
         </Instrument>
       </Part>
     <Staff id="1">
@@ -243,6 +248,11 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Tempo>
+            <tempo>1</tempo>
+            <followText>1</followText>
+            <text> </text>
+            </Tempo>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1903,6 +1913,10 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>b.i{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1918,6 +1932,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1929,6 +1947,10 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -1956,6 +1978,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -1975,6 +2001,10 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -1994,6 +2024,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -2005,6 +2039,10 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}{</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2021,6 +2059,10 @@
               <suffix>3</suffix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III.I</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2036,6 +2078,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2055,6 +2101,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2070,6 +2120,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iii6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2085,6 +2139,10 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IVM7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2105,6 +2163,10 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio7/V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2131,6 +2193,10 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2146,6 +2212,10 @@
               <digit>3</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2154,6 +2224,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|IAC}</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2166,6 +2240,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i.i{</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2181,6 +2259,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2192,6 +2274,10 @@
               <tpc>24</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2204,6 +2290,11 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            <offset x="0.1" y="-2.5"/>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2224,6 +2315,10 @@
               <suffix>6</suffix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64/iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2243,6 +2338,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2262,6 +2361,10 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%7/iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2281,6 +2384,10 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2296,6 +2403,10 @@
               <digit>4</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv(4)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2315,6 +2426,10 @@
               <digit>3</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -2330,6 +2445,10 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V65</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2348,6 +2467,10 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2363,6 +2486,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2382,6 +2509,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6(2)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2405,6 +2536,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -2415,6 +2550,10 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2434,6 +2573,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -2449,6 +2592,10 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2464,6 +2611,10 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2483,6 +2634,10 @@
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii%65</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2498,6 +2653,10 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -2510,6 +2669,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -2528,6 +2691,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <StemDirection>up</StemDirection>
@@ -2543,6 +2710,10 @@
               <digit>7</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -2562,6 +2733,10 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
@@ -2573,6 +2748,10 @@
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V|HC}</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
