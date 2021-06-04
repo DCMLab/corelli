@@ -56,7 +56,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n12a |      19|     0|        |                                                                 |                      |
 |op01n12b |      36|     0|        |                                                                 |                      |
-|op01n12c |      13|     0|        |Tomoko Ono                                                       |                      |
+|op01n12c |      13|    42|        |Tomoko Ono                                                       |                      |
 |op01n12d |      62|     0|        |                                                                 |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
 |op03n01b |      37|   150|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
@@ -89,7 +89,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n08a |      20|    90|2.3.0   |Matthew Chiu                                                     |JH                    |
 |op03n08b |      39|     0|        |                                                                 |                      |
 |op03n08c |      31|    74|2.3.0   |Matthew Chiu                                                     |AN                    |
-|op03n08d |      40|     0|        |                                                                 |                      |
+|op03n08d |      40|   135|2.3.0   |Matthew Chiu                                                     |                      |
 |op03n09a |      30|    69|2.3.0   |John Heilig                                                      |JH                    |
 |op03n09b |      28|   103|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN                    |
@@ -137,7 +137,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                       |                      |
 |op04n06g |      30|     0|        |                                                                 |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
-|op04n07b |      46|     0|        |                                                                 |                      |
+|op04n07b |      46|   104|2.3.0   |Justin Franklin                                                  |AN                    |
 |op04n07c |       6|     0|        |                                                                 |                      |
 |op04n07d |      32|    47|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07e |      27|     0|        |                                                                 |                      |
@@ -147,7 +147,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |AN                    |
 |op04n09b |      44|   103|2.3.0   |Victor Zheng                                                     |AN                    |
 |op04n09c |      12|    49|2.3.0   |Victor Zheng                                                     |JH                    |
-|op04n09d |      57|   166|2.3.0   |Victor Zheng                                                     |JH (1-16)             |
+|op04n09d |      56|   167|2.3.0   |Victor Zheng                                                     |JH                    |
 |op04n10a |       2|     4|2.3.0   |Kevin Davis                                                      |JH                    |
 |op04n10b |      33|   111|        |                                                                 |                      |
 |op04n10c |       4|     8|3.2.0   |Kevin Davis                                                      |                      |
