@@ -17,7 +17,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n02a |      19|    76|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n02b |      36|   121|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n02c |      29|    67|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
-|op01n02d |     117|   169|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n02d |     117|   174|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n03a |      17|    65|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n03b |      54|   255|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n03c |      35|    68|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
@@ -56,7 +56,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n12a |      19|     0|        |                                                                 |                      |
 |op01n12b |      36|     0|        |                                                                 |                      |
-|op01n12c |      13|     0|        |Tomoko Ono                                                       |                      |
+|op01n12c |      13|    42|        |Tomoko Ono                                                       |                      |
 |op01n12d |      62|     0|        |                                                                 |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
 |op03n01b |      37|   150|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
@@ -147,9 +147,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |AN                    |
 |op04n09b |      44|   103|2.3.0   |Victor Zheng                                                     |AN                    |
 |op04n09c |      12|    49|2.3.0   |Victor Zheng                                                     |JH                    |
-|op04n09d |      57|   166|2.3.0   |Victor Zheng                                                     |JH (1-16)             |
+|op04n09d |      56|   167|2.3.0   |Victor Zheng                                                     |JH                    |
 |op04n10a |       2|     4|2.3.0   |Kevin Davis                                                      |JH                    |
-|op04n10b |      33|   111|        |                                                                 |                      |
+|op04n10b |      33|   104|2.3.0   |                                                                 |JH                    |
 |op04n10c |       4|     8|3.2.0   |Kevin Davis                                                      |                      |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                      |AN, JH                |
 |op04n10e |      48|   147|2.3.0   |Kevin Davis                                                      |                      |
