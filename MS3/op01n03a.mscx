@@ -163,6 +163,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -207,6 +208,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -259,6 +261,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -307,6 +310,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -397,7 +401,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.38609" y="-5.57621"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 52</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 52</b></text>
             </Tempo>
           <StaffText>
             <offset x="-23.1178" y="-3.89405"/>
