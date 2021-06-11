@@ -74,7 +74,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n04b |      39|     0|        |                                                                 |                      |
 |op03n04c |      55|     0|        |                                                                 |                      |
 |op03n04d |      50|     0|        |                                                                 |                      |
-|op03n05a |      21|    58|2.1.1   |Mastaneh Nazarian(2.1.1), John Heilig (2.3.0)                    |JHei                  |
+|op03n05a |      21|    87|2.3.0   |Mastaneh Nazarian (2.1.1), John Heilig (2.3.0)                   |                      |
 |op03n05b |      49|   176|2.3.0   |John Heilig                                                      |AN                    |
 |op03n05c |      36|    80|2.3.0   |John Heilig                                                      |AN                    |
 |op03n05d |      33|   125|2.3.0   |John Heilig                                                      |AN                    |
