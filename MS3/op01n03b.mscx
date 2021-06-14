@@ -163,6 +163,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN, HB</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -207,6 +208,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -259,6 +261,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -307,6 +310,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -396,7 +400,7 @@
             <tempo>1.9333333333333333</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 116</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 116</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -10467,6 +10471,10 @@
               <digit>2</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6(4)</name>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -10782,7 +10790,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7</name>
+            <name>vii7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13034,7 +13042,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7</name>
+            <name>vii7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -13601,7 +13609,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio2</name>
+            <name>vii2</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -15099,7 +15107,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio7</name>
+            <name>vii7</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
