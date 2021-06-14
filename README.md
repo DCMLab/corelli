@@ -20,7 +20,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n02d |     117|   174|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n03a |      17|    66|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n03b |      54|   222|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
-|op01n03c |      35|    68|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n03c |      35|    71|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n03d |      97|   168|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n04a |      19|    52|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n04b |      12|    26|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
@@ -98,10 +98,10 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n10b |      38|     0|        |                                                                 |                      |
 |op03n10c |      11|     0|        |                                                                 |                      |
 |op03n10d |      31|     0|        |                                                                 |                      |
-|op03n11a |      17|     0|        |John Heilig                                                      |                      |
-|op03n11b |      39|     0|        |John Heilig                                                      |                      |
-|op03n11c |      29|     0|        |John Heilig                                                      |                      |
-|op03n11d |      45|     0|        |John Heilig                                                      |                      |
+|op03n11a |      17|     0|        |                                                                 |                      |
+|op03n11b |      39|     0|        |                                                                 |                      |
+|op03n11c |      29|     0|        |                                                                 |                      |
+|op03n11d |      45|     0|        |                                                                 |                      |
 |op03n12a |      19|     0|        |                                                                 |                      |
 |op03n12b |      41|     0|        |                                                                 |                      |
 |op03n12c |       9|     0|        |                                                                 |                      |
