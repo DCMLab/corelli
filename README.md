@@ -95,14 +95,14 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09d |      28|   121|2.3.0   |John Heilig                                                      |AN                    |
 |op03n10a |      14|     0|        |Tal Soker                                                        |                      |
-|op03n10b |      38|     0|        |                                                                 |                      |
-|op03n10c |      11|     0|        |                                                                 |                      |
-|op03n10d |      31|     0|        |                                                                 |                      |
+|op03n10b |      38|   145|2.3.0   |Tal Soker                                                        |                      |
+|op03n10c |      11|    24|2.3.0   |Tal Soker                                                        |                      |
+|op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
 |op03n11a |      17|    67|2.3.0   |John Heilig                                                      |                      |
 |op03n11b |      39|   175|        |                                                                 |                      |
-|op03n11c |      29|    63|2.3.0   |John Heilig                                                      |                      |
+|op03n11c |      29|    63|2.3.0   |                                                                 |                      |
 |op03n11d |      45|     0|        |                                                                 |                      |
-|op03n12a |      19|     0|        |John Heilig                                                      |                      |
+|op03n12a |      19|     0|        |                                                                 |                      |
 |op03n12b |      41|     0|        |                                                                 |                      |
 |op03n12c |       9|     0|        |                                                                 |                      |
 |op03n12d |      29|     0|        |                                                                 |                      |
