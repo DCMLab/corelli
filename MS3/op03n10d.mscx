@@ -1043,16 +1043,8 @@
             <harmonyType>1</harmonyType>
             <name>iv</name>
             </Harmony>
-          <Tuplet>
-            <normalNotes>3</normalNotes>
-            <actualNotes>2</actualNotes>
-            <baseNote>half</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>2</text>
-              </Number>
-            </Tuplet>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <pitch>77</pitch>
@@ -1064,51 +1056,35 @@
             <name>V</name>
             </Harmony>
           <Chord>
-            <durationType>quarter</durationType>
+            <dots>1</dots>
+            <durationType>half</durationType>
             <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/4</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6(2)</name>
             </Harmony>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/4</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>76</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>iv6</name>
             </Harmony>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <pitch>74</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
@@ -3654,16 +3630,8 @@
         </Measure>
       <Measure>
         <voice>
-          <Tuplet>
-            <normalNotes>3</normalNotes>
-            <actualNotes>2</actualNotes>
-            <baseNote>half</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>2</text>
-              </Number>
-            </Tuplet>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <pitch>69</pitch>
@@ -3671,6 +3639,7 @@
               </Note>
             </Chord>
           <Chord>
+            <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
               <Accidental>
@@ -3681,13 +3650,13 @@
               </Note>
             </Chord>
           <Chord>
+            <dots>1</dots>
             <durationType>half</durationType>
             <Note>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <endTuplet/>
           </voice>
         </Measure>
       <Measure>
