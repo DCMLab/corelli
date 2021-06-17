@@ -153,9 +153,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n10c |       4|     8|3.2.0   |Kevin Davis                                                      |                      |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                      |AN, JH                |
 |op04n10e |      48|   147|2.3.0   |Kevin Davis                                                      |                      |
-|op04n11a |      24|   156|        |                                                                 |AN                    |
+|op04n11a |      24|   156|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN                    |
-|op04n11c |      36|   142|        |                                                                 |AN                    |
+|op04n11c |      36|   142|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n12a |      35|     0|2.3.0   |Andrew Wilson                                                    |                      |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                    |AN                    |
 |op04n12c |      19|    62|        |                                                                 |                      |
