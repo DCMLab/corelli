@@ -19,12 +19,12 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n02c |      29|    67|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n02d |     117|   174|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n03a |      17|    66|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
-|op01n03b |      54|   255|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n03c |      35|    68|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n03d |      97|   168|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n04a |      19|    52|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n04b |      12|    26|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n04c |      28|   119|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n03b |      54|   223|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
+|op01n03c |      35|    71|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n03d |      97|   177|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
+|op01n04a |      19|    52|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n04b |      12|    26|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n04c |      28|   117|2.3.0   |Lars Opfermann (2.1.1) , Ya-Chuan Wu(2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n04d |      39|   119|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n05a |      42|    89|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n05b |      39|   176|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
@@ -59,9 +59,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n12c |      13|    42|        |Tomoko Ono                                                       |                      |
 |op01n12d |      62|     0|        |                                                                 |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
-|op03n01b |      37|   150|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
-|op03n01c |      61|   119|2.1.1   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
-|op03n01d |      40|   158|2.1.1   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN                    |
+|op03n01b |      37|   149|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN, AW                |
+|op03n01c |      61|   117|2.1.1   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.1), AW (2.3.0)|
+|op03n01d |      40|   158|2.1.1   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.1), AW (2.3.0)|
 |op03n02a |      19|    68|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02b |      31|   117|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02c |      40|    91|2.1.1   |Moritz Heffter                                                   |                      |
@@ -95,14 +95,14 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09d |      28|   121|2.3.0   |John Heilig                                                      |AN                    |
 |op03n10a |      14|     0|        |Tal Soker                                                        |                      |
-|op03n10b |      38|     0|        |                                                                 |                      |
-|op03n10c |      11|     0|        |                                                                 |                      |
-|op03n10d |      31|     0|        |                                                                 |                      |
-|op03n11a |      17|     0|        |John Heilig                                                      |                      |
-|op03n11b |      39|     0|        |John Heilig                                                      |                      |
-|op03n11c |      29|     0|        |John Heilig                                                      |                      |
-|op03n11d |      45|     0|        |John Heilig                                                      |                      |
-|op03n12a |      19|     0|        |                                                                 |                      |
+|op03n10b |      38|   145|2.3.0   |Tal Soker                                                        |                      |
+|op03n10c |      11|    24|2.3.0   |Tal Soker                                                        |                      |
+|op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
+|op03n11a |      17|    67|2.3.0   |John Heilig                                                      |                      |
+|op03n11b |      39|   175|        |                                                                 |                      |
+|op03n11c |      29|    63|2.3.0   |                                                                 |                      |
+|op03n11d |      45|     0|        |                                                                 |                      |
+|op03n12a |      19|    17|        |                                                                 |                      |
 |op03n12b |      41|     0|        |                                                                 |                      |
 |op03n12c |       9|     0|        |                                                                 |                      |
 |op03n12d |      29|     0|        |                                                                 |                      |
@@ -153,9 +153,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n10c |       4|     8|3.2.0   |Kevin Davis                                                      |                      |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                      |AN, JH                |
 |op04n10e |      48|   147|2.3.0   |Kevin Davis                                                      |                      |
-|op04n11a |      24|     0|        |                                                                 |                      |
+|op04n11a |      24|   156|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN                    |
-|op04n11c |      36|     0|        |                                                                 |                      |
+|op04n11c |      36|   142|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n12a |      35|     0|2.3.0   |Andrew Wilson                                                    |                      |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                    |AN                    |
 |op04n12c |      19|    62|        |                                                                 |                      |
