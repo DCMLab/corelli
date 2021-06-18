@@ -156,6 +156,6 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n11a |      24|   156|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11c |      36|   142|2.3.0   |Amelia Brey                                                      |AN                    |
-|op04n12a |      35|     0|2.3.0   |Andrew Wilson                                                    |                      |
+|op04n12a |      35|    77|        |                                                                 |AN                    |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                    |AN                    |
-|op04n12c |      19|    62|        |                                                                 |                      |
+|op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                    |AN                    |
