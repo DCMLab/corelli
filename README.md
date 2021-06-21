@@ -105,7 +105,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n12a |      19|    17|        |                                                                 |                      |
 |op03n12b |      41|     2|        |                                                                 |                      |
 |op03n12c |       9|    39|2.3.0   |                                                                 |                      |
-|op03n12d |      29|     0|        |                                                                 |                      |
+|op03n12d |      29|    98|2.3.0   |                                                                 |                      |
 |op03n12e |      25|     0|        |                                                                 |                      |
 |op03n12f |      37|     0|        |                                                                 |                      |
 |op03n12g |      46|     0|        |                                                                 |                      |
