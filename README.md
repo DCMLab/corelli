@@ -106,7 +106,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n12b |      41|     2|        |                                                                 |                      |
 |op03n12c |       9|    39|2.3.0   |                                                                 |                      |
 |op03n12d |      29|    98|2.3.0   |                                                                 |                      |
-|op03n12e |      25|     0|        |                                                                 |                      |
+|op03n12e |      25|    76|2.3.0   |                                                                 |                      |
 |op03n12f |      37|     0|        |                                                                 |                      |
 |op03n12g |      46|     0|        |                                                                 |                      |
 |op04n01a |      17|    74|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
