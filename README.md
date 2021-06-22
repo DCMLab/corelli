@@ -149,7 +149,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n09c |      12|    49|2.3.0   |Victor Zheng                                                     |JH                    |
 |op04n09d |      56|   167|2.3.0   |Victor Zheng                                                     |JH                    |
 |op04n10a |       2|     4|2.3.0   |Kevin Davis                                                      |JH                    |
-|op04n10b |      33|   104|2.3.0   |                                                                 |JH                    |
+|op04n10b |      33|   104|2.3.0   |Kevin Davis                                                      |JH                    |
 |op04n10c |       4|     8|2.3.0   |Kevin Davis                                                      |AN, JH                |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                      |AN, JH                |
 |op04n10e |      48|   152|2.3.0   |Kevin Davis                                                      |AN JH                 |
