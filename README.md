@@ -100,15 +100,15 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
 |op03n11a |      17|    68|2.3.0   |John Heilig                                                      |JH                    |
 |op03n11b |      39|   164|2.3.0   |                                                                 |                      |
-|op03n11c |      29|    63|2.3.0   |                                                                 |                      |
+|op03n11c |      29|    63|2.3.0   |John Heilig                                                      |AN                    |
 |op03n11d |      45|    97|        |                                                                 |                      |
 |op03n12a |      19|    17|2.3.0   |John Heilig                                                      |JH                    |
-|op03n12b |      41|     2|        |                                                                 |                      |
-|op03n12c |       9|    39|2.3.0   |                                                                 |AN                    |
-|op03n12d |      29|    97|2.3.0   |                                                                 |AN                    |
+|op03n12b |      41|     2|2.3.0   |John Heilig                                                      |                      |
+|op03n12c |       9|    39|2.3.0   |John Heilig                                                      |AN                    |
+|op03n12d |      29|    97|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12e |      25|    76|2.3.0   |                                                                 |                      |
-|op03n12f |      37|   192|2.3.0   |                                                                 |AN                    |
-|op03n12g |      46|   205|2.3.0   |                                                                 |AN                    |
+|op03n12f |      37|   192|2.3.0   |John Heilig                                                      |AN                    |
+|op03n12g |      46|   205|2.3.0   |John Heilig                                                      |AN                    |
 |op04n01a |      17|    74|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n01b |      47|    75|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n01c |      13|    47|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
