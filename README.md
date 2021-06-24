@@ -79,7 +79,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n05c |      36|    80|2.3.0   |John Heilig                                                      |AN                    |
 |op03n05d |      33|   125|2.3.0   |John Heilig                                                      |AN                    |
 |op03n06a |      33|   119|2.3.0   |Kyle Quarles                                                     |AN                    |
-|op03n06b |      14|     0|        |                                                                 |                      |
+|op03n06b |      14|    54|2.3.0   |Kyle Quarles                                                     |                      |
 |op03n06c |      38|     0|        |                                                                 |                      |
 |op03n06d |      41|     0|        |                                                                 |                      |
 |op03n07a |      20|    76|2.3.0   |Hanné Becker                                                     |JH                    |
