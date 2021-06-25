@@ -25,8 +25,8 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n04a |      19|    52|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04b |      12|    26|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04c |      28|   117|2.3.0   |Lars Opfermann (2.1.1) , Ya-Chuan Wu(2.1.1), Hanné Becker (2.3.0)|AN, HB                |
-|op01n04d |      39|   119|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n05a |      42|    89|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n04d |      39|   115|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n05a |      42|    90|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
 |op01n05b |      39|   176|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n05c |      30|    59|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n05d |      59|   115|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
@@ -79,7 +79,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n05c |      36|    80|2.3.0   |John Heilig                                                      |AN                    |
 |op03n05d |      33|   125|2.3.0   |John Heilig                                                      |AN                    |
 |op03n06a |      33|   119|2.3.0   |Kyle Quarles                                                     |AN                    |
-|op03n06b |      14|     0|        |                                                                 |                      |
+|op03n06b |      14|    54|2.3.0   |Kyle Quarles                                                     |                      |
 |op03n06c |      38|     0|        |                                                                 |                      |
 |op03n06d |      41|     0|        |                                                                 |                      |
 |op03n07a |      20|    76|2.3.0   |Hanné Becker                                                     |JH                    |
@@ -100,15 +100,15 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
 |op03n11a |      17|    68|2.3.0   |John Heilig                                                      |JH                    |
 |op03n11b |      39|   164|2.3.0   |                                                                 |                      |
-|op03n11c |      29|    63|2.3.0   |                                                                 |                      |
+|op03n11c |      29|    63|2.3.0   |John Heilig                                                      |AN                    |
 |op03n11d |      45|    97|        |                                                                 |                      |
-|op03n12a |      19|    17|        |                                                                 |                      |
-|op03n12b |      41|     2|        |                                                                 |                      |
-|op03n12c |       9|    39|2.3.0   |                                                                 |AN                    |
-|op03n12d |      29|    97|2.3.0   |                                                                 |AN                    |
+|op03n12a |      19|    17|2.3.0   |John Heilig                                                      |JH                    |
+|op03n12b |      41|     2|2.3.0   |John Heilig                                                      |                      |
+|op03n12c |       9|    39|2.3.0   |John Heilig                                                      |AN                    |
+|op03n12d |      29|    97|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12e |      25|    76|2.3.0   |                                                                 |                      |
-|op03n12f |      37|   192|2.3.0   |                                                                 |AN                    |
-|op03n12g |      46|   205|2.3.0   |                                                                 |AN                    |
+|op03n12f |      37|   192|2.3.0   |John Heilig                                                      |AN                    |
+|op03n12g |      46|   205|2.3.0   |John Heilig                                                      |AN                    |
 |op04n01a |      17|    74|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n01b |      47|    75|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n01c |      13|    47|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
@@ -138,10 +138,10 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n06g |      30|     0|        |                                                                 |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07b |      46|   104|2.3.0   |Justin Franklin                                                  |AN                    |
-|op04n07c |       6|     0|        |                                                                 |                      |
+|op04n07c |       6|    12|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07d |      32|    47|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07e |      27|    92|2.3.0   |Justin Franklin                                                  |AN                    |
-|op04n08a |      38|     0|        |Kevin Davis                                                      |                      |
+|op04n08a |      38|    93|2.3.0   |Kevin Davis                                                      |AN JH                 |
 |op04n08b |      23|     0|        |                                                                 |                      |
 |op04n08c |      16|     0|        |                                                                 |                      |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |AN                    |
@@ -156,6 +156,6 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n11a |      24|   156|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                      |AN                    |
 |op04n11c |      36|   142|2.3.0   |Amelia Brey                                                      |AN                    |
-|op04n12a |      35|    77|        |                                                                 |AN                    |
+|op04n12a |      35|    77|2.3.0   |Andrew Wilson                                                    |AN                    |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                    |AN                    |
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                    |AN                    |
