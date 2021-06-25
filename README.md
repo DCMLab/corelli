@@ -138,7 +138,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n06g |      30|     0|        |                                                                 |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07b |      46|   104|2.3.0   |Justin Franklin                                                  |AN                    |
-|op04n07c |       6|    12|2.3.0   |Justin Franklin                                                  |                      |
+|op04n07c |       6|    12|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07d |      32|    47|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07e |      27|    92|2.3.0   |Justin Franklin                                                  |AN                    |
 |op04n08a |      38|    93|2.3.0   |Kevin Davis                                                      |AN JH                 |
