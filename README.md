@@ -99,7 +99,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n10c |      11|    24|2.3.0   |Tal Soker                                                        |                      |
 |op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
 |op03n11a |      17|    68|2.3.0   |John Heilig                                                      |JH                    |
-|op03n11b |      39|   164|2.3.0   |                                                                 |                      |
+|op03n11b |      39|   164|2.3.0   |John Heilig                                                      |AN                    |
 |op03n11c |      29|    63|2.3.0   |John Heilig                                                      |AN                    |
 |op03n11d |      45|    97|        |                                                                 |                      |
 |op03n12a |      19|    17|2.3.0   |John Heilig                                                      |JH                    |
