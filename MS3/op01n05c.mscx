@@ -163,7 +163,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -208,6 +208,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -260,6 +261,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -308,6 +310,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -397,7 +400,7 @@
             <tempo>1.2666666666666666</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -483,7 +486,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.51671" y="-5.05081"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -641,7 +644,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-5.44486"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -702,7 +705,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.38536" y="-4.91946"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -860,7 +863,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-5.44486"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -1039,7 +1042,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.51671" y="-6.23297"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 128</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 128</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -1276,7 +1279,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-6.36432"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>half</durationType>
@@ -1324,7 +1327,7 @@
             <tempo>1.2</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 72</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 72</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -3347,7 +3350,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC}{</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3372,7 +3375,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.I</name>
+            <name>I.I{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
