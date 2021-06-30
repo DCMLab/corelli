@@ -397,7 +397,7 @@
             <tempo>1.2666666666666666</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -483,7 +483,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.51671" y="-5.05081"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -641,7 +641,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-5.44486"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -702,7 +702,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.38536" y="-4.91946"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 120</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 120</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -860,7 +860,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-5.44486"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -1039,7 +1039,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="-3.51671" y="-6.23297"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 128</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 128</b></text>
             </Tempo>
           <Rest>
             <durationType>measure</durationType>
@@ -1276,7 +1276,7 @@
             <followText>1</followText>
             <visible>0</visible>
             <offset x="0" y="-6.36432"/>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 76</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 76</b></text>
             </Tempo>
           <Chord>
             <durationType>half</durationType>
@@ -1324,7 +1324,7 @@
             <tempo>1.2</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 72</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 72</b></text>
             </Tempo>
           <Rest>
             <durationType>half</durationType>
@@ -3234,7 +3234,13 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>Bb.vi.i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>Bb.vi.i{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3347,7 +3353,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -3633,7 +3645,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3663,7 +3681,13 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V.I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V.I{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3925,7 +3949,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3958,7 +3988,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I.ii</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I.ii{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -3998,7 +4034,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|IAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -4047,7 +4089,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="-3.81351"/>
             </Harmony>
           <Chord>
@@ -4106,7 +4154,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="-0.131351" y="-3.41946"/>
             </Harmony>
           <Chord>
@@ -4132,7 +4186,13 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I.I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I.I{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4533,7 +4593,13 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.45324" y="-2.64433"/>
             </Harmony>
           <Chord>
@@ -4570,7 +4636,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I.I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I.I6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4639,7 +4711,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0.131351" y="-3.41946"/>
             </Harmony>
           <Chord>
