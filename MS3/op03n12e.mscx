@@ -3,7 +3,6 @@
   <programVersion>3.6.2</programVersion>
   <programRevision>3224f34</programRevision>
   <Score>
-    <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
@@ -73,7 +72,7 @@
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
-    <metaTag name="annotator">John Heilig</metaTag>
+    <metaTag name="annotators">John Heilig</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
@@ -86,6 +85,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -182,7 +182,7 @@
             <tempo>2.3333333333333335</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 140</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 140</b></text>
             </Tempo>
           <Chord>
             <durationType>16th</durationType>
@@ -1515,7 +1515,7 @@
             <tempo>0.66666666666666663</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 40</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 40</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -3706,7 +3706,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC</name>
+            <name>V|HC}</name>
             </Harmony>
           <Chord>
             <durationType>whole</durationType>
@@ -3785,7 +3785,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6}{</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>16th</durationType>
