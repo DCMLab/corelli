@@ -25,11 +25,11 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n04a |      19|    52|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04b |      12|    26|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04c |      28|   117|2.3.0   |Lars Opfermann (2.1.1) , Ya-Chuan Wu(2.1.1), Hanné Becker (2.3.0)|AN, HB                |
-|op01n04d |      39|   115|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
-|op01n05a |      42|    90|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
-|op01n05b |      39|   176|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n05c |      30|    59|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n05d |      59|   115|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n04d |      39|   115|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
+|op01n05a |      42|    90|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
+|op01n05b |      39|   149|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
+|op01n05c |      30|    59|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
+|op01n05d |      59|   117|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n06a |      11|    44|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n06b |      40|   182|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n06c |      38|    87|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
@@ -101,12 +101,12 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n11a |      17|    68|2.3.0   |John Heilig                                                      |JH                    |
 |op03n11b |      39|   164|2.3.0   |John Heilig                                                      |AN                    |
 |op03n11c |      29|    63|2.3.0   |John Heilig                                                      |AN                    |
-|op03n11d |      45|    97|        |                                                                 |                      |
+|op03n11d |      45|    97|2.3.0   |John Heilig                                                      |JH                    |
 |op03n12a |      19|    17|2.3.0   |John Heilig                                                      |JH                    |
-|op03n12b |      41|     2|2.3.0   |John Heilig                                                      |                      |
+|op03n12b |      41|     8|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12c |       9|    39|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12d |      29|    97|2.3.0   |John Heilig                                                      |AN                    |
-|op03n12e |      25|    76|2.3.0   |                                                                 |                      |
+|op03n12e |      25|    76|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12f |      37|   192|2.3.0   |John Heilig                                                      |AN                    |
 |op03n12g |      46|   205|2.3.0   |John Heilig                                                      |AN                    |
 |op04n01a |      17|    74|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
@@ -141,8 +141,8 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n07c |       6|    12|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07d |      32|    47|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07e |      27|    92|2.3.0   |Justin Franklin                                                  |AN                    |
-|op04n08a |      38|    93|2.3.0   |Kevin Davis                                                      |AN JH                 |
-|op04n08b |      23|     0|        |                                                                 |                      |
+|op04n08a |      38|    94|2.3.0   |Kevin Davis                                                      |AN, JH                |
+|op04n08b |      23|    86|2.3.0   |Kevin Davis                                                      |AN JH                 |
 |op04n08c |      16|     0|        |                                                                 |                      |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                     |AN                    |
 |op04n09b |      44|   103|2.3.0   |Victor Zheng                                                     |AN                    |
