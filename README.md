@@ -14,13 +14,13 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n01b |      38|   141|2.3.0   |Lars Opfermann , Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)       |HB, JH                |
 |op01n01c |      37|    97|2.3.0   |Lars Opfermann and Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)     |AN, HB                |
 |op01n01d |      98|   147|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)        |HB, AN, JH            |
-|op01n02a |      19|    76|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n02a |      19|    76|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n02b |      36|   121|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
-|op01n02c |      29|    67|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n02c |      29|    67|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n02d |     117|   174|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n03a |      17|    66|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n03b |      54|   223|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
-|op01n03c |      35|    71|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|                      |
+|op01n03c |      35|    71|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n03d |      97|   177|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04a |      19|    52|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
 |op01n04b |      12|    26|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN, HB                |
