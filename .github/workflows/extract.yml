@@ -51,12 +51,15 @@ jobs:
         id: modified
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Display changed files
-        run: cat ${HOME}/files_modified.json
+      - name: Display changed and added files
+        run: |
+          cat ${HOME}/files_modified.json
+          cat ${HOME}/files_added.json
       - name: Run ms3 extract
         working-directory: ./main
         run: |
           ms3 extract -f ${HOME}/files_modified.json -M -N -X -D
+          ms3 extract -f ${HOME}/files_added.json -M -N -X -D
       - name: Push files
         working-directory: ./main
         continue-on-error: true
