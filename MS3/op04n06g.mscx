@@ -221,6 +221,7 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Justin Franklin</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="comments">Two different timesigs problematic: onsets in TSV files partly incorrect; tempo marking should be dotted quarters but MuseScore applies it to the 4/4 layer</metaTag>
     <metaTag name="composer"></metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2020-04-07</metaTag>
@@ -232,6 +233,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -444,6 +446,12 @@
             <stretchN>3</stretchN>
             <stretchD>2</stretchD>
             </TimeSig>
+          <Tempo>
+            <tempo>2.2000000000000002</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 132</b></text>
+            </Tempo>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
