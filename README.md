@@ -70,7 +70,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |                      |
-|op03n04a |      23|     0|        |Kelsey Lussier                                                   |                      |
+|op03n04a |      23|    85|2.3.0   |Kelsey Lussier                                                   |                      |
 |op03n04b |      39|     0|        |                                                                 |                      |
 |op03n04c |      55|     0|        |                                                                 |                      |
 |op03n04d |      50|     0|        |                                                                 |                      |
