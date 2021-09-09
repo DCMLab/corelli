@@ -70,7 +70,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |                      |
-|op03n04a |      23|     0|        |Kelsey Lussier                                                   |                      |
+|op03n04a |      23|    85|2.3.0   |Kelsey Lussier                                                   |                      |
 |op03n04b |      39|     0|        |                                                                 |                      |
 |op03n04c |      55|     0|        |                                                                 |                      |
 |op03n04d |      50|     0|        |                                                                 |                      |
@@ -135,7 +135,7 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op04n06d |      28|     0|        |                                                                 |                      |
 |op04n06e |      10|     0|        |                                                                 |                      |
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                       |AN                    |
-|op04n06g |      30|     0|        |                                                                 |                      |
+|op04n06g |      30|    99|2.3.0   |Justin Franklin                                                  |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
 |op04n07b |      46|   104|2.3.0   |Justin Franklin                                                  |AN                    |
 |op04n07c |       6|    12|2.3.0   |Justin Franklin                                                  |JH                    |
