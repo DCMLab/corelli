@@ -400,7 +400,7 @@
             <tempo>1</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="Edwin"/> = 60</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 60</b></text>
             </Tempo>
           <Rest>
             <durationType>quarter</durationType>
@@ -4142,7 +4142,13 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>b.i</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>b.i{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4264,7 +4270,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4280,6 +4292,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -4494,7 +4507,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V65</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -4819,7 +4838,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -4838,7 +4863,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4922,7 +4953,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>I\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -4942,6 +4979,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5077,7 +5115,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>III+6(2)</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V7</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5098,6 +5142,11 @@
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III+6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
           <location>
             <fractions>1/4</fractions>
             </location>
@@ -5195,7 +5244,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5208,6 +5263,7 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -5684,7 +5740,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -5707,7 +5769,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>VI6</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>VI6{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -5961,6 +6029,15 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
+          <location>
+            <fractions>1/8</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            <color r="170" g="0" b="0" a="255"/>
             </Harmony>
           </voice>
         </Measure>
@@ -5968,7 +6045,13 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>i\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>i|PAC}{</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -6055,7 +6138,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V\\</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V|HC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <dots>1</dots>
