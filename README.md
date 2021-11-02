@@ -31,9 +31,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op01n05c |      30|    59|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n05d |      59|   117|2.3.0   |Lars Opfermann (2.1.1), Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)|AN                    |
 |op01n06a |      11|    44|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Victor Zheng (2.3.0)        |VZ, JH                |
-|op01n06b |      40|   182|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                |                      |
+|op01n06b |      40|   190|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                |VZ, JH                |
 |op01n06c |      38|    89|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                |VZ, JH                |
-|op01n06d |      69|   136|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n06d |      69|   131|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                |VZ, JH                |
 |op01n07a |      40|   151|2.1.1   |Kristine Kier Jørgensen                                          |                      |
 |op01n07b |      14|    56|2.1.1   |Cristiana Palandri                                               |                      |
 |op01n07c |      51|   164|2.1.1   |Cristiana Palandri                                               |                      |
@@ -94,9 +94,9 @@ It does not really matter where you place it, but MuseScore will put it within a
 |op03n09b |      28|   103|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09c |      38|    85|2.3.0   |John Heilig                                                      |AN                    |
 |op03n09d |      28|   121|2.3.0   |John Heilig                                                      |AN                    |
-|op03n10a |      14|     0|        |Tal Soker                                                        |                      |
+|op03n10a |      14|    49|2.3.0   |Tal Soker                                                        |JH                    |
 |op03n10b |      38|   145|2.3.0   |Tal Soker                                                        |                      |
-|op03n10c |      11|    24|2.3.0   |Tal Soker                                                        |                      |
+|op03n10c |      11|    25|2.3.0   |Tal Soker                                                        |JH                    |
 |op03n10d |      31|   108|2.3.0   |Tal Soker                                                        |                      |
 |op03n11a |      17|    68|2.3.0   |John Heilig                                                      |JH                    |
 |op03n11b |      39|   164|2.3.0   |John Heilig                                                      |AN                    |
