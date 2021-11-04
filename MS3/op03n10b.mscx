@@ -184,7 +184,7 @@
             <tempo>2.2999999999999998</tempo>
             <followText>1</followText>
             <visible>0</visible>
-            <text><b></b><font face="ScoreText"/><b><font face="FreeSerif"/> = 138</b></text>
+            <text><b></b><font face="ScoreText"></font><b><font face="FreeSerif"></font> = 138</b></text>
             </Tempo>
           <Rest>
             <durationType>eighth</durationType>
@@ -356,7 +356,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i}</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -574,7 +574,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i/v}</name>
+            <name>i/v|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -1605,6 +1605,10 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -2248,7 +2252,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio-V65</name>
+            <name>V65</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
