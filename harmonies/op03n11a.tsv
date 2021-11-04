@@ -9,8 +9,9 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 3	3	1/2	1/2	4/4	3	1	iv6(2)		g	i		iv6(2)	iv		6	2				m	1	1	-4, 0, 1		-1	-4
 3	3	3/4	3/4	4/4	3	1	iv6		g	i		iv6	iv		6					m	1	1	-4, 0, -1		-1	-4
 4	4	0	0	4/4	3	1	V|HC}		g	i		V	V					HC	}	M	1	1	1, 5, 2		1	1
-4	4	3/8	3/8	4/4	3	1	V{		g	i		V	V						{	M	1	1	1, 5, 2		1	1
+4	4	3/8	3/8	4/4	3	1	{		g	i									{		1	1				
 4	4	1/2	1/2	4/4	3	1	IV6(2)		g	i		IV6(2)	IV		6	2				M	1	1	3, 0, 1		-1	3
+4	4	5/8	5/8	4/4	3	1	IV6		g	i		IV6	IV		6					M	1	1	3, 0, -1		-1	3
 4	4	3/4	3/4	4/4	3	1	V65	#viio	g	i		V65	V		65					Mm7	1	1	5, 2, -1, 1		1	5
 5	5	0	0	4/4	3	1	i(4)		g	i		i(4)	i			4				m	1	1	0, -1, 1		0	0
 5	5	1/8	1/8	4/4	3	1	i		g	i		i	i							m	1	1	0, -3, 1		0	0
@@ -20,7 +21,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 5	5	3/4	3/4	4/4	3	1	V65/iv	#viio/iv	g	i		V65/iv	V		65		iv			Mm7	1	1	4, 1, -2, 0		0	4
 6	6	0	0	4/4	3	1	i(4)/iv		g	i		i(4)/iv	i			4	iv			m	1	1	-1, -2, 0		-1	-1
 6	6	1/8	1/8	4/4	3	1	i/iv		g	i		i/iv	i				iv			m	1	1	-1, -4, 0		-1	-1
-6	6	1/4	1/4	4/4	3	1	V2		g	i		V2	V		2					Mm7	1	1	-1, 1, 5, 2		1	-1
+6	6	1/2	1/2	4/4	3	1	V2		g	i		V2	V		2					Mm7	1	1	-1, 1, 5, 2		1	-1
 6	6	3/4	3/4	4/4	3	1	i6		g	i		i6	i		6					m	1	1	-3, 1, 0		0	-3
 7	7	0	0	4/4	3	1	ii7		g	i		ii7	ii		7					mm7	1	1	2, -1, 3, 0		2	2
 7	7	1/4	1/4	4/4	3	1	V7		g	i		V7	V		7					Mm7	1	1	1, 5, 2, -1		1	1
@@ -30,7 +31,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 8	8	0	0	4/4	3	1	iii6(2)		g	III		iii6(2)	iii		6	2				m	1	0	1, 5, -1		4	1
 8	8	1/4	1/4	4/4	3	1	iii6		g	III		iii6	iii		6					m	1	0	1, 5, 4		4	1
 8	8	3/8	3/8	4/4	3	1	I6		g	III		I6	I		6					M	1	0	4, 1, 0		0	4
-8	8	1/2	1/2	4/4	3	1	IV7		g	III		IV7	IV		7					Mm7	1	0	-1, 3, 0, -3		-1	-1
+8	8	1/2	1/2	4/4	3	1	IVM7		g	III		IVM7	IV	M	7					MM7	1	0	-1, 3, 0, 4		-1	-1
 8	8	3/4	3/4	4/4	3	1	viio7/V		g	III		viio7/V	vii	o	7		V			o7	1	0	6, 3, 0, -3		6	6
 9	9	0	0	4/4	3	1	V(4)		g	III		V(4)	V			4				M	1	0	1, 0, 2		1	1
 9	9	1/4	1/4	4/4	3	1	V		g	III		V	V							M	1	0	1, 5, 2		1	1
@@ -44,7 +45,7 @@ mc	mn	mc_onset	mn_onset	timesig	staff	voice	label	alt_label	globalkey	localkey	p
 11	11	1/4	1/4	4/4	3	1	VII7		g	iv		VII7	VII		7					Mm7	1	1	-2, 2, -1, -4		-2	-2
 11	11	1/2	1/2	4/4	3	1	IIIM7		g	iv		IIIM7	III	M	7					MM7	1	1	-3, 1, -2, 2		-3	-3
 11	11	3/4	3/4	4/4	3	1	VIM7		g	iv		VIM7	VI	M	7					MM7	1	1	-4, 0, -3, 1		-4	-4
-12	12	0	0	4/4	3	1	ii7		g	iv		ii7	ii		7					mm7	1	1	2, -1, 3, 0		2	2
+12	12	0	0	4/4	3	1	ii%7	ii7	g	iv		ii%7	ii	%	7					%7	1	1	2, -1, -4, 0		2	2
 12	12	1/4	1/4	4/4	3	1	V7		g	iv		V7	V		7					Mm7	1	1	1, 5, 2, -1		1	1
 12	12	1/2	1/2	4/4	3	1	i|IAC}		g	iv		i	i					IAC	}	m	1	1	0, -3, 1		0	0
 12	12	3/4	3/4	4/4	3	1	{		g	iv									{		1	1				
