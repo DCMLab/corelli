@@ -67,3 +67,25 @@ jobs:
           git add -A
           git commit -m "Automatically added TSV files from parse with ms3"
           git push
+      - name: Clone corpusstats
+        uses: actions/checkout@v2
+        with:
+          repository: DCMLab/corpus_statistics_generator
+          path: ./corpusstats
+          ref: main
+          token: ${{ secrets.MS3_BOT_MAINTENANCE  }}
+      - name: Install corpusstats
+        run: python -m pip install -e ./corpusstats
+      - name: Generate GitHub pages
+        working-directory: ./main
+        run: |
+          python .github/workflows/update_pages.py -g ${{ github.repository }} -t ${{ secrets.MS3_BOT_MAINTENANCE  }} -d tonicizations -o ../public
+      - name: Display generated files
+        working-directory: ./public
+        run: ls
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          enable_jekyll: true
