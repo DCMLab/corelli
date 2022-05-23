@@ -68,7 +68,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |                      |
-|op03n04a |      23|    85|2.3.0   |Kelsey Lussier                                                   |                      |
+|op03n04a |      23|   137|2.3.0   |Kelsey Lussier                                                   |JH                    |
 |op03n04b |      39|     0|        |                                                                 |                      |
 |op03n04c |      55|   114|2.3.0   |Yannis Rammos                                                    |JH                    |
 |op03n04d |      50|     0|        |                                                                 |                      |
