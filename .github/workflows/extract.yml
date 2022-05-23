@@ -24,7 +24,7 @@ jobs:
         run: |
           wget https://github.com/DCMLab/annotation_workflow_template/archive/refs/heads/main.zip
           unzip main.zip
-          cp -r annotation_workflow_template-main/. .
+          cp -r annotation_workflow_template-main/.github .
           rm -r annotation_workflow_template-main/
           rm main.zip
       - name: Configure git and push updated workflow

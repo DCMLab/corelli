@@ -46,12 +46,18 @@ def create_modulation_plan(data, task_column='semitones', sort_and_fill=True, ti
         title += f" ({globalkey})"
         if task_column == 'fifths':
             tonic = name2fifths(globalkey)
-            transposed = data.fifths + tonic
-            data.fifths = transform(transposed, fifths2name)
+            if tonic is not None:
+                transposed = data.fifths + tonic
+                data.fifths = transform(transposed, fifths2name)
+            else:
+                print(f"Invalid globalkey '{globalkey}', could not convert Y-axis to names.")
         elif task_column == 'semitones':
             tonic = name2pc(globalkey)
-            transposed = data.semitones + tonic
-            data.semitones = transform(transposed, midi2name)
+            if tonic is not None:
+                transposed = data.semitones + tonic
+                data.semitones = transform(transposed, midi2name)
+            else:
+                print(f"Invalid globalkey '{globalkey}', could not convert Y-axis to names.")
 
     ytitle = Y_AXIS
     if task_column in ('semitones', 'fifths'):
