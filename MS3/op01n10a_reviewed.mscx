@@ -102,6 +102,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -2059,7 +2060,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V4</name>
+            <name>V(4)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
