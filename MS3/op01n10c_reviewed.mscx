@@ -87,7 +87,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
-    <metaTag name="reviewers">AB</metaTag>
+    <metaTag name="reviewers">AB, AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -102,6 +102,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -3933,7 +3934,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>g.i</name>
+            <name>g.i{</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
@@ -3945,7 +3946,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%2</name>
+            <name>ii%2-ii2</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
@@ -4102,7 +4103,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.iio</name>
+            <name>i.ii</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Rest>
@@ -4152,7 +4153,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>ii%7</name>
+            <name>ii7-ii%7</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -4475,7 +4476,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio</name>
+            <name>#viio</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           </voice>
@@ -5273,6 +5274,11 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            <color r="0" g="85" b="0" a="255"/>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5312,7 +5318,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC}{</name>
+            <name>i|PAC}{</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -5482,7 +5488,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V7</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Beam>
@@ -5646,7 +5652,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i6(4)</name>
+            <name>i6(11)</name>
             <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
