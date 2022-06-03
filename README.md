@@ -34,7 +34,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n06d |      69|   131|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                |VZ, JH                |
 |op01n07a |      40|   151|2.1.1   |Kristine Kier Jørgensen                                          |                      |
 |op01n07b |      14|    56|2.1.1   |Cristiana Palandri                                               |                      |
-|op01n07c |      51|   164|2.1.1   |Cristiana Palandri                                               |                      |
+|op01n07c |      51|   174|2.3.0   |Cristiana Palandri (2.1.1), Victor Zheng (2.3.0)                 |VZ, AB                |
 |op01n08a |      16|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n08b |      20|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n08c |      27|   118|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
