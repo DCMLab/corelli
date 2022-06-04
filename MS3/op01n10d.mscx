@@ -105,10 +105,14 @@
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>0</midiChannel>
           </Channel>
         <Channel name="harmony">
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>1</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -124,6 +128,8 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>2</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -140,6 +146,14 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>3</midiChannel>
+          </Channel>
+        <Channel name="harmony">
+          <program value="0"/>
+          <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>5</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -156,6 +170,8 @@
         <Channel>
           <program value="0"/>
           <synti>Fluid</synti>
+          <midiPort>0</midiPort>
+          <midiChannel>4</midiChannel>
           </Channel>
         </Instrument>
       </Part>
@@ -1697,6 +1713,10 @@
           <Rest>
             <durationType>half</durationType>
             </Rest>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>g.i</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -1709,6 +1729,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1717,6 +1741,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>III</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -1729,6 +1757,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VII</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1737,6 +1769,10 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -1752,6 +1788,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1760,6 +1800,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>v6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -1776,6 +1820,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6(2)</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1787,6 +1835,20 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv6</name>
+            </Harmony>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iio6</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -1799,6 +1861,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1807,6 +1873,10 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>VI</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -1822,6 +1892,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>iv7</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
@@ -1830,6 +1904,10 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(4)</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>down</StemDirection>
@@ -1838,10 +1916,21 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V</name>
+            </Harmony>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>i|PAC}</name>
+            </Harmony>
           <Chord>
             <durationType>whole</durationType>
             <StemDirection>up</StemDirection>
@@ -1850,6 +1939,10 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>up</StemDirection>
