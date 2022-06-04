@@ -127,7 +127,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                    |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                    |AN                    |
-|op04n06a |       6|     0|        |                                                                 |                      |
+|op04n06a |       6|    22|        |                                                                 |Victor Zheng          |
 |op04n06b |      23|     0|        |                                                                 |                      |
 |op04n06c |       7|     0|        |                                                                 |                      |
 |op04n06d |      28|    57|        |                                                                 |Victor Zheng          |
