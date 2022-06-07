@@ -131,7 +131,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n06b |      23|     0|        |                                                                 |                      |
 |op04n06c |       7|    19|        |                                                                 |Victor Zheng          |
 |op04n06d |      28|    57|        |                                                                 |Victor Zheng          |
-|op04n06e |      10|     0|        |                                                                 |                      |
+|op04n06e |      10|    22|        |                                                                 |Victor Zheng          |
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                       |AN                    |
 |op04n06g |      30|    99|2.3.0   |Justin Franklin                                                  |                      |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                  |JH                    |
