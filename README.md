@@ -52,8 +52,8 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n11b |      34|   123|2.3.0   |Hanné Becker                                                     |JH                    |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
-|op01n12a |      19|     0|        |                                                                 |                      |
-|op01n12b |      36|     0|        |                                                                 |                      |
+|op01n12a |      19|    65|2.3.0   |Ehsan mohagheghi Fard                                            |                      |
+|op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                            |                      |
 |op01n12c |      13|    42|2.3.0   |Tomoko Ono                                                       |JH                    |
 |op01n12d |      62|   225|        |Ehsan Mohagheghi Fard                                            |AN                    |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
@@ -71,7 +71,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n04a |      23|   137|2.3.0   |Kelsey Lussier                                                   |JH                    |
 |op03n04b |      39|     0|        |                                                                 |                      |
 |op03n04c |      55|   114|2.3.0   |Yannis Rammos                                                    |JH                    |
-|op03n04d |      50|     0|        |                                                                 |                      |
+|op03n04d |      50|   171|2.3.0   |Ehsan Mohagheghi Fard                                            |AB                    |
 |op03n05a |      21|    87|2.3.0   |Mastaneh Nazarian (2.1.1), John Heilig (2.3.0)                   |                      |
 |op03n05b |      49|   176|2.3.0   |John Heilig                                                      |AN                    |
 |op03n05c |      36|    80|2.3.0   |John Heilig                                                      |AN                    |
@@ -85,7 +85,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n07c |      38|    92|2.3.0   |Hanné Becker                                                     |AN                    |
 |op03n07d |      28|    84|2.3.0   |Hanné Becker                                                     |AN                    |
 |op03n08a |      20|    90|2.3.0   |Matthew Chiu                                                     |JH                    |
-|op03n08b |      39|     0|        |                                                                 |                      |
+|op03n08b |      39|   149|2.3.0   |Ehsan Mohagheghi Fard                                            |                      |
 |op03n08c |      31|    74|2.3.0   |Matthew Chiu                                                     |AN                    |
 |op03n08d |      40|   135|2.3.0   |Matthew Chiu                                                     |AN                    |
 |op03n09a |      30|    69|2.3.0   |John Heilig                                                      |JH                    |
