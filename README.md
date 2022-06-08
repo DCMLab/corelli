@@ -47,7 +47,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n10b |      17|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n10c |      29|   104|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
 |op01n10d |      24|    54|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
-|op01n10e |      84|   137|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                      |                      |
+|op01n10e |      84|   139|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)         |AB, AN                |
 |op01n11a |      18|    60|2.3.0   |Hanné Becker                                                     |JH                    |
 |op01n11b |      34|   123|2.3.0   |Hanné Becker                                                     |JH                    |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |AN                    |
