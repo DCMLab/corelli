@@ -60,7 +60,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n01b |      37|   149|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN, AW                |
 |op03n01c |      61|   117|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.1), AW (2.3.0)|
 |op03n01d |      40|   158|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.1), AW (2.3.0)|
-|op03n02a |      19|    68|2.1.1   |Moritz Heffter                                                   |                      |
+|op03n02a |      19|    68|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                      |AB, ST                |
 |op03n02b |      31|   117|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02c |      40|    91|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02d |      43|   118|2.1.1   |Moritz Heffter                                                   |                      |
