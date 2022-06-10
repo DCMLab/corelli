@@ -64,7 +64,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n02b |      31|   117|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02c |      40|    91|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n02d |      43|   118|2.1.1   |Moritz Heffter                                                   |                      |
-|op03n03a |      16|    58|2.1.1   |Moritz Heffter                                                   |                      |
+|op03n03a |      16|    59|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                      |AB                    |
 |op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |                      |
