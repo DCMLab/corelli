@@ -69,7 +69,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n03d |      60|   231|2.1.1   |Moritz Heffter                                                   |                      |
 |op03n04a |      23|   137|2.3.0   |Kelsey Lussier                                                   |JH                    |
-|op03n04b |      39|     0|        |                                                                 |                      |
+|op03n04b |      39|   138|2.3.0   |Ehsan Mohagheghi Fard                                            |DK                    |
 |op03n04c |      55|   114|2.3.0   |Yannis Rammos                                                    |JH                    |
 |op03n04d |      50|   171|2.3.0   |Ehsan Mohagheghi Fard                                            |AB                    |
 |op03n05a |      21|    87|2.3.0   |Mastaneh Nazarian (2.1.1), John Heilig (2.3.0)                   |                      |
