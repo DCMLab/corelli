@@ -115,10 +115,10 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n02b |      22|   111|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n02c |       5|     9|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n02d |      57|   125|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
-|op04n03a |      18|    88|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03b |      48|    96|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03c |      16|    41|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03d |      41|   148|2.1.1   |Lydia Carlisi                                                    |                      |
+|op04n03a |      18|    90|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03b |      48|    87|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03c |      16|    37|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03d |      41|   136|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
 |op04n04a |      20|    68|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
 |op04n04b |      41|    79|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04c |      17|    96|2.1.1   |Lydia Carlisi                                                    |                      |
