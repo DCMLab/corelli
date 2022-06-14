@@ -119,7 +119,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n03b |      48|    96|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n03c |      16|    41|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n03d |      41|   148|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n04a |      20|    65|2.1.1   |Lydia Carlisi                                                    |                      |
+|op04n04a |      20|    68|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
 |op04n04b |      41|    79|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04c |      17|    96|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04d |      31|   107|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, AB                |
