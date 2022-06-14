@@ -5,9 +5,14 @@ on: pull_request
 
 jobs:
   compare:
+    if: github.actor != 'ms3-bot'
     runs-on: ubuntu-latest
-
     steps:
+      - name: Output context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
       - name: Checkout PR
         uses: actions/checkout@v2
         with:
@@ -38,6 +43,12 @@ jobs:
         working-directory: ./main
         run: |
           ms3 compare -f ${HOME}/files_modified.json
+      - name: Generate modulation plans
+        working-directory: ./main
+        continue-on-error: true
+        run: |
+          python -m pip install plotly
+          python .github/workflows/gantt.py -f ${HOME}/files_modified.json
       - name: Commit comparison files
         working-directory: ./main
         continue-on-error: true
