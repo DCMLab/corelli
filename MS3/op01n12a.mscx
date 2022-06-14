@@ -87,6 +87,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">AN</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -102,6 +103,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -2372,7 +2374,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/V{</name>
+            <name>{</name>
             </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
