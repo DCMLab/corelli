@@ -52,8 +52,8 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n11b |      34|   123|2.3.0   |Hanné Becker                                                     |JH                    |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
-|op01n12a |      19|    65|2.3.0   |Ehsan mohagheghi Fard                                            |                      |
-|op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                            |                      |
+|op01n12a |      19|    64|2.3.0   |Ehsan mohagheghi Fard                                            |AN                    |
+|op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                            |AN                    |
 |op01n12c |      13|    42|2.3.0   |Tomoko Ono                                                       |JH                    |
 |op01n12d |      62|   225|        |Ehsan Mohagheghi Fard                                            |AN                    |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)               |AN (2.1.0), AW (2.3.0)|
@@ -79,7 +79,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n06a |      33|   119|2.3.0   |Kyle Quarles                                                     |AN                    |
 |op03n06b |      14|    54|2.3.0   |Kyle Quarles                                                     |JH                    |
 |op03n06c |      38|   154|2.3.0   |Kyle Quarles                                                     |                      |
-|op03n06d |      41|     0|        |                                                                 |                      |
+|op03n06d |      41|   179|2.3.0   |Ehsan Mohagheghi Fard                                            |DK                    |
 |op03n07a |      20|    76|2.3.0   |Hanné Becker                                                     |JH                    |
 |op03n07b |      35|   131|2.3.0   |Hanné Becker                                                     |AN                    |
 |op03n07c |      38|    92|2.3.0   |Hanné Becker                                                     |AN                    |
@@ -115,10 +115,10 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n02b |      22|   111|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n02c |       5|     9|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
 |op04n02d |      57|   125|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, JH                |
-|op04n03a |      18|    88|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03b |      48|    96|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03c |      16|    41|2.1.1   |Lydia Carlisi                                                    |                      |
-|op04n03d |      41|   148|2.1.1   |Lydia Carlisi                                                    |                      |
+|op04n03a |      18|    90|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03b |      48|    87|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03c |      16|    37|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
+|op04n03d |      41|   136|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
 |op04n04a |      20|    68|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                      |AN, DK                |
 |op04n04b |      41|    79|2.1.1   |Lydia Carlisi                                                    |                      |
 |op04n04c |      17|    96|2.1.1   |Lydia Carlisi                                                    |                      |
