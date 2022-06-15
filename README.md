@@ -85,7 +85,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n07c |      38|    92|2.3.0   |Hanné Becker                                                     |AN                    |
 |op03n07d |      28|    84|2.3.0   |Hanné Becker                                                     |AN                    |
 |op03n08a |      20|    90|2.3.0   |Matthew Chiu                                                     |JH                    |
-|op03n08b |      39|   149|2.3.0   |Ehsan Mohagheghi Fard                                            |                      |
+|op03n08b |      39|   153|2.3.0   |Ehsan Mohagheghi Fard                                            |DK                    |
 |op03n08c |      31|    74|2.3.0   |Matthew Chiu                                                     |AN                    |
 |op03n08d |      40|   135|2.3.0   |Matthew Chiu                                                     |AN                    |
 |op03n09a |      30|    69|2.3.0   |John Heilig                                                      |JH                    |
