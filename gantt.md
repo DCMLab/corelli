@@ -68,6 +68,7 @@
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n06a.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n06b.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n06c.html" height="600" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n06d.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n07a.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n07b.html" height="600" width="100%"></iframe>
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="gantt/op03n07c.html" height="600" width="100%"></iframe>
