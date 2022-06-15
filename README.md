@@ -52,7 +52,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n11b |      34|   123|2.3.0   |Hanné Becker                                                     |JH                    |
 |op01n11c |      33|    79|2.3.0   |Hanné Becker                                                     |AN                    |
 |op01n11d |      18|    81|2.3.0   |Hanné Becker                                                     |AN                    |
-|op01n12a |      19|    65|2.3.0   |Ehsan mohagheghi Fard                                            |                      |
+|op01n12a |      19|    64|2.3.0   |Ehsan mohagheghi Fard                                            |AN                    |
 |op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                            |                      |
 |op01n12c |      13|    42|2.3.0   |Tomoko Ono                                                       |JH                    |
 |op01n12d |      62|   225|        |Ehsan Mohagheghi Fard                                            |AN                    |
