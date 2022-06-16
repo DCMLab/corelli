@@ -2588,6 +2588,10 @@
         </Measure>
       <Measure>
         <voice>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <StemDirection>down</StemDirection>
@@ -2712,7 +2716,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I/V</name>
+            <name>I/V|PAC}</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -2729,7 +2733,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V</name>
+            <name>V{</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
