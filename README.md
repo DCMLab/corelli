@@ -36,7 +36,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n07b |      14|    57|2.1.1   |Cristiana Palandri                                                |Victor Zheng, AN      |
 |op01n07c |      51|   174|2.3.0   |Cristiana Palandri (2.1.1), Victor Zheng (2.3.0)                  |VZ, AB                |
 |op01n08a |      16|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
-|op01n08b |      20|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
+|op01n08b |      20|    76|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n08c |      27|   118|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
 |op01n08d |      39|    70|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
 |op01n09a |      39|    45|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
