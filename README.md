@@ -38,7 +38,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n08a |      16|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n08b |      20|    76|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n08c |      27|   118|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
-|op01n08d |      39|    70|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
+|op01n08d |      39|    71|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n09a |      39|    45|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n09b |      37|   147|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
 |op01n09c |      36|    74|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
