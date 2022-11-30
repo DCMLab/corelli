@@ -52,6 +52,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed and added files
+        continue-on-error: true
         run: |
           cat ${HOME}/files_modified.json
           cat ${HOME}/files_added.json

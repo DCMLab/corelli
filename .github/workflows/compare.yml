@@ -38,6 +38,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
+        continue-on-error: true
         run: cat ${HOME}/files_modified.json
       - name: Run ms3 compare
         working-directory: ./main
