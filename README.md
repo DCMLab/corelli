@@ -78,7 +78,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n05d |      33|   125|2.3.0   |John Heilig                                                       |AN                    |
 |op03n06a |      33|   119|2.3.0   |Kyle Quarles                                                      |AN                    |
 |op03n06b |      14|    54|2.3.0   |Kyle Quarles                                                      |JH                    |
-|op03n06c |      38|   154|2.3.0   |Kyle Quarles                                                      |                      |
+|op03n06c |      38|   150|2.3.0   |Kyle Quarles                                                      |AN                    |
 |op03n06d |      41|   179|2.3.0   |Ehsan Mohagheghi Fard                                             |DK                    |
 |op03n07a |      20|    76|2.3.0   |Hanné Becker                                                      |JH                    |
 |op03n07b |      35|   131|2.3.0   |Hanné Becker                                                      |AN                    |
