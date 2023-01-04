@@ -150,12 +150,14 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Lars Opfermann, Ya-Chuan Wu (2.1.1), Victor Zheng (2.3.0)</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="composed_end">1681</metaTag>
+    <metaTag name="composed_start">1681</metaTag>
     <metaTag name="composer">Corelli, Arcangelo</metaTag>
     <metaTag name="copyright">Copyright 1994, Center for Computer Assisted Research in the Humanities</metaTag>
     <metaTag name="creationDate">2018-10-12</metaTag>
     <metaTag name="electronic editor">W.B. Hewlett</metaTag>
     <metaTag name="electronic encoder">Frances Bennion &amp; Steven Rasmussen</metaTag>
-    <metaTag name="harmony_version">2.1.1</metaTag>
+    <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber">Movement 1.</metaTag>
     <metaTag name="movementTitle">Grave</metaTag>
@@ -163,6 +165,7 @@
     <metaTag name="originalFormat">xml</metaTag>
     <metaTag name="platform">Microsoft Windows</metaTag>
     <metaTag name="poet"></metaTag>
+    <metaTag name="reviewers">VZ, JH</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
@@ -207,6 +210,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -259,6 +263,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -307,6 +312,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="48"/>
           <controller ctrl="10" value="63"/>
@@ -393,10 +399,11 @@
             <sigD>4</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>0.59999999999999998</tempo>
+            <tempo>0.83333333333333337</tempo>
             <followText>1</followText>
+            <visible>0</visible>
             <offset x="-3.35" y="-4.91946"/>
-            <text><sym>metNoteQuarterUp</sym> = 36</text>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 50</b></text>
             </Tempo>
           <Chord>
             <durationType>quarter</durationType>
@@ -2116,7 +2123,7 @@
             </TimeSig>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>b.i</name>
+            <name>b.i{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2182,7 +2189,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6(2)</name>
+            <name>V6(2)/III</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -2205,7 +2212,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>VII6</name>
+            <name>V6/III</name>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
@@ -2414,7 +2421,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V\\</name>
+            <name>V|HC}{</name>
             </Harmony>
           <Chord>
             <dots>1</dots>
@@ -2825,7 +2832,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2837,7 +2844,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i</name>
+            <name>i{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2868,7 +2875,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i.VIM65</name>
+            <name>i.IVM65/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2887,7 +2894,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>iio</name>
+            <name>viio/III</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -2952,7 +2959,7 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V65/VII</name>
+            <name>IV65</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -3081,7 +3088,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i\\</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
