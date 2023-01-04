@@ -141,7 +141,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n07e |      27|    92|2.3.0   |Justin Franklin                                                   |AN                    |
 |op04n08a |      38|    94|2.3.0   |Kevin Davis                                                       |AN, JH                |
 |op04n08b |      23|    88|2.3.0   |Kevin Davis                                                       |JH                    |
-|op04n08c |      16|    41|2.3.0   |Kevin Davis                                                       |                      |
+|op04n08c |      16|    41|2.3.0   |Kevin Davis                                                       |AN, JH                |
 |op04n09a |      13|    77|2.3.0   |Victor Zheng                                                      |AN                    |
 |op04n09b |      44|   103|2.3.0   |Victor Zheng                                                      |AN                    |
 |op04n09c |      12|    49|2.3.0   |Victor Zheng                                                      |JH                    |
