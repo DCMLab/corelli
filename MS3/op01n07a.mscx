@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -6328,14 +6328,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC</name>
+            <name>I}</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|IAC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -6647,7 +6647,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6|IAC</name>
+            <name>I6}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -6662,7 +6662,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I}</name>
+            <name>I|IAC</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -6775,7 +6775,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6790,14 +6790,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|IAC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V2{</name>
+            <name>I.V2</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6817,7 +6817,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6876,7 +6876,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -6891,7 +6891,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|PAC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7271,7 +7271,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7286,11 +7286,15 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}{</name>
+            <name>|IAC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -7324,7 +7328,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V|HC</name>
+            <name>V}</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -7334,7 +7338,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|HC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
@@ -7625,7 +7629,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>i|PAC}{</name>
+            <name>i|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -7636,7 +7640,14 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/4</fractions>
+            <fractions>-7/16</fractions>
+            </location>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>{</name>
+            </Harmony>
+          <location>
+            <fractions>3/16</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
@@ -7804,7 +7815,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC}</name>
+            <name>I}</name>
             </Harmony>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -7817,6 +7828,10 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>|IAC</name>
+            </Harmony>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -8054,7 +8069,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC</name>
+            <name>I|PAC}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8069,14 +8084,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>{</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>IV6{</name>
+            <name>IV6</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8118,7 +8133,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|IAC</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8133,14 +8148,14 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|IAC</name>
             </Harmony>
           <location>
             <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I.V2{</name>
+            <name>I.V2</name>
             </Harmony>
           <Rest>
             <durationType>quarter</durationType>
@@ -8151,7 +8166,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I6</name>
+            <name>I6{</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -8210,7 +8225,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>I|PAC</name>
+            <name>I}</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -8225,7 +8240,7 @@
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>}</name>
+            <name>|PAC</name>
             </Harmony>
           <location>
             <fractions>3/8</fractions>
@@ -9055,7 +9070,7 @@
               </Note>
             </Chord>
           <FiguredBass>
-            <ticks>3/16</ticks>
+            <ticks>1/8</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>7</digit>
@@ -9070,11 +9085,11 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/16</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <FiguredBass>
             <onNote>0</onNote>
-            <ticks>1/16</ticks>
+            <ticks>1/8</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
