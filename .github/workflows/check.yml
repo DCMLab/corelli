@@ -21,6 +21,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display changed files
+        continue-on-error: true
         run: |
           echo "${{ steps.modified.outputs.modified }}"
           echo "${{ join(steps.modified.outputs.modified) }}"
