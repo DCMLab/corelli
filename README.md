@@ -32,7 +32,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n06b |      40|   190|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                 |VZ, JH                |
 |op01n06c |      38|    89|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                 |VZ, JH                |
 |op01n06d |      69|   131|2.3.0   |Lars Opfermann, Ya-Chuan Wu, Victor Zheng (2.3.0)                 |VZ, JH                |
-|op01n07a |      40|   153|2.1.1   |Kristine Kier Jørgensen                                           |                      |
+|op01n07a |      40|   161|2.3.0   |Kristine Kier Jørgensen (2.1.1), Victor Zheng (2.3.0)             |VZ, JH                |
 |op01n07b |      14|    57|2.3.0   |Cristiana Palandri (2.1.1), Victor Zheng (2.3.0)                  |VZ, AN, JH            |
 |op01n07c |      51|   174|2.3.0   |Cristiana Palandri (2.1.1), Victor Zheng (2.3.0)                  |VZ, AB                |
 |op01n08a |      16|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
