@@ -40,7 +40,7 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n08c |      27|   119|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n08d |      39|    71|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n09a |      39|    45|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
-|op01n09b |      37|   147|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
+|op01n09b |      37|   153|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, VZ               |
 |op01n09c |      36|    74|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n09d |      54|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n10a |      12|    45|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
