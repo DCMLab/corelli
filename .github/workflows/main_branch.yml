@@ -1,0 +1,32 @@
+name: Push to main branch
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  ms3_review:
+    if: >
+      contains(github.event.head_commit.message,'dcml_corpus_workflow')
+      || (github.actor != 'ms3-bot' && github.event.pusher.name != 'github-actions[bot]')
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout corpus repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.MS3_BOT_TOKEN }}
+          path: ${{ github.event.repository.name }}
+
+      - name: Run 'ms3 review' via dcml_corpus_workflow action
+        uses: DCMLab/dcml_corpus_workflow@v2.5.6 # Uses an action in the root directory
+        id: act_docker
+        with:
+          ms3-command: "push_to_main"
+        env:
+          Token: "${{ secrets.MS3_BOT_TOKEN }}"
+          commitFrom: "${{ github.event.before }}"
+          comment_msg: ""
+          directory: "${{ github.workspace }}"
+          working_dir: ${{ github.event.repository.name }}
