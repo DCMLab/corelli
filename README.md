@@ -184,6 +184,8 @@ on the International Music Score Library Project (IMSLP) which are included in t
 | 3    | Corelli op. 3 12 Triosonaten - Partitur.pdf | https://imslp.org/wiki/Special:ReverseLookup/1689 |
 | 4    | Corelli op. 4 12 Triosonaten - Partitur.pdf | https://imslp.org/wiki/Special:ReverseLookup/1690 |
 
+(The scan of op. 3 is missing page 46, corresponding to `op03n12a`)
+
 Whenever pitches, bass figures or their placement were obviously wrong they have been corrected based on the 
 Rome princeps editions.
 
