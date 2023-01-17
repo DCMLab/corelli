@@ -262,7 +262,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op03n03a |      16|    59|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB                    |
 |op03n03b |      32|    62|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
 |op03n03c |      23|   137|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
-|op03n03d |      60|   240|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |                      |
+|op03n03d |      60|   240|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
 |op03n04a |      23|   137|2.3.0   |Kelsey Lussier                                                    |JH                    |
 |op03n04b |      39|   138|2.3.0   |Ehsan Mohagheghi Fard                                             |DK                    |
 |op03n04c |      55|   114|2.3.0   |Yannis Rammos                                                     |JH                    |
@@ -322,11 +322,11 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                     |AN                    |
-|op04n06a |       6|    22|        |Adrian Nagel                                                      |Victor Zheng          |
-|op04n06b |      23|    41|        |Adrian Nagel                                                      |Victor Zheng          |
-|op04n06c |       7|    19|        |Adrian Nagel                                                      |Victor Zheng          |
-|op04n06d |      28|    57|        |Adrian Nagel                                                      |Victor Zheng          |
-|op04n06e |      10|    22|        |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06a |       6|    22|2.3.0   |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06b |      23|    41|2.3.0   |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06c |       7|    19|2.3.0   |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06d |      28|    57|2.3.0   |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06e |      10|    22|2.3.0   |Adrian Nagel                                                      |Victor Zheng          |
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                        |AN                    |
 |op04n06g |      30|    94|2.3.0   |Justin Franklin                                                   |JH                    |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                   |JH                    |
