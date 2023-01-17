@@ -1,31 +1,9 @@
 Warnings encountered during the last execution of ms3 review (v1.1.2)
 =====================================================================
 
-WARNING  ms3.Parse.corelli.op01n09d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 440) start_section():
-	The startRepeat in MC 51 is missing its endRepeat.
-	For correction, MC 54 is interpreted as such because it is the last bar of the piece..
-COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigD') ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
-	mc 1: The values ['8' '2'] in 'voice/TimeSig/sigD' of 
-	 'staff' [2, 3] are lost.
-COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigN') ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
-	mc 1: The values ['12' '2'] in 'voice/TimeSig/sigN' of 
-	 'staff' [2, 3] are lost.
 WARNING  ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 627) squash_staves():
 	mc 1: The missing value in 'voice/TimeSig/subtype' was replaced by '2', present in 'staff' [3].
-WARNING  ms3.Parse.corelli.op03n12b -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1135) _get_metadata():
-	Score properties contain a superfluous key called 'annotator'. Please merge with the value for 'annotators' and delete.
-COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigD') ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
-	mc 1: The values ['8' '4'] in 'voice/TimeSig/sigD' of 
-	 'staff' [2, 3] are lost.
-COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigN') ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
-	mc 1: The values ['12' '4'] in 'voice/TimeSig/sigN' of 
-	 'staff' [2, 3] are lost.
-MISSING_TIME_SIGNATURE_WARNING (23,) ms3.Parse.corelli.op04n07c -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 797) make_timesig_col():
-	No time signature specified. Wild-guessing it's the default 4/4.
-WARNING  ms3.Parse.corelli.op04n07c -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 440) start_section():
-	The startRepeat in MC 1 is missing its endRepeat.
-	For correction, MC 6 is interpreted as such because it is the last bar of the piece..
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n02d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n02d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             8a         }
@@ -68,7 +46,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n02d -- /usr/local/
 	          116b         {           113b         }
 	           NaN       NaN           115b         }
 	           NaN       NaN           117b         }
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n03d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n03d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -94,13 +72,13 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n03d -- /usr/local/
 	           89a         {            95a        }{
 	           92a         {            97a         }
 	           95a        }{            NaN       NaN
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 7: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
-	MC 7: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 37: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
-	MC 37: #vii in major context corrected to vii.
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 34: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 34: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
 	MC 34: #vii in major context corrected to vii.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n11a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 7: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
+	MC 7: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 37: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
+	MC 37: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n11a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             3a         }
@@ -108,9 +86,9 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n11a -- /usr/local/
 	            6a         {            11a         }
 	           11a         {            15a         }
 	           NaN       NaN            18a         }
-DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 9: ') ms3.Parse.corelli.op01n11b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 9: ') ms3.Parse.corelli.op01n11b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4082) features2tpcs():
 	MC 9: #vii in major context corrected to vii.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n02a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n02a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -122,7 +100,7 @@ DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.corelli.op03n05b -- /usr/local/lib/p
 	Score contains 1 labels that don't (and 175 that do) match the DCML standard:
 	    mc  mn          label harmony_layer
 	70  20  20  empty_harmony             1
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            9a         {             8a         }
@@ -135,7 +113,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d -- /usr/local/
 	           28b         {            21b         }
 	           NaN       NaN            28b         }
 	           NaN       NaN            31b         }
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n12g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n12g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	           10a         {            10a         }
@@ -160,7 +138,7 @@ WARNING  ms3.Parse.corelli.op04n05a -- /usr/local/lib/python3.10/site-packages/m
 	The following labels do not match the regEx:
 	    mc  mn mc_onset mn_onset timesig  staff  voice harmony_layer label
 	11   3   3      7/8      7/8     4/4      4      1             1
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06f -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06f -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             5a         }
@@ -177,7 +155,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06f -- /usr/local/
 	           21b         {            NaN       NaN
 WARNING  ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
 	MC 13: 42 is not a valid chord inversion.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             4a         }
@@ -206,7 +184,7 @@ DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06g -- /usr/local/
 	           28b        }{            NaN       NaN
 WARNING  ms3.Parse.corelli.op04n09d -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
 	MC 44: 42 is not a valid chord inversion.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n10e -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n10e -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5032) check_phrase_annotations():
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
 	            1a         {             8a         }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision></programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -76,22 +76,22 @@
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1681</metaTag>
     <metaTag name="composed_start">1681</metaTag>
-    <metaTag name="composer"></metaTag>
-    <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">2018-12-18</metaTag>
+    <metaTag name="composer">Arcangelo Corelli</metaTag>
+    <metaTag name="copyright">CC BY-NC-SA 4.0; CCARH; DCML</metaTag>
+    <metaTag name="creationDate"></metaTag>
     <metaTag name="harmony_version">2.3.0</metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="movementNumber">4</metaTag>
+    <metaTag name="movementTitle">Allegro - Adagio</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
-    <metaTag name="platform">Linux</metaTag>
+    <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="reviewers">EMF, DK</metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="workNumber">op. 1, no. 9</metaTag>
+    <metaTag name="workTitle">Sonata da chiesa</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -1314,7 +1314,7 @@
       <Measure>
         <voice>
           <SystemText>
-            <offset x="-0.521267" y="-6.99728"/>
+            <offset x="-3.75689" y="-3.57132"/>
             <text>Adagio</text>
             </SystemText>
           <Rest>
@@ -2000,7 +2000,6 @@
           </voice>
         </Measure>
       <Measure>
-        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2016,10 +2015,12 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <startRepeat/>
         <voice>
           <TimeSig>
             <subtype>1</subtype>
@@ -2027,7 +2028,7 @@
             <sigD>4</sigD>
             </TimeSig>
           <SystemText>
-            <offset x="0" y="-7.38823"/>
+            <offset x="0" y="-2.91545"/>
             <text>Adagio</text>
             </SystemText>
           <Rest>
@@ -4119,6 +4120,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -5477,6 +5481,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -6894,6 +6901,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
