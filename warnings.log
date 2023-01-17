@@ -1,0 +1,325 @@
+Warnings encountered during the last execution of ms3 review (v1.1.2)
+=====================================================================
+
+WARNING  ms3.Parse.corelli.op01n09d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 440) start_section():
+	The startRepeat in MC 51 is missing its endRepeat.
+	For correction, MC 54 is interpreted as such because it is the last bar of the piece..
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigD') ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
+	mc 1: The values ['8' '2'] in 'voice/TimeSig/sigD' of 
+	 'staff' [2, 3] are lost.
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigN') ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
+	mc 1: The values ['12' '2'] in 'voice/TimeSig/sigN' of 
+	 'staff' [2, 3] are lost.
+WARNING  ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 627) squash_staves():
+	mc 1: The missing value in 'voice/TimeSig/subtype' was replaced by '2', present in 'staff' [3].
+WARNING  ms3.Parse.corelli.op03n12b -- /usr/local/lib/python3.10/site-packages/ms3/bs4_parser.py (line 1135) _get_metadata():
+	Score properties contain a superfluous key called 'annotator'. Please merge with the value for 'annotators' and delete.
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigD') ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
+	mc 1: The values ['8' '4'] in 'voice/TimeSig/sigD' of 
+	 'staff' [2, 3] are lost.
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/sigN') ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 633) squash_staves():
+	mc 1: The values ['12' '4'] in 'voice/TimeSig/sigN' of 
+	 'staff' [2, 3] are lost.
+MISSING_TIME_SIGNATURE_WARNING (23,) ms3.Parse.corelli.op04n07c -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 797) make_timesig_col():
+	No time signature specified. Wild-guessing it's the default 4/4.
+WARNING  ms3.Parse.corelli.op04n07c -- /usr/local/lib/python3.10/site-packages/ms3/bs4_measures.py (line 440) start_section():
+	The startRepeat in MC 1 is missing its endRepeat.
+	For correction, MC 6 is interpreted as such because it is the last bar of the piece..
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n02d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            11a         }
+	           11a         {            16a         }
+	           16a         {            20a         }
+	           20a         {            23a        }{
+	           23a        }{            29a         }
+	           30a         {            39a         }
+	           39a         {            46a         }
+	           47a         {            56a         }
+	           57a         {            60a         }
+	           61a         {            64a         }
+	           64a         {            70a         }
+	           70a         {            73a         }
+	           85a         {            85a         }
+	           93a         {            92a         }
+	          101a         {           100a         }
+	          104a         {           104a         }
+	          113a         {           113a         }
+	          116a         {           115a         }
+	            1b         {           117a         }
+	            9b         {             8b         }
+	           11b         {            11b         }
+	           16b         {            16b         }
+	           20b         {            20b         }
+	           23b        }{            23b        }{
+	           30b         {            29b         }
+	           39b         {            39b         }
+	           47b         {            46b         }
+	           57b         {            56b         }
+	           61b         {            60b         }
+	           64b         {            64b         }
+	           70b         {            70b         }
+	           85b         {            73b         }
+	           93b         {            85b         }
+	          101b         {            92b         }
+	          104b         {           100b         }
+	          113b         {           104b         }
+	          116b         {           113b         }
+	           NaN       NaN           115b         }
+	           NaN       NaN           117b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n03d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             7a         }
+	            8a         {            11a         }
+	           12a         {            15a        }{
+	           15a        }{            18a         }
+	           19a         {            21a         }
+	           22a         {            25a         }
+	           26a         {            32a         }
+	           33a         {            37a         }
+	           38a         {            41a         }
+	           42a         {            45a         }
+	           46a         {            49a         }
+	           50a         {            53a         }
+	           54a         {            57a        }{
+	           57a        }{            67a        }{
+	           67a        }{            72a        }{
+	           72a        }{            78a        }{
+	           78a        }{            81a         }
+	           82a         {            84a         }
+	           85a         {            88a         }
+	           89a         {            95a        }{
+	           92a         {            97a         }
+	           95a        }{            NaN       NaN
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 7: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 7: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 37: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 37: #vii in major context corrected to vii.
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 34: ') ms3.Parse.corelli.op01n06b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 34: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op01n11a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             3a         }
+	            4a         {             6a         }
+	            6a         {            11a         }
+	           11a         {            15a         }
+	           NaN       NaN            18a         }
+DCML_DEFAULT_CORRECTION_WARNING (27, 'MC 9: ') ms3.Parse.corelli.op01n11b -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4066) features2tpcs():
+	MC 9: #vii in major context corrected to vii.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n02a -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            5a         {             8a         }
+	           12a        }{            12a        }{
+	           17a        }{            17a        }{
+	           NaN       NaN            19a         }
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.corelli.op03n05b -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 1 labels that don't (and 175 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	70  20  20  empty_harmony             1
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            9a         {             8a         }
+	           14a         {             8b         }
+	           21a         {            14a         }
+	           28a         {            21a         }
+	            9b         {            28a         }
+	           14b         {            31a         }
+	           21b         {            14b         }
+	           28b         {            21b         }
+	           NaN       NaN            28b         }
+	           NaN       NaN            31b         }
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n12g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	           10a         {            10a         }
+	           17a        }{            17a        }{
+	           21a         {            21a         }
+	           28a         {            28a         }
+	           33a         {            33a         }
+	           37a         {            37a         }
+	           42a         {            42a         }
+	           45a         {            45a         }
+	           10b         {            46a         }
+	           17b        }{            10b         }
+	           21b         {            17b        }{
+	           28b         {            21b         }
+	           33b         {            28b         }
+	           37b         {            33b         }
+	           42b         {            37b         }
+	           45b         {            42b         }
+	           NaN       NaN            45b         }
+	           NaN       NaN            46b         }
+WARNING  ms3.Parse.corelli.op04n05a -- /usr/local/lib/python3.10/site-packages/ms3/expand_dcml.py (line 222) split_labels():
+	The following labels do not match the regEx:
+	    mc  mn mc_onset mn_onset timesig  staff  voice harmony_layer label
+	11   3   3      7/8      7/8     4/4      4      1             1
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06f -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             5a         }
+	            5a         {             8a         }
+	            1b         {             5b         }
+	            5b         {             8b         }
+	            9a         {            13a        }{
+	           13a        }{            20a         }
+	           16a         {            25a         }
+	           21a         {            13b        }{
+	            9b         {            20b         }
+	           13b        }{            25b         }
+	           16b         {            NaN       NaN
+	           21b         {            NaN       NaN
+WARNING  ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 13: 42 is not a valid chord inversion.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06g -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             4a         }
+	            4a         {             6a         }
+	            6a         {            10a        }{
+	           10a        }{            13a         }
+	           10a         {            14a         }
+	           13a         {             4b         }
+	            1b         {             6b         }
+	            4b         {            10b        }{
+	            6b         {            13b         }
+	           10b        }{            14b         }
+	           10b         {            16a         }
+	           13b         {            18a         }
+	           15a         {            20a         }
+	           17a         {            22a        }{
+	           19a         {            28a        }{
+	           21a         {            30a         }
+	           22a        }{            16b         }
+	           28a        }{            18b         }
+	           15b         {            20b         }
+	           17b         {            22b        }{
+	           19b         {            28b        }{
+	           21b         {            30b         }
+	           22b        }{            NaN       NaN
+	           28b        }{            NaN       NaN
+WARNING  ms3.Parse.corelli.op04n09d -- /usr/local/lib/python3.10/site-packages/ms3/transformations.py (line 304) compute_chord_tones():
+	MC 44: 42 is not a valid chord inversion.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n10e -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 5016) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            12a         }
+	           13a         {            18a         }
+	           19a         {            24a         }
+	            1b         {             8b         }
+	            9b         {            12b         }
+	           13b         {            18b         }
+	           19b         {            24b         }
+	           25a         {            32a         }
+	           33a         {            34a         }
+	           35a         {            40a         }
+	           25b         {            48a         }
+	           33b         {            32b         }
+	           35b         {            34b         }
+	           NaN       NaN            40b         }
+	           NaN       NaN            48b         }
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                           mc  mn mc_onset        label        chord_tones added_tones  n_colored  n_untouched  count_ratio
+corelli MS3/op01n01d.mscx  78  78      1/2         iii6          (0, 4, 3)          ()        4.0          2.0     0.666667
+        MS3/op01n02b.mscx  25  25      1/4            V         (6, 10, 7)          ()        2.0          1.0     0.666667
+        MS3/op01n04b.mscx   2   2      1/2           VI         (-1, 3, 0)          ()        8.0          5.0     0.615385
+        MS3/op01n04c.mscx   3   3      1/4       V(4)/V          (5, 4, 6)          ()        2.0          0.0     1.000000
+        MS3/op01n05d.mscx  53  53      3/8       V[V(2)          (1, 3, 0)          ()        4.0          2.0     0.666667
+        MS3/op01n06b.mscx  26  26      7/8          iv6          (1, 5, 4)          ()        1.0          0.0     1.000000
+        MS3/op01n07c.mscx  13  13     3/16  viio(2)/III         (0, 2, -1)          ()        2.0          1.0     0.666667
+        MS3/op01n07c.mscx  14  14      5/8        v6(4)          (3, 5, 4)          ()        2.0          1.0     0.666667
+        MS3/op01n07c.mscx  21  21      5/8        viio6         (2, -1, 5)          ()        3.0          0.0     1.000000
+        MS3/op01n07c.mscx  23  23      1/4            V          (1, 5, 2)          ()        3.0          1.0     0.750000
+        MS3/op01n07c.mscx  23  23      5/8    V7(9)/IV{      (0, 4, 1, -2)        (2,)        2.0          0.0     1.000000
+        MS3/op01n07c.mscx  44  44      1/4        V6(4)          (0, 2, 1)          ()        2.0          1.0     0.666667
+        MS3/op01n08b.mscx   2   2      7/8          iv6        (-4, 0, -1)          ()        2.0          0.0     1.000000
+        MS3/op01n08b.mscx  16  16      1/4           iv        (-1, -4, 0)          ()        4.0          2.0     0.666667
+        MS3/op01n09d.mscx  32  32        0      bii6/vi        (-4, 0, -1)          ()        2.0          1.0     0.666667
+        MS3/op01n11b.mscx  11  11      7/8         viio        (0, -3, -6)          ()        3.0          0.0     1.000000
+        MS3/op01n12a.mscx  10  10        0    vi6(2)/vi         (-2, 2, 3)          ()        5.0          0.0     1.000000
+        MS3/op01n12c.mscx   7   7      1/4    viio64/iv        (-4, 2, -1)          ()        3.0          0.0     1.000000
+        MS3/op01n12d.mscx   7   7      1/2           iv         (1, -2, 2)          ()        9.0          2.0     0.818182
+        MS3/op01n12d.mscx  21  21      1/8         iii6          (3, 7, 6)          ()        6.0          1.0     0.857143
+        MS3/op03n01b.mscx  11  11      1/2         I(2)          (1, 3, 0)          ()        2.0          1.0     0.666667
+        MS3/op03n01d.mscx  29  29      5/8           V6          (5, 2, 1)          ()        2.0          1.0     0.666667
+        MS3/op03n02b.mscx  20  20        0           VI          (5, 9, 6)          ()        6.0          1.0     0.857143
+        MS3/op03n02b.mscx  21  21      7/8           vi         (0, -3, 1)          ()        3.0          0.0     1.000000
+        MS3/op03n02c.mscx  14  14        1     viio7/vi     (3, 0, -3, -6)          ()        2.0          0.0     1.000000
+        MS3/op03n03b.mscx  27  27      1/2       vi(b6)       (1, -2, -10)          ()        4.0          1.0     0.800000
+        MS3/op03n03c.mscx   8   8      1/4       vi6(2)       (-6, -2, -1)          ()        3.0          0.0     1.000000
+        MS3/op03n03d.mscx   2   2      1/2          IV6        (1, -2, -3)          ()        2.0          1.0     0.666667
+        MS3/op03n03d.mscx   4   4      3/4           iv       (-2, -5, -1)          ()        3.0          1.0     0.750000
+        MS3/op03n03d.mscx   5   5      3/4            V          (0, 4, 1)          ()        6.0          1.0     0.857143
+        MS3/op03n03d.mscx  12  12      1/4           i6       (-6, -2, -3)          ()        1.0          0.0     1.000000
+        MS3/op03n03d.mscx  12  12      3/4         iio7  (-1, -4, -7, -10)          ()        4.0          0.0     1.000000
+        MS3/op03n03d.mscx  12  12        1       #viio6        (-1, -4, 2)          ()        3.0          0.0     1.000000
+        MS3/op03n03d.mscx  13  13        0      i|IAC}{       (-3, -6, -2)          ()        3.0          1.0     0.750000
+        MS3/op03n03d.mscx  13  13      1/4          VI6       (-3, -6, -7)          ()        2.0          1.0     0.666667
+        MS3/op03n03d.mscx  13  13      5/4            v       (-2, -5, -1)          ()        3.0          1.0     0.750000
+        MS3/op03n03d.mscx  14  14      1/2           iv       (-4, -7, -3)          ()        5.0          0.0     1.000000
+        MS3/op03n03d.mscx  14  14      5/4          iv7   (-4, -7, -3, -6)          ()        8.0          0.0     1.000000
+        MS3/op03n03d.mscx  15  15      1/4         V(4)       (-2, -3, -1)          ()        4.0          0.0     1.000000
+        MS3/op03n03d.mscx  15  15      5/8            V        (-2, 2, -1)          ()        1.0          0.0     1.000000
+        MS3/op03n03d.mscx  15  15      3/4      i|PAC}{       (-3, -6, -2)          ()        6.0          1.0     0.857143
+        MS3/op03n03d.mscx  16  16      3/4          iv6       (-7, -3, -4)          ()        6.0          2.0     0.750000
+        MS3/op03n03d.mscx  17  17        0         v(4)       (-2, -3, -1)          ()        4.0          0.0     1.000000
+        MS3/op03n03d.mscx  17  17      1/4            v       (-2, -5, -1)          ()        2.0          1.0     0.666667
+        MS3/op03n03d.mscx  17  17      3/4      I.IV(2)        (-1, 1, -2)          ()        2.0          1.0     0.666667
+        MS3/op03n03d.mscx  24  24      3/4          vi6         (-1, 3, 2)          ()        5.0          1.0     0.833333
+        MS3/op03n04a.mscx  15  15      7/8         viio         (3, 0, -3)          ()        3.0          0.0     1.000000
+        MS3/op03n04b.mscx  11  11        0        V7/vi       (2, 6, 3, 0)          ()        4.0          1.0     0.800000
+        MS3/op03n04b.mscx  11  11      1/4           vi         (1, -2, 2)          ()        4.0          1.0     0.800000
+        MS3/op03n04b.mscx  24  24      3/4       #vii64        (11, 10, 7)          ()        2.0          1.0     0.666667
+        MS3/op03n04b.mscx  37  37      3/4          V64         (7, 6, 10)          ()        2.0          0.0     1.000000
+        MS3/op03n04c.mscx  21  21      1/8          iv6         (-2, 2, 1)          ()        1.0          0.0     1.000000
+        MS3/op03n04d.mscx   8   8      1/2           vi         (1, -2, 2)          ()        6.0          1.0     0.857143
+        MS3/op03n04d.mscx  35  35      1/2         vi65     (-2, 2, -1, 1)          ()        2.0          1.0     0.666667
+        MS3/op03n06b.mscx   8   8      3/4         iv6{          (1, 5, 4)          ()        2.0          1.0     0.666667
+        MS3/op03n06b.mscx  10  10      1/4         viio        (1, -2, -5)          ()        5.0          0.0     1.000000
+        MS3/op03n06c.mscx  24  24      3/4           i6         (-2, 2, 1)          ()        5.0          1.0     0.833333
+        MS3/op03n06c.mscx  27  27      1/2          iii          (5, 2, 6)          ()        4.0          0.0     1.000000
+        MS3/op03n06d.mscx  28  28      1/8          ii6          (0, 4, 3)          ()        3.0          1.0     0.750000
+        MS3/op03n08b.mscx   6   6        0        IV(6)         (-1, 3, 2)          ()        3.0          1.0     0.750000
+        MS3/op03n09b.mscx   4   4      1/2       V(4)/v          (1, 0, 2)          ()        2.0          1.0     0.666667
+        MS3/op03n09c.mscx  26  26      1/4          vi6       (-8, -4, -5)          ()        2.0          1.0     0.666667
+        MS3/op03n09d.mscx  20  20      3/8          vi6       (-9, -5, -6)          ()        2.0          1.0     0.666667
+        MS3/op03n10b.mscx  15  15      7/8           iv        (-1, -4, 0)          ()        2.0          1.0     0.666667
+        MS3/op03n10b.mscx  21  21        0       iv6(4)          (1, 3, 2)          ()        5.0          3.0     0.625000
+        MS3/op03n10c.mscx   5   5        1           IV          (2, 6, 3)          ()        4.0          1.0     0.800000
+        MS3/op03n10d.mscx  12  12      3/8           i6          (1, 5, 4)          ()        2.0          1.0     0.666667
+        MS3/op03n10d.mscx  13  13      3/4    iv7(#6#4)      (3, 0, 9, 13)          ()        4.0          1.0     0.800000
+        MS3/op03n10d.mscx  17  17      3/8        V/vii          (3, 7, 4)          ()        2.0          0.0     1.000000
+        MS3/op04n01b.mscx   3   2      1/2            V          (1, 5, 2)          ()       10.0          2.0     0.833333
+        MS3/op04n02b.mscx  21  19      7/8      viio/iv       (-2, -5, -8)          ()        3.0          0.0     1.000000
+        MS3/op04n02b.mscx  23  21      3/8     viio/iv{       (-2, -5, -8)          ()        3.0          0.0     1.000000
+        MS3/op04n03d.mscx  28  28      1/4            V         (8, 12, 9)          ()        2.0          1.0     0.666667
+        MS3/op04n05c.mscx  31  31        0        viio6        (-2, -5, 1)          ()        4.0          0.0     1.000000
+        MS3/op04n06g.mscx  13  13      1/2          V42                 ()          ()        1.0          0.0     1.000000
+        MS3/op04n06g.mscx  26  26      1/4         iii7     (1, -2, 2, -1)          ()        5.0          0.0     1.000000
+        MS3/op04n06g.mscx  26  26      1/2          vi7     (0, -3, 1, -2)          ()        4.0          0.0     1.000000
+        MS3/op04n06g.mscx  28  28      3/4         iii7     (1, -2, 2, -1)          ()       10.0          0.0     1.000000
+        MS3/op04n06g.mscx  29  29        0          vi7     (0, -3, 1, -2)          ()        5.0          0.0     1.000000
+        MS3/op04n07a.mscx   7   7      5/8          ii6         (-2, 2, 1)          ()        3.0          1.0     0.750000
+        MS3/op04n09b.mscx  33  33      1/4          ii6         (-3, 1, 0)          ()        5.0          1.0     0.833333
+        MS3/op04n09c.mscx   9   9      1/2         i(2)         (3, -2, 2)          ()        3.0          1.0     0.750000
+        MS3/op04n09d.mscx   8   8      1/4           V6         (3, 0, -1)          ()        4.0          0.0     1.000000
+        MS3/op04n09d.mscx  44  44      3/4          V42                 ()          ()        2.0          0.0     1.000000
+        MS3/op04n10a.mscx   1   1      1/2           I6          (5, 2, 1)          ()        2.0          1.0     0.666667
+        MS3/op04n10d.mscx   2   2      3/4     III.viio          (6, 3, 0)          ()        2.0          0.0     1.000000
+        MS3/op04n10d.mscx   6   6      1/4         iv6{          (1, 5, 4)          ()        2.0          1.0     0.666667
+        MS3/op04n10d.mscx   6   6      3/4            i          (5, 2, 6)          ()        2.0          1.0     0.666667
+        MS3/op04n10e.mscx   3   3      3/4            V          (2, 6, 3)          ()        3.0          1.0     0.750000
+        MS3/op04n10e.mscx  28  28        0           V6          (7, 4, 3)          ()        2.0          1.0     0.666667
+        MS3/op04n10e.mscx  30  30      1/2           vi         (1, -2, 2)          ()       11.0          7.0     0.611111
+        MS3/op04n10e.mscx  31  31      1/2        viio6         (0, -3, 3)          ()        6.0          0.0     1.000000
+        MS3/op04n10e.mscx  42  42      1/4          vi6          (1, 5, 4)          ()        3.0          0.0     1.000000
+        MS3/op04n10e.mscx  46  46      1/4          vi6          (1, 5, 4)          ()        3.0          0.0     1.000000
+        MS3/op04n12a.mscx  15  14        0       vi7/iv     (0, -3, 1, -2)          ()        4.0          0.0     1.000000
+        MS3/op04n12c.mscx   2   2      1/4          iv6          (1, 5, 4)          ()        2.0          1.0     0.666667
