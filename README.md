@@ -18,10 +18,14 @@
     * [Loading TSV files in Python](#loading-tsv-files-in-python)
   * [Column names](#column-names)
   * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
-  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
   * [Score origin](#score-origin)
+  * [Caveats](#caveats)
+    * [Wrong positions](#wrong-positions)
+    * [`warnings.log`](#warningslog)
+    * [Instruments](#instruments)
   * [License](#license)
   * [Naming convention](#naming-convention)
+  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
 * [Overview](#overview)
 <!-- TOC -->
 
@@ -165,10 +169,6 @@ ms3 review -M -N -X -D # for extracting measures, notes, expanded annotations, a
 By adding the flag `-c` to the review command, it will additionally compare the (potentially modified) annotations in the score
 with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.
 
-## Questions, Suggestions, Corrections, Bug Reports
-
-For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
-
 ## Score origin
 
 To create the dataset we downloaded the musicXML conversion available on Craig Sapp's
@@ -189,6 +189,42 @@ on the International Music Score Library Project (IMSLP) which are included in t
 Whenever pitches, bass figures or their placement were obviously wrong they have been corrected based on the 
 Rome princeps editions.
 
+## Caveats
+
+### Wrong positions
+
+Two files have different time signatures in the upper and lower staff pairs which leads to wrong positions:
+
+* `op03n10d` has 12/8 vs. 2/2
+* `op04n06g` has 12/8 vs. 4/4
+
+Since the parser deals only with one time signature per measure, and since positions are computed additively,
+the positions are currently incorrect for
+
+* all events in these two pieces which
+* occur in staff 3 or 4
+* after beat 1.
+
+As a remedy, staves 1 and 2 could be re-written in simple meters (2/2 or 4/4) sporting triplets. For now,
+users could multiply `mc_onset` values for staves 3 and 4 by 1.5 as a remedy. The quarterbeats would then need to be
+re-computed by adding the stretched onset values to the MC's quarterbeat.
+
+### `warnings.log`
+
+As long as this file exists, the `ms3 review` command has detected
+
+* incongruent phrase beginnings `{` and endings `}`, and/or
+* harmony labels where over 60 % of the note heads in the segment are out-of-label, and/or
+* other warnings have come up.
+
+Pull requests addressing any of these warnings would be highly appreciated.
+
+### Instruments
+
+The information on the four parts in the MuseScore files has not been curated. That concerns the staff names,
+brackets, behaviour of barlines, and instruments. If someone could send us a good configuration that looks and sounds
+decent, we would be glad to automatically apply it to the entire dataset.
+
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License 
@@ -198,6 +234,10 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public L
 
 For example, all files starting with `op03n02` are movements of Sonata number 2 from opus 3. The sequence of movements
 is indicated by appended letters `op03n02a`, `op03n02b`, etc.
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
 
 
 # Overview
