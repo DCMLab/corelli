@@ -217,7 +217,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op03n04c |      55|   114|2.3.0   |Yannis Rammos                                                     |JH                    |
 |op03n04d |      50|   171|2.3.0   |Ehsan Mohagheghi Fard                                             |AB                    |
 |op03n05a |      21|    89|2.3.0   |Mastaneh Nazarian (2.1.1), John Heilig (2.3.0)                    |JH                    |
-|op03n05b |      49|   176|2.3.0   |John Heilig                                                       |AN                    |
+|op03n05b |      49|   175|2.3.0   |John Heilig                                                       |AN                    |
 |op03n05c |      36|    80|2.3.0   |John Heilig                                                       |AN                    |
 |op03n05d |      33|   125|2.3.0   |John Heilig                                                       |AN                    |
 |op03n06a |      33|   119|2.3.0   |Kyle Quarles                                                      |AN                    |
@@ -271,11 +271,11 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                     |AN                    |
-|op04n06a |       6|    22|        |                                                                  |Victor Zheng          |
-|op04n06b |      23|    41|        |                                                                  |Victor Zheng          |
-|op04n06c |       7|    19|        |                                                                  |Victor Zheng          |
-|op04n06d |      28|    57|        |                                                                  |Victor Zheng          |
-|op04n06e |      10|    22|        |                                                                  |Victor Zheng          |
+|op04n06a |       6|    22|        |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06b |      23|    41|        |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06c |       7|    19|        |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06d |      28|    57|        |Adrian Nagel                                                      |Victor Zheng          |
+|op04n06e |      10|    22|        |Adrian Nagel                                                      |Victor Zheng          |
 |op04n06f |      25|    76|2.3.0   |Tim Girard                                                        |AN                    |
 |op04n06g |      30|    94|2.3.0   |Justin Franklin                                                   |JH                    |
 |op04n07a |      15|    86|2.3.0   |Justin Franklin                                                   |JH                    |
@@ -301,3 +301,6 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op04n12a |      35|    77|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                     |AN                    |
+
+
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.2.*
