@@ -43,8 +43,8 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op01n09b |      37|   153|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, VZ               |
 |op01n09c |      36|    74|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
 |op01n09d |      54|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Ehsan Mohagheghi Fard (2.3.0)|EMF, DK               |
-|op01n10a |      12|    45|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
-|op01n10b |      17|    74|2.1.1   |Lars Opfermann, Ya-Chuan Wu                                       |                      |
+|op01n10a |      12|    45|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)          |AB, AN                |
+|op01n10b |      17|    70|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)          |AB, AN                |
 |op01n10c |      29|   107|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)          |AB, AN                |
 |op01n10d |      24|    56|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)          |AB, AN                |
 |op01n10e |      84|   139|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Amelia Brey (2.3.0)          |AB, AN                |
@@ -61,12 +61,12 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op03n01c |      61|   117|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.1), AW (2.3.0)|
 |op03n01d |      40|   158|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.1), AW (2.3.0)|
 |op03n02a |      19|    68|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
-|op03n02b |      31|   117|2.1.1   |Moritz Heffter                                                    |                      |
-|op03n02c |      40|    91|2.1.1   |Moritz Heffter                                                    |                      |
-|op03n02d |      43|   118|2.1.1   |Moritz Heffter                                                    |                      |
+|op03n02b |      31|   118|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
+|op03n02c |      40|    91|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
+|op03n02d |      43|   121|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
 |op03n03a |      16|    59|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB                    |
-|op03n03b |      32|    59|2.1.1   |Moritz Heffter                                                    |                      |
-|op03n03c |      23|   140|2.1.1   |Moritz Heffter                                                    |                      |
+|op03n03b |      32|    62|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
+|op03n03c |      23|   137|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |AB, ST                |
 |op03n03d |      60|   240|2.3.0   |Moritz Heffter (2.1.1), Amelia Brey (2.3.0)                       |                      |
 |op03n04a |      23|   137|2.3.0   |Kelsey Lussier                                                    |JH                    |
 |op03n04b |      39|   138|2.3.0   |Ehsan Mohagheghi Fard                                             |DK                    |
@@ -120,15 +120,15 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |op04n03c |      16|    37|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
 |op04n03d |      41|   136|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
 |op04n04a |      20|    68|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
-|op04n04b |      41|    79|2.1.1   |Lydia Carlisi                                                     |                      |
-|op04n04c |      17|    96|2.1.1   |Lydia Carlisi                                                     |                      |
+|op04n04b |      41|    80|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
+|op04n04c |      17|   102|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
 |op04n04d |      31|   107|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, AB                |
 |op04n05a |      20|   101|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op04n06a |       6|    22|        |                                                                  |Victor Zheng          |
-|op04n06b |      23|     0|        |                                                                  |                      |
+|op04n06b |      23|    41|        |                                                                  |Victor Zheng          |
 |op04n06c |       7|    19|        |                                                                  |Victor Zheng          |
 |op04n06d |      28|    57|        |                                                                  |Victor Zheng          |
 |op04n06e |      10|    22|        |                                                                  |Victor Zheng          |
