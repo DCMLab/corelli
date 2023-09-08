@@ -181,13 +181,13 @@ As a remedy, staves 1 and 2 could be re-written in simple meters (2/2 or 4/4) sp
 users could multiply `mc_onset` values for staves 3 and 4 by 1.5 as a remedy. The quarterbeats would then need to be
 re-computed by adding the stretched onset values to the MC's quarterbeat.
 
-### `warnings.log`
+### `.warnings` files
 
-As long as this file exists, the `ms3 review` command has detected
+As long as such files exist in the `reviewed` folder, the `ms3 review` command has detected
 
 * incongruent phrase beginnings `{` and endings `}`, and/or
 * harmony labels where over 60 % of the note heads in the segment are out-of-label, and/or
-* other warnings have come up.
+* other warnings related to parsing the scores or annotations.
 
 Pull requests addressing any of these warnings would be highly appreciated.
 
