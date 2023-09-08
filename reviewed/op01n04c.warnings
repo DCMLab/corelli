@@ -1,0 +1,11 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 3, '1/4', 'V(4)/V') ms3.Parse.corelli.op01n04c
+	The label 'V(4)/V' in m. 3, onset 1/4 (MC 3, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of a.i, it expresses the scale degrees
+	('2', '5', '#6') [('B', 'E', 'F#')].
+	The corresponding score segment has 0 within-label and 2 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

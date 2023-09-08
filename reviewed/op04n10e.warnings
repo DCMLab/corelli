@@ -1,0 +1,72 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.corelli.op04n10e
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n10e
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {             8a         }
+	            9a         {            12a         }
+	           13a         {            18a         }
+	           19a         {            24a         }
+	            1b         {             8b         }
+	            9b         {            12b         }
+	           13b         {            18b         }
+	           19b         {            24b         }
+	           25a         {            32a         }
+	           33a         {            34a         }
+	           35a         {            40a         }
+	           25b         {            48a         }
+	           33b         {            32b         }
+	           35b         {            34b         }
+	           NaN       NaN            40b         }
+	           NaN       NaN            48b         }
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 3, '3/4', 'V') ms3.Parse.corelli.op04n10e
+	The label 'V' in m. 3, onset 3/4 (MC 3, onset 3/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.I, it expresses the scale degrees
+	('5', '7', '2') [('D', 'F#', 'A')].
+	The corresponding score segment has 1 within-label and 3 out-of-label note onsets,
+	a ratio of 0.75 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 28, '0', 'V6') ms3.Parse.corelli.op04n10e
+	The label 'V6' in m. 28, onset 0 (MC 28, onset 0) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.V, it expresses the scale degrees
+	('7', '2', '5') [('C#', 'E', 'A')].
+	The corresponding score segment has 1 within-label and 2 out-of-label note onsets,
+	a ratio of 0.6666666666666666 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 30, '1/2', 'vi') ms3.Parse.corelli.op04n10e
+	The label 'vi' in m. 30, onset 1/2 (MC 30, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.iii, it expresses the scale degrees
+	('6', 'b1', '3') [('G', 'Bb', 'D')].
+	The corresponding score segment has 7 within-label and 11 out-of-label note onsets,
+	a ratio of 0.6111111111111112 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 31, '1/2', 'viio6') ms3.Parse.corelli.op04n10e
+	The label 'viio6' in m. 31, onset 1/2 (MC 31, onset 1/2) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.iii, it expresses the scale degrees
+	('b2', 'b4', '7') [('C', 'Eb', 'A')].
+	The corresponding score segment has 0 within-label and 6 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 42, '1/4', 'vi6') ms3.Parse.corelli.op04n10e
+	The label 'vi6' in m. 42, onset 1/4 (MC 42, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.I, it expresses the scale degrees
+	('1', '3', '6') [('G', 'B', 'E')].
+	The corresponding score segment has 0 within-label and 3 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 46, '1/4', 'vi6') ms3.Parse.corelli.op04n10e
+	The label 'vi6' in m. 46, onset 1/4 (MC 46, onset 1/4) seems not to correspond well to the score (which does not necessarily mean it is wrong).
+	In the context of G.I, it expresses the scale degrees
+	('1', '3', '6') [('G', 'B', 'E')].
+	The corresponding score segment has 0 within-label and 3 out-of-label note onsets,
+	a ratio of 1.0 > 0.6 (the current, arbitrary, threshold).
+	If it turns out the label is correct, please add the header of this warning to the IGNORED_WARNINGS, ideally followed
+	by a free-text comment in subsequent lines starting with a space or tab.

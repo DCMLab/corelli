@@ -1,0 +1,9 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.corelli.op03n05b
+	No metronome mark found in the first measure nor anywhere else in the score.
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.corelli.op03n05b
+	Score contains 1 labels that don't (and 175 that do) match the DCML standard:
+	    mc  mn          label harmony_layer
+	70  20  20  empty_harmony             1
