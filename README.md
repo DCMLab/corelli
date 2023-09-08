@@ -27,7 +27,7 @@ For information on how to obtain and use the dataset, please refer to [this docu
   * [Score origin](#score-origin)
   * [Caveats](#caveats)
     * [Wrong positions](#wrong-positions)
-    * [`warnings.log`](#warningslog)
+    * [`.warnings` files](#warnings-files)
     * [Instruments](#instruments)
   * [License](#license)
   * [Naming convention](#naming-convention)
@@ -56,7 +56,7 @@ three of the four famous cycles of 12 trio sonatas each:
 
 ## Version history
 
-See the [GitHub releases](https://github.com/DCMLab/beethoven_piano_sonatas/releases).
+See the [GitHub releases](https://github.com/DCMLab/corelli/releases).
 
 
 ## Getting the data
