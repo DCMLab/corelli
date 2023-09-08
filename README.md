@@ -394,4 +394,4 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                     |AN                    |
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
