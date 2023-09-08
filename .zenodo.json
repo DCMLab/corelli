@@ -57,8 +57,13 @@
         {
             "scheme": "url",
             "identifier": "https://github.com/DCMLab/corelli/tree/v2.1",
-            "relation": "isSupplementTo",
+            "relation": "references",
             "resource_type": "dataset"
+        },
+        {
+            "scheme": "url",
+            "identifier": "https://dcmlab.github.io/corelli/",
+            "relation": "isDocumentedBy"
         },
         {
             "scheme": "doi",

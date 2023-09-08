@@ -3,12 +3,18 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/corelli)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf) 
 
+This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
+and serves as welcome page for both 
+
+* the GitHub repo [https://github.com/DCMLab/corelli](https://github.com/DCMLab/corelli) and the corresponding
+* documentation page [https://dcmlab.github.io/corelli](https://dcmlab.github.io/corelli)
+
+For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/corelli/introduction).
+
+
 <!-- TOC -->
-* [Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)](#arcangelo-corelli---trio-sonatas--a-corpus-of-annotated-scores-)
-  * [Versions](#versions)
-    * [Version 2.0](#version-20)
-    * [Version 1.1](#version-11)
-    * [Version 1.0](#version-10)
+* [Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)](#arcangelo-corelli---trio-sonatas-a-corpus-of-annotated-scores)
+  * [Version history](#version-history)
   * [Getting the data](#getting-the-data)
     * [With full version history](#with-full-version-history)
     * [Without full version history](#without-full-version-history)
@@ -26,7 +32,7 @@
   * [License](#license)
   * [Naming convention](#naming-convention)
   * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
-* [Overview](#overview)
+  * [Overview](#overview)
 <!-- TOC -->
 
 # Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)
@@ -48,43 +54,9 @@ three of the four famous cycles of 12 trio sonatas each:
 | 3    | 12 sonate da chiesa | Rome 1689   | Yes      |
 | 4    | 12 sonate da camera | Rome 1694   | Yes      |
 
-## Versions
+## Version history
 
-### Version 2.0
-
-* TSV files now come with the column `quarterbeats`, which measures in quarter notes each event's position as its
-  distance from the beginning
-* Extracted notes now come with the columns `name` and `octave`.
-* Column `volta` (containing first and second endings) removed from pieces that don't have any.
-* `metadata.tsv` has been enriched with further columns, in particular information about each movement's dimensions,
-  including dimensions upon unfolding repeats (for instance, `last_mn` has the number of
-  measures, `last_mn_unfolded` the  number of measures when playing all repeats)
-* The folder `reviewed` contains two files per movement:
-    * A copy of the score where all out-of-label notes have been colored in red;
-      are shown in these files in a diff-like manner (removed in red, added in green).
-    * A copy of the harmonies TSV with six added columns that reflect the coloring of out-of-label notes ("coloring
-      reports")
-* As long as the `ms3 review` has any complaints, it stores them in the file `warnings.log`. Currently, it is
-  showing
-  those labels where over 60% of the notes in the segment have been colored in red and probably need revisiting (
-  Pull Requests welcome)
-* TSV files are automatically kept up to date using the new GitHub action 
-  [dcml_corpus_workflow](https://github.com/DCMLab/dcml_corpus_workflow) which is the successor of the implementation
-  used in the creation of this dataset.
-
-### Version 1.1
-
-This release marks the moment where all 149 movements include a reviewed set of annotations that adhere to version 
-2.3.0 of the [DCML harmony annotation standard](https://github.com/DCMLab/standards). The metadata have not been 
-completed yet and the data were extracted one last time with the now deprecated version 0.4.11 of the 
-[MuseScore parser ms3](https://github.com/johentsch/ms3) for matters of completeness and homogeneity. The purpose is
-mainly to substantiate the claim that the "semi-annotated workflow paradigm", as it had been implemented at publication
-time (see the ISMIR paper cited above), can indeed be put to effective use in the creation of a large dataset. This
-version is, however, to be followed by a version with upgraded tabular data based on the more mature ms3 > 1.0.0.
-
-### Version 1.0
-
-The first release reflects the state of the dataset when finalizing chapter 4 of the workflow paper cited above.
+See the [GitHub releases](https://github.com/DCMLab/beethoven_piano_sonatas/releases).
 
 
 ## Getting the data
