@@ -240,7 +240,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
 
 
-# Overview
+## Overview
 |file_name|measures|labels|standard|                            annotators                            |      reviewers       |
 |---------|-------:|-----:|--------|------------------------------------------------------------------|----------------------|
 |op01n01a |      14|    64|2.3.0   |Lars Opfermann, Ya-Chuan Wu (2.1.1), Hanné Becker (2.3.0)         |HB, JH                |
@@ -394,4 +394,4 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                     |AN                    |
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.1.2.*
+*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
