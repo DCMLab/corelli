@@ -1,26 +1,36 @@
-name: zenodraft
+name: Release on Zenodo
 on:
-  # Trigger when you publish a release via GitHub's release page
   release:
-    types: [published]
-    branches: [main]
-  workflow_dispatch:
+    types: [ published ]
+    branches: [ main ]
 
 jobs:
-  publish:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout the contents of your repository
-          uses: actions/checkout@v4
-        - name: Create a draft snapshot of your repository contents as a new
-                version draft in concept 7504011 on Zenodo using metadata
-                from repository file .zenodo.json
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
-          uses: zenodraft/action@0.13.3
-          with:
-            concept: 7504011
-            metadata: .zenodo.json
-            publish: false
-            sandbox: false
+  upload-to-zenodo:
+    runs-on: ubuntu-latest
+    name: A job to update metadata and push a release to Zenodo
+
+    steps:
+      # This step is not needed at the moment but might decide to add on more steps in the future
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Upload to Zenodo
+        id: release
+        uses: megasanjay/upload-to-zenodo@v2.0.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          zenodo_token: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+          zenodo_deposition_id: 7504011
+          zenodo_publish: false
+          zenodo_sandbox: false
+          commit_message: 'chore: update ${file_name} for Zenodo release'
+          update_metadata_files: true
+          codemeta_json: false
+          citation_cff: true
+          zenodo_json: true
+
+      # Get the doi from the `release` step
+      - name: Get the output doi
+        run: echo "The released doi was ${{ steps.release.outputs.doi }}"
