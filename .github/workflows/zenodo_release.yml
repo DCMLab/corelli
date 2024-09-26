@@ -2,8 +2,9 @@ name: zenodraft
 on:
   # Trigger when you publish a release via GitHub's release page
   release:
-    types:
-      - published
+    types: [published]
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
   publish:
