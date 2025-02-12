@@ -144,11 +144,29 @@
       {
         "name": "tempo_visible",
         "type": "string"
+      },
+      {
+        "name": "thoroughbass_duration",
+        "type": "string"
+      },
+      {
+        "name": "thoroughbass_level_1",
+        "type": "string"
+      },
+      {
+        "name": "thoroughbass_level_2",
+        "type": "string"
+      },
+      {
+        "name": "slur",
+        "title": "Slur",
+        "description": "IDs of active slurs that a chord falls under, as a tuple of integers.",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "Hz705whsWj_D8Q",
-    "filepath": "chords/Hz705whsWj_D8Q.schema.yaml",
+    "identifier": "M2Cis1cTlfUrmw",
+    "filepath": "chords/M2Cis1cTlfUrmw.schema.yaml",
     "used_in": "op02n01a"
   },
   "creator": {
@@ -161,8 +179,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.3"
-  },
-  "git_revision": "d86939048d18cead90869832d449d613367afee9",
-  "git_tag": "v2.4-2-gd8693904"
+    "softwareVersion": "0.0.post1.dev1+gefb3558"
+  }
 }
