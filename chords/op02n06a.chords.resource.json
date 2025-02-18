@@ -126,6 +126,10 @@
         "type": "integer"
       },
       {
+        "name": "staff_text",
+        "type": "string"
+      },
+      {
         "name": "tempo",
         "type": "string"
       },
@@ -160,11 +164,17 @@
       {
         "name": "thoroughbass_level_3",
         "type": "string"
+      },
+      {
+        "name": "slur",
+        "title": "Slur",
+        "description": "IDs of active slurs that a chord falls under, as a tuple of integers.",
+        "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "b7QyGgFgNi5hqg",
-    "filepath": "chords/b7QyGgFgNi5hqg.schema.yaml",
+    "identifier": "sbd67jTjtSZ80g",
+    "filepath": "chords/sbd67jTjtSZ80g.schema.yaml",
     "used_in": "op02n06a"
   },
   "creator": {
