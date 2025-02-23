@@ -1,2 +1,6 @@
-mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	tempo	qpm	metronome_base	metronome_number	tempo_visible
-1	1	0	0	0.0	0	0	Tempo	4/4	1	1	0	𝅘𝅥=120	120.0	𝅘𝅥	120.0	0.0
+mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	nominal_duration	scalar	chord_id	tempo	qpm	metronome_base	metronome_number	tempo_visible	slur
+1	1	0	0	0.0	0	0	Tempo	4/4	1	1	0				𝅘𝅥=120	120.0	𝅘𝅥	120.0	0.0	
+1	1	0	0	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	0						
+1	1	2	2	2.0	1/2	1/2	Chord	4/4	1	1	1/2	1/2	1	1						0
+2	2	4	4	2.0	0	0	Chord	4/4	1	1	1/2	1/2	1	2						0
+2	2	6	6	2.0	1/2	1/2	Chord	4/4	1	1	1/2	1/2	1	3						
