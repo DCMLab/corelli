@@ -305,11 +305,11 @@
         <height>10</height>
         <Text>
           <style>Title</style>
-          <text>Sonata da camera op. 2, no. </text>
+          <text>Sonata da camera op. 2, no. 6</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>1. Preludio: Adagio</text>
+          <text>2. Corrente Allegro</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -329,9 +329,18 @@
             <visible>0</visible>
             <text><sym>metNoteQuarterUp</sym> = 120</text>
             </Tempo>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
