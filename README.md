@@ -1,7 +1,8 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/corelli?display_name=tag)
-[![DOI](https://zenodo.org/badge/343145912.svg)](https://zenodo.org/badge/latestdoi/343145912)
+[![DOI](https://zenodo.org/badge/343145912.svg)](https://doi.org/10.5281/zenodo.7504011)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/corelli)
-![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf) 
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
 
 This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
 and serves as welcome page for both 
@@ -11,38 +12,12 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/corelli/introduction).
 
-
-<!-- TOC -->
-* [Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)](#arcangelo-corelli---trio-sonatas-a-corpus-of-annotated-scores)
-  * [Version history](#version-history)
-  * [Getting the data](#getting-the-data)
-    * [With full version history](#with-full-version-history)
-    * [Without full version history](#without-full-version-history)
-  * [Data Formats](#data-formats)
-    * [Opening Scores](#opening-scores)
-    * [Opening TSV files in a spreadsheet](#opening-tsv-files-in-a-spreadsheet)
-    * [Loading TSV files in Python](#loading-tsv-files-in-python)
-  * [Column names](#column-names)
-  * [Generating all TSV files from the scores](#generating-all-tsv-files-from-the-scores)
-  * [Score origin](#score-origin)
-  * [Caveats](#caveats)
-    * [Wrong positions](#wrong-positions)
-    * [`.warnings` files](#warnings-files)
-    * [Instruments](#instruments)
-  * [License](#license)
-  * [Naming convention](#naming-convention)
-  * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
-  * [Overview](#overview)
-<!-- TOC -->
-
-# Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)
+# Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
 the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora) and employs
 the [DCML harmony annotation standard](https://github.com/DCMLab/standards). It was relased together with and as part 
-of the "workflow paper"
-
-> Hentschel, J., Moss, F. C., Neuwirth, M., & Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417
+of the "workflow paper" (for the reference [see below](#cite-as) or the file `CITATION.cff`).
 
 The corpus comprises 36 `Sonate a tre`, divided into 149 separate movements. Together they make up for
 three of the four famous cycles of 12 trio sonatas each:
@@ -54,46 +29,38 @@ three of the four famous cycles of 12 trio sonatas each:
 | 3    | 12 sonate da chiesa | Rome 1689   | Yes      |
 | 4    | 12 sonate da camera | Rome 1694   | Yes      |
 
-## Version history
-
-See the [GitHub releases](https://github.com/DCMLab/corelli/releases).
-
 
 ## Getting the data
 
-### With full version history
-
-The dataset is version-controlled via [git](https://git-scm.com/). In order to download the files with all
-revisions they have gone through, git needs to be installed on your machine. Then you can clone this 
-repository using the command
-
-```bash
-git clone https://github.com/DCMLab/corelli.git
-```
-
-### Without full version history
-
-If you are only interested in the current version of the corpus, you can simply download and unpack
-[this ZIP file](https://github.com/DCMLab/corelli/archive/refs/heads/main.zip).
+* download repository as a [ZIP file](https://github.com/DCMLab/corelli/archive/main.zip)
+* download a [Frictionless Datapackage](https://specs.frictionlessdata.io/data-package/) that includes concatenations
+  of the TSV files in the four folders (`measures`, `notes`, `chords`, and `harmonies`) and a JSON descriptor:
+  * [corelli.zip](https://github.com/DCMLab/corelli/releases/latest/download/corelli.zip)
+  * [corelli.datapackage.json](https://github.com/DCMLab/corelli/releases/latest/download/corelli.datapackage.json)
+* clone the repo: `git clone https://github.com/DCMLab/corelli.git` 
 
 
 ## Data Formats
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, 
-the first movement of the first sonata has the following files:
+Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder. 
+For example, the first movement of the first trio sonata has the following files:
 
-* `MS3/op01n01a.mscx`: Uncompressed MuseScore file including the music and annotation labels.
-* `notes/op01n01a.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
-* `measures/op01n01a.tsv`: A table with relevant information about the measures in the score.
-* `harmonies/op01n01a.tsv`: A list of the included harmony labels (including cadences and phrases) with their positions in
-  the score.
+* `MS3/op01n01a.mscx`: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+* `notes/op01n01a.notes.tsv`: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+* `measures/op01n01a.measures.tsv`: A table with relevant information about the measures in the score.
+* `chords/op01n01a.chords.tsv`: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+* `harmonies/op01n01a.harmonies.tsv`: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
+
+Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns ("fields") it contains,
+follows the [Frictionless specification](https://specs.frictionlessdata.io/tabular-data-resource/),
+and can be used to validate and correctly load the described file. 
 
 ### Opening Scores
 
 After navigating to your local copy, you can open the scores in the folder `MS3` with the free and open source score
 editor [MuseScore](https://musescore.org). Please note that the scores have been edited, annotated and tested with
 [MuseScore 3.6.2](https://github.com/musescore/MuseScore/releases/tag/v3.6.2). 
-MuseScore 4 has since been released and preliminary tests suggest that it renders them correctly.
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.
 
 ### Opening TSV files in a spreadsheet
 
@@ -108,38 +75,34 @@ every modern programming language.
 
 Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
 to use this code to load any TSV files related to this repository (provided you're doing it in Python). After a quick
-`pip install -U ms3` (requires Python 3.10) you'll be able to load any TSV like this:
+`pip install -U ms3` (requires Python 3.10 or later) you'll be able to load any TSV like this:
 
 ```python
 import ms3
 
-labels = ms3.load_tsv('harmonies/op01n01a.tsv')
-notes = ms3.load_tsv('notes/op01n01a.tsv')
+labels = ms3.load_tsv("harmonies/op01n01a.harmonies.tsv")
+notes = ms3.load_tsv("notes/op01n01a.notes.tsv")
 ```
 
-## Column names
 
-You can look up meaning and data type of the columns of all TSV files including `metadata.tsv` in 
-[ms3's documentation](https://johentsch.github.io/ms3/columns) (simply search through the page).
+## Version history
 
+See the [GitHub releases](https://github.com/DCMLab/corelli/releases).
 
-## Generating all TSV files from the scores
+## Questions, Suggestions, Corrections, Bug Reports
 
-When you have made changes to the scores and want to update the TSV files accordingly, you can use the following
-command (provided you have pip-installed [ms3](https://github.com/johentsch/ms3)):
+Please [create an issue](https://github.com/DCMLab/corelli/issues) and/or feel free to fork and submit pull requests.
 
-```python
-ms3 extract -M -N -X -D # for measures, notes, expanded annotations, and metadata
-```
+## Cite as
 
-If, in addition, you want to generate the reviewed scores with out-of-label notes colored in red, you can do
+> Hentschel, J., Moss, F. C., Neuwirth, M., & Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417
 
-```python
-ms3 review -M -N -X -D # for extracting measures, notes, expanded annotations, and metadata
-```
+## License
 
-By adding the flag `-c` to the review command, it will additionally compare the (potentially modified) annotations in the score
-with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
 
 ## Score origin
 
@@ -197,19 +160,10 @@ The information on the four parts in the MuseScore files has not been curated. T
 brackets, behaviour of barlines, and instruments. If someone could send us a good configuration that looks and sounds
 decent, we would be glad to automatically apply it to the entire dataset.
 
-## License
-
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License 
-([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
-
-## Naming convention
+## File naming convention
 
 For example, all files starting with `op03n02` are movements of Sonata number 2 from opus 3. The sequence of movements
 is indicated by appended letters `op03n02a`, `op03n02b`, etc.
-
-## Questions, Suggestions, Corrections, Bug Reports
-
-For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
 
 
 ## Overview
