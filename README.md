@@ -1,7 +1,8 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/corelli?display_name=tag)
 [![DOI](https://zenodo.org/badge/343145912.svg)](https://zenodo.org/badge/latestdoi/343145912)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/corelli)
-![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf) 
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
+
 
 This is a README file for a data repository originating from the [DCML corpus initiative](https://github.com/DCMLab/dcml_corpora)
 and serves as welcome page for both 
@@ -29,9 +30,9 @@ For information on how to obtain and use the dataset, please refer to [this docu
     * [Wrong positions](#wrong-positions)
     * [`.warnings` files](#warnings-files)
     * [Instruments](#instruments)
-  * [License](#license)
-  * [Naming convention](#naming-convention)
   * [Questions, Suggestions, Corrections, Bug Reports](#questions-suggestions-corrections-bug-reports)
+  * [License](#license)
+  * [File naming convention](#file-naming-convention)
   * [Overview](#overview)
 <!-- TOC -->
 
@@ -197,19 +198,20 @@ The information on the four parts in the MuseScore files has not been curated. T
 brackets, behaviour of barlines, and instruments. If someone could send us a good configuration that looks and sounds
 decent, we would be glad to automatically apply it to the entire dataset.
 
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/corelli/issues) and/or feel free to fork and submit pull requests.
+
 ## License
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License 
-([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
-## Naming convention
+![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+
+## File naming convention
 
 For example, all files starting with `op03n02` are movements of Sonata number 2 from opus 3. The sequence of movements
 is indicated by appended letters `op03n02a`, `op03n02b`, etc.
-
-## Questions, Suggestions, Corrections, Bug Reports
-
-For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.
 
 
 ## Overview
