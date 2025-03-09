@@ -1,15 +1,109 @@
 {
-    "description": "<p>Arcangelo Corelli - Trio Sonatas (A corpus of annotated scores)</p>\n\n<p>This corpus of annotated <a href=\"https://musescore.org\">MuseScore</a> files has been created within the <a href=\"https://github.com/DCMLab/dcml_corpora\">DCML corpus initiative</a> and employs the <a href=\"https://github.com/DCMLab/standards\">DCML harmony annotation standard</a>. It was relased together with and as part of the &quot;workflow paper&quot;</p>\n\n<blockquote>\n<p>Hentschel, J., Moss, F. C., Neuwirth, M., &amp; Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music Information Retrieval Conference, ISMIR, 262&ndash;269. <a href=\"https://doi.org/10.5281/ZENODO.5624417\">https://doi.org/10.5281/ZENODO.5624417</a></p>\n</blockquote>\n\n<p>The corpus comprises 36 <code>Sonate a tre</code>, divided into 149 separate movements. Together they make up for three of the four famous cycles of 12 trio sonatas each:</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Opus</th>\n\t\t\t<th>Cycle</th>\n\t\t\t<th>Publication</th>\n\t\t\t<th>Included</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>12 sonate da chiesa</td>\n\t\t\t<td>Rome 1681</td>\n\t\t\t<td>Yes</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>12 sonate da camera</td>\n\t\t\t<td>Rome 1685</td>\n\t\t\t<td>No</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>12 sonate da chiesa</td>\n\t\t\t<td>Rome 1689</td>\n\t\t\t<td>Yes</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>12 sonate da camera</td>\n\t\t\t<td>Rome 1694</td>\n\t\t\t<td>Yes</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Versions</p>\n\n<p>&nbsp;</p>\n\n<p>See the <a href=\"https://github.com/DCMLab/corelli/releases\">GitHub releases</a>.</p>\n\n<p>&nbsp;</p>\n\n<p>Getting the data</p>\n\n<p>&nbsp;</p>\n\n<p>With full version history</p>\n\n<p>The dataset is version-controlled via <a href=\"https://git-scm.com/\">git</a>. In order to download the files with all revisions they have gone through, git needs to be installed on your machine. Then you can clone this repository using the command</p>\n\n<pre>git clone https://github.com/DCMLab/corelli.git</pre>\n\n<p>&nbsp;</p>\n\n<p>Without full version history</p>\n\n<p>If you are only interested in the current version of the corpus, you can simply download and unpack <a href=\"https://github.com/DCMLab/corelli/archive/refs/heads/main.zip\">this ZIP file</a>.</p>\n\n<p>&nbsp;</p>\n\n<p>Data Formats</p>\n\n<p>Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the first movement of the first sonata has the following files:</p>\n\n<ul>\n\t<li><code>MS3/op01n01a.mscx</code>: Uncompressed MuseScore file including the music and annotation labels.</li>\n\t<li><code>notes/op01n01a.tsv</code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</li>\n\t<li><code>measures/op01n01a.tsv</code>: A table with relevant information about the measures in the score.</li>\n\t<li><code>harmonies/op01n01a.tsv</code>: A list of the included harmony labels (including cadences and phrases) with their positions in the score.</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p>Opening Scores</p>\n\n<p>After navigating to your local copy, you can open the scores in the folder <code>MS3</code> with the free and open source score editor <a href=\"https://musescore.org\">MuseScore</a>. Please note that the scores have been edited, annotated and tested with <a href=\"https://github.com/musescore/MuseScore/releases/tag/v3.6.2\">MuseScore 3.6.2</a>. MuseScore 4 has since been released and preliminary tests suggest that it renders them correctly.</p>\n\n<p>&nbsp;</p>\n\n<p>Opening TSV files in a spreadsheet</p>\n\n<p>Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as dates. This can be circumvented by using <code>Data --&gt; From Text/CSV</code> or the free alternative <a href=\"https://www.libreoffice.org/download/download/\">LibreOffice Calc</a>. Other than that, TSV data can be loaded with every modern programming language.</p>\n\n<p>&nbsp;</p>\n\n<p>Loading TSV files in Python</p>\n\n<p>Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want to use this code to load any TSV files related to this repository (provided you&#39;re doing it in Python). After a quick <code>pip install -U ms3</code> (requires Python 3.10) you&#39;ll be able to load any TSV like this:</p>\n\n<pre>import ms3\n\nlabels = ms3.load_tsv(&#39;harmonies/op01n01a.tsv&#39;)\nnotes = ms3.load_tsv(&#39;notes/op01n01a.tsv&#39;)</pre>\n\n<p>&nbsp;</p>\n\n<p>Column names</p>\n\n<p>You can look up meaning and data type of the columns of all TSV files including <code>metadata.tsv</code> in <a href=\"https://johentsch.github.io/ms3/columns\">ms3&#39;s documentation</a> (simply search through the page).</p>\n\n<p>&nbsp;</p>\n\n<p>Generating all TSV files from the scores</p>\n\n<p>When you have made changes to the scores and want to update the TSV files accordingly, you can use the following command (provided you have pip-installed <a href=\"https://github.com/johentsch/ms3\">ms3</a>):</p>\n\n<pre>ms3 extract -M -N -X -D # for measures, notes, expanded annotations, and metadata</pre>\n\n<p>If, in addition, you want to generate the reviewed scores with out-of-label notes colored in red, you can do</p>\n\n<pre>ms3 review -M -N -X -D # for extracting measures, notes, expanded annotations, and metadata</pre>\n\n<p>By adding the flag <code>-c</code> to the review command, it will additionally compare the (potentially modified) annotations in the score with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.</p>\n\n<p>&nbsp;</p>\n\n<p>Score origin</p>\n\n<p>To create the dataset we downloaded the musicXML conversion available on Craig Sapp&#39;s <a href=\"http://kern.humdrum.org/search?s=t&amp;keyword=Corelli\">KernScores</a> (thanks to the engraver(s) who first encoded the scores in **kern format), converted them to MuseScore, and had them corrected and completed by the transcription service <a href=\"https://www.tunescribers.com/\">tunescribers.com</a>. This involved adding thorough bass figures throughout and engraving a few missing movements from scratch. The commission was performed based on the Pepusch prints available on the International Music Score Library Project (IMSLP) which are included in the folder <code>pdf</code>:</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Opus</th>\n\t\t\t<th>File</th>\n\t\t\t<th>IMSLP</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>Corelli op. 1 12 Triosonaten - Partitur.pdf</td>\n\t\t\t<td><a href=\"https://imslp.org/wiki/Special:ReverseLookup/1666\">https://imslp.org/wiki/Special:ReverseLookup/1666</a></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>Corelli op. 3 12 Triosonaten - Partitur.pdf</td>\n\t\t\t<td><a href=\"https://imslp.org/wiki/Special:ReverseLookup/1689\">https://imslp.org/wiki/Special:ReverseLookup/1689</a></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>4</td>\n\t\t\t<td>Corelli op. 4 12 Triosonaten - Partitur.pdf</td>\n\t\t\t<td><a href=\"https://imslp.org/wiki/Special:ReverseLookup/1690\">https://imslp.org/wiki/Special:ReverseLookup/1690</a></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>(The scan of op. 3 is missing page 46, corresponding to <code>op03n12a</code>)</p>\n\n<p>Whenever pitches, bass figures or their placement were obviously wrong they have been corrected based on the Rome princeps editions.</p>\n\n<p>&nbsp;</p>\n\n<p>Caveats</p>\n\n<p>&nbsp;</p>\n\n<p>Wrong positions</p>\n\n<p>Two files have different time signatures in the upper and lower staff pairs which leads to wrong positions:</p>\n\n<ul>\n\t<li><code>op03n10d</code> has 12/8 vs. 2/2</li>\n\t<li><code>op04n06g</code> has 12/8 vs. 4/4</li>\n</ul>\n\n<p>Since the parser deals only with one time signature per measure, and since positions are computed additively, the positions are currently incorrect for</p>\n\n<ul>\n\t<li>all events in these two pieces which</li>\n\t<li>occur in staff 3 or 4</li>\n\t<li>after beat 1.</li>\n</ul>\n\n<p>As a remedy, staves 1 and 2 could be re-written in simple meters (2/2 or 4/4) sporting triplets. For now, users could multiply <code>mc_onset</code> values for staves 3 and 4 by 1.5 as a remedy. The quarterbeats would then need to be re-computed by adding the stretched onset values to the MC&#39;s quarterbeat.</p>\n\n<p>&nbsp;</p>\n\n<p><code>.warnings</code></p>\n\n<p>As long as such files exist in the <code>reviewed</code> folder, the <code>ms3 review</code> command has detected</p>\n\n<ul>\n\t<li>incongruent phrase beginnings <code>{</code> and endings <code>}</code>, and/or</li>\n\t<li>harmony labels where over 60 % of the note heads in the segment are out-of-label, and/or</li>\n\t<li>other warnings related to parsing the scores or annotations.</li>\n</ul>\n\n<p>Pull requests addressing any of these warnings would be highly appreciated.</p>\n\n<p>&nbsp;</p>\n\n<p>Instruments</p>\n\n<p>The information on the four parts in the MuseScore files has not been curated. That concerns the staff names, brackets, behaviour of barlines, and instruments. If someone could send us a good configuration that looks and sounds decent, we would be glad to automatically apply it to the entire dataset.</p>\n\n<p>&nbsp;</p>\n\n<p>License</p>\n\n<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (<a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>).</p>\n\n<p>&nbsp;</p>\n\n<p>Naming convention</p>\n\n<p>For example, all files starting with <code>op03n02</code> are movements of Sonata number 2 from opus 3. The sequence of movements is indicated by appended letters <code>op03n02a</code>, <code>op03n02b</code>, etc.</p>\n\n<p>&nbsp;</p>\n\n<p>Questions, Suggestions, Corrections, Bug Reports</p>\n\n<p>For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.</p>",
     "license": "CC-BY-NC-SA-4.0",
-    "title": "Arcangelo Corelli - Sonate a tre  (A corpus of annotated scores)",
+    "contributors": [
+        {
+            "type": "DataCollector",
+            "name": "Adrian Nagel"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Andrew J. Wilson"
+        },
+        {
+            "orcid": "0000-0002-6329-7492",
+            "type": "DataCollector",
+            "name": "Amelia Brey"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Cristiana Palandri"
+        },
+        {
+            "orcid": "0000-0002-6588-2257",
+            "type": "DataCollector",
+            "name": "Davor Krkljus"
+        },
+        {
+            "orcid": "0009-0005-5468-5871",
+            "type": "DataCollector",
+            "name": "Ehsan Mohagheghi Fard"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Gabriela Ortiz Würth"
+        },
+        {
+            "orcid": "0000-0002-2105-525X",
+            "type": "DataCollector",
+            "name": "Hanné Becker"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Justin Franklin"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Kevin Davis"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Kristine Kier Jørgensen"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Moritz Heffter"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Lars Opfermann"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Lydia Carlisi"
+        },
+        {
+            "orcid": "0000-0001-6254-2604",
+            "type": "DataCollector",
+            "name": "Sylvie Tran"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Tim Girard"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Tomoko Ono"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Tal Soker"
+        },
+        {
+            "orcid": "0009-0001-0954-4448",
+            "type": "DataCollector",
+            "name": "Victor Zheng"
+        },
+        {
+            "type": "DataCollector",
+            "name": "Ya-Chuan Wu"
+        }
+    ],
+    "title": "Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)",
     "keywords": [
+        "music research",
+        "music theory",
+        "music analysis",
+        "music history",
+        "corpus studies",
         "corpora",
-        "symbolic datasets",
+        "symbolic dataset",
         "scores",
+        "annotated dataset",
         "harmony",
-        "grouping",
-        "phrase",
-        "cadence",
+        "key annotations",
+        "chord annotations",
+        "phrase annotations",
+        "cadence annotations",
         "trio sonatas",
         "chamber music",
         "17th century"
@@ -29,16 +123,16 @@
             "identifier": "epfl"
         }
     ],
-    "publication_date": "2024-09-26",
+    "publication_date": "2025-03-03",
     "creators": [
         {
             "orcid": "0000-0002-1986-9545",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "affiliation": "Anton Bruckner University Linz",
             "name": "Johannes Hentschel"
         },
         {
             "orcid": "0000-0001-9377-2066",
-            "affiliation": "Julius-Maximilians-Universit\u00e4t W\u00fcrzburg",
+            "affiliation": "Julius-Maximilians-Universität Würzburg",
             "name": "Fabian C. Moss"
         },
         {
@@ -48,7 +142,7 @@
         },
         {
             "orcid": "0000-0002-4323-7257",
-            "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+            "affiliation": "École Polytechnique Fédérale de Lausanne",
             "name": "Martin Rohrmeier"
         }
     ],
@@ -57,8 +151,7 @@
         {
             "scheme": "url",
             "identifier": "https://github.com/DCMLab/corelli/tree/v2.4",
-            "relation": "references",
-            "resource_type": "dataset"
+            "relation": "references"
         },
         {
             "scheme": "url",
@@ -70,6 +163,12 @@
             "identifier": "10.5281/zenodo.5624417",
             "relation": "isPublishedIn",
             "resource_type": "publication-conferencepaper"
+        },
+        {
+            "scheme": "doi",
+            "identifier": "10.5281/zenodo.13844105",
+            "relation": "isPartOf",
+            "resource_type":"dataset"
         }
     ]
 }
