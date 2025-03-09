@@ -30,7 +30,7 @@
       },
       {
         "name": "quarterbeats",
-        "title": "Offset from Beginning (leaving out alternative endings)",
+        "title": "Offset from Beginning",
         "description": "Distance of an event from the piece's beginning. By default, only second endings are taken into account to reflect the proportions of a simply playthrough without repeats.",
         "type": "string",
         "constraints": {
@@ -39,7 +39,7 @@
       },
       {
         "name": "quarterbeats_all_endings",
-        "title": "Offset from Beginning (counting through alternative endings as if they were adjacent bars)",
+        "title": "Offset from Beginning (Including Endings)",
         "description": "Distance from the piece's beginning, taking all endings into account for addressability purposes.",
         "type": "string",
         "constraints": {
@@ -228,8 +228,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.5.4"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "893ad660c759048c6709373642151146b9f45043",
-  "git_tag": "v2.4"
+  "git_revision": "62dd161397b0fd7c884d802dbae322567bf441ab",
+  "git_tag": "v2.4-6-g62dd1613"
 }
