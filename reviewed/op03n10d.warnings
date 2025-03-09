@@ -1,8 +1,8 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-WARNING  ms3.Parse.corelli.op03n10d
-	mc 1: The missing value in 'voice/TimeSig/subtype' was replaced by '2', present in 'staff' [3].
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/subtype') ms3.Parse.corelli.op03n10d
+	mc 1: The missing value in 'voice/TimeSig/subtype' was filled with '2', present in 'staff' [3]. In rare cases, this may lead to incorrect values in the measures table because it ambiguous which staff contains the relevant information.
 DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d
 	Phrase beginning and endings don't match:
 	mn_playthrough phraseend mn_playthrough phraseend
