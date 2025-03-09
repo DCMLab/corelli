@@ -357,7 +357,7 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 |op04n10b |      33|   104|2.3.0   |Kevin Davis                                                       |JH                    |
 |op04n10c |       4|     8|2.3.0   |Kevin Davis                                                       |AN, JH                |
 |op04n10d |      14|    51|2.3.0   |Kevin Davis                                                       |AN, JH                |
-|op04n10e |      48|   152|2.3.0   |Kevin Davis                                                       |AN JH                 |
+|op04n10e |      48|   153|2.3.0   |Kevin Davis                                                       |AN JH                 |
 |op04n11a |      24|   156|2.3.0   |Amelia Brey                                                       |AN                    |
 |op04n11b |      73|   116|2.3.0   |Amelia Brey                                                       |AN                    |
 |op04n11c |      36|   142|2.3.0   |Amelia Brey                                                       |AN                    |
