@@ -330,7 +330,7 @@ For questions, remarks etc., please create an issue and feel free to fork and su
 |op04n04b |      41|    80|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
 |op04n04c |      17|   102|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, DK                |
 |op04n04d |      31|   107|2.3.0   |Lydia Carlisi (2.1.1), Adrian Nagel (2.3.0)                       |AN, AB                |
-|op04n05a |      20|   101|2.3.0   |Andrew Wilson                                                     |JH                    |
+|op04n05a |      20|   100|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05b |      28|   105|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05c |      39|    78|2.3.0   |Andrew Wilson                                                     |JH                    |
 |op04n05d |      12|    38|2.3.0   |Andrew Wilson                                                     |AN                    |
