@@ -1,21 +1,8 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-WARNING  ms3.Parse.corelli.op03n10d
-	mc 1: The missing value in 'voice/TimeSig/subtype' was replaced by '2', present in 'staff' [3].
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op03n10d
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            9a         {             8a         }
-	           14a         {             8b         }
-	           21a         {            14a         }
-	           28a         {            21a         }
-	            9b         {            28a         }
-	           14b         {            31a         }
-	           21b         {            14b         }
-	           28b         {            21b         }
-	           NaN       NaN            28b         }
-	           NaN       NaN            31b         }
+COMPETING_MEASURE_INFO_WARNING (9, 'mc', 1, 'voice/TimeSig/subtype') ms3.Parse.corelli.op03n10d
+	mc 1: The missing value in 'voice/TimeSig/subtype' was filled with '2', present in 'staff' [3]. In rare cases, this may lead to incorrect values in the measures table because it ambiguous which staff contains the relevant information.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 12, '3/8', 'i6') ms3.Parse.corelli.op03n10d
 	The label 'i6' in m. 12, onset 3/8 (MC 12, onset 3/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of a.v, it expresses the scale degrees
