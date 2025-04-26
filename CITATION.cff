@@ -1,13 +1,26 @@
 cff-version: 1.2.0
 message: "Please cite this dataset using the metadata from 'preferred-citation'."
 title: "Arcangelo Corelli - Trio Sonatas (A corpus of annotated scores)"
-abstract: "This corpus of annotated MuseScore files has been created within the DCML corpus initiative and employs the DCML harmony annotation standard. It comprises 36 Sonate a tre, divided into 149 separate movements. Together they make up for three of the four famous cycles of 12 trio sonatas each"
 type: dataset
+abstract: >-
+  <jats:p>This corpus of annotated MuseScore files has been created within the 
+  DCML corpus initiative and employs the DCML harmony annotation standard. It 
+  comprises 36 Sonate a tre, divided into 149 separate movements. Together they
+  make up for three of the four famous cycles of 12 trio sonatas each. The 
+  corpus was relased together with and as part of the "workflow paper" 
+  https://doi.org/10.5281/zenodo.5624417</jats:p>
+url: https://zenodo.org/doi/10.5281/zenodo.7504011
+repository: https://github.com/DCMLab/corelli
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7504011
+  - type: url
+    value: https://zenodo.org/doi/10.5281/zenodo.7504011
 authors:
     - given-names: Johannes
       family-names: Hentschel
-      email: johannes.hentschel@epfl.ch
-      affiliation: "École Polytechnique Fédérale de Lausanne"
+      email: johannes.hentschel@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
       orcid: "https://orcid.org/0000-0002-1986-9545"
     - given-names: "Fabian C."
       family-names: Moss
@@ -17,34 +30,42 @@ authors:
     - given-names: Markus
       family-names: Neuwirth
       email: markus.neuwirth@bruckneruni.at
-      affiliation: "Bruckner University Linz"
+      affiliation: "Anton Bruckner University Linz"
       orcid: "https://orcid.org/0000-0003-1990-052X"
     - given-names: Martin
       family-names: Rohrmeier
       email: martin.rohrmeier@epfl.ch
       affiliation: "École Polytechnique Fédérale de Lausanne"
       orcid: "https://orcid.org/0000-0002-4323-7257"
-version: v2.4
-date-released: 2024-09-26
+version: v2.5
+date-released: 2025-03-09
 keywords:
-  - corpora
-  - "symbolic datasets"
-  - scores
-  - harmony
-  - grouping
-  - phrase
-  - cadence
+  - "expert-annotated dataset"
+  - "tonal harmony"
+  - "music research"
+  - "music theory"
+  - "music analysis"
+  - "music history"
+  - "corpus studies"
+  - "corpora"
+  - "symbolic dataset"
+  - "scores"
+  - "annotated dataset"
+  - "harmony"
+  - "key annotations"
+  - "chord annotations"
+  - "phrase annotations"
+  - "cadence annotations"
   - "trio sonatas"
   - "chamber music"
   - "17th century"
-license: "CC-BY-NC-SA-4.0"
-repository: https://github.com/DCMLab/corelli
+license: "CC-BY-NC-4.0"
 preferred-citation:
   authors:
     - given-names: Johannes
       family-names: Hentschel
-      email: johannes.hentschel@epfl.ch
-      affiliation: "École Polytechnique Fédérale de Lausanne"
+      email: johannes.hentschel@bruckneruni.at
+      affiliation: "Anton Bruckner University Linz"
       orcid: "https://orcid.org/0000-0002-1986-9545"
     - given-names: "Fabian C."
       family-names: Moss
@@ -54,7 +75,7 @@ preferred-citation:
     - given-names: Markus
       family-names: Neuwirth
       email: markus.neuwirth@bruckneruni.at
-      affiliation: "Bruckner University Linz"
+      affiliation: "Anton Bruckner University Linz"
       orcid: "https://orcid.org/0000-0003-1990-052X"
     - given-names: Martin
       family-names: Rohrmeier
@@ -63,12 +84,39 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-4323-7257"
   title: "A semi-automated workflow paradigm for the distributed creation and curation of expert annotations"
   doi: 10.5281/zenodo.5624417
+  url: https://zenodo.org/doi/10.5281/zenodo.5624417
+  identifiers:
+    - type: doi
+      value: 10.5281/zenodo.5624417
+    - type: url
+      value: https://zenodo.org/doi/10.5281/zenodo.5624417
+  type: conference-paper
   collection-title: "Proceedings of the 22nd International Society for Music Information Retrieval Conference"
   collection-type: "proceedings"
   collection-doi: 10.5281/zenodo.5776687
-  type: conference-paper
   year: 2021
+  month: 11
   start: 262
   end: 269
   pages: 8
-  abstract: "The creation and curation of labeled datasets can be an arduous, expensive, and time-consuming task. We introduce a workflow paradigm for remote consensus-building between expert annotators, while considerably reducing the associated administrative overhead through automation. Most music annotation tasks rely heavily on human interpretation and therefore defy the concept of an objective and indisputable ground truth. Thus, our paradigm invites and documents inter-annotator controversy based on a transparent set of analytical criteria, and aims at putting forth the consensual solutions emerging from such deliberations. The workflow that we suggest traces the entire genesis of annotation data, including the relevant discussions between annotators, reviewers, and curators. It adopts a well-proven pattern from collaborative software development, namely distributed version control, and allows for the automation of repetitive maintenance tasks, such as validity checks, message dispatch, or updates of meta- and paradata. To demonstrate the workflow's effectiveness, we introduce one possible implementation through GitHub Actions and showcase its success in creating cadence, phrase, and harmony annotations for a corpus of 36 trio sonatas by Arcangelo Corelli. Both code and annotated scores are freely available and the implementation can be readily used in and adapted for other MIR projects."
+  abstract: >-
+    <jats:p>The creation and curation of labeled datasets can be an arduous, 
+    expensive, and time-consuming task. We introduce a workflow paradigm for remote
+    consensus-building between expert annotators, while considerably reducing
+    the associated administrative overhead through automation. Most music
+    annotation tasks rely heavily on human interpretation and therefore defy the
+    concept of an objective and indisputable ground truth. Thus, our paradigm
+    invites and documents inter-annotator controversy based on a transparent set
+    of analytical criteria, and aims at putting forth the consensual solutions
+    emerging from such deliberations. The workflow that we suggest traces the
+    entire genesis of annotation data, including the relevant discussions
+    between annotators, reviewers, and curators. It adopts a well-proven pattern
+    from collaborative software development, namely distributed version control,
+    and allows for the automation of repetitive maintenance tasks, such as
+    validity checks, message dispatch, or updates of meta- and paradata. To
+    demonstrate the workflow's effectiveness, we introduce one possible
+    implementation through GitHub Actions and showcase its success in creating
+    cadence, phrase, and harmony annotations for a corpus of 36 trio sonatas by
+    Arcangelo Corelli. Both code and annotated scores are freely available and
+    the implementation can be readily used in and adapted for other MIR
+    projects.</jats:p>
