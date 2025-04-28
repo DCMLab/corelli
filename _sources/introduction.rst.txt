@@ -32,12 +32,13 @@ If you are only interested in the current version of the corpus, you can downloa
 Data Formats
 ============
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the first movement of the first trio sonata has the following files:
+Each piece in this corpus is represented by five files with identical names, each in its own folder. For example, the first movement of the first trio sonata has the following files:
 
--  ``MS3/op01n01a.mscx``: Uncompressed MuseScore file including the music and annotation labels.
--  ``notes/op01n01a.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
--  ``measures/op01n01a.tsv``: A table with relevant information about the measures in the score.
--  ``harmonies/op01n01a.tsv``: A list of the included harmony labels (including cadences and phrases) with their positions in the score.
+-  ``MS3/op01n01a.mscx``: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.
+-  ``notes/op01n01a.notes.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+-  ``measures/op01n01a.measures.tsv``: A table with relevant information about the measures in the score.
+-  ``chords/op01n01a.chords.tsv``: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).
+-  ``harmonies/op01n01a.harmonies.tsv``: A table of the included harmony labels (including cadences and phrases) with their positions in the score.
 
 Opening Scores
 --------------
