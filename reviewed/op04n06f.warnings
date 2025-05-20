@@ -3,18 +3,3 @@ Warnings encountered during the last execution of ms3 review
 
 FIRST_BAR_MISSING_TEMPO_MARK_WARNING (29,) ms3.Parse.corelli.op04n06f
 	No metronome mark found in the first measure nor anywhere else in the score.
-DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.corelli.op04n06f
-	Phrase beginning and endings don't match:
-	mn_playthrough phraseend mn_playthrough phraseend
-	            1a         {             5a         }
-	            5a         {             8a         }
-	            1b         {             5b         }
-	            5b         {             8b         }
-	            9a         {            13a        }{
-	           13a        }{            20a         }
-	           16a         {            25a         }
-	           21a         {            13b        }{
-	            9b         {            20b         }
-	           13b        }{            25b         }
-	           16b         {            NaN       NaN
-	           21b         {            NaN       NaN
