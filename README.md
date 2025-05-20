@@ -12,6 +12,18 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/corelli/introduction).
 
+When you use (parts of) this dataset in your work, please read and cite the following article:
+
+_Hentschel, J., Moss, F. C., Neuwirth, M., & Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the 
+distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music 
+Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417_
+
+This corpus forms part of the larger [Distant Listening Corpus](https://github.com/DCMLab/distant_listening_corpus)
+which constitutes a data infrastructure the data report of which has implications for the present corpus, too:
+
+_Hentschel, J., Rammos, Y., Neuwirth, M., & Rohrmeier, M. (2025). A corpus and a modular infrastructure for the 
+empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z_
+
 # Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
@@ -217,6 +229,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                             |AN                    |
 |op01n12c |      13|    42|2.3.0   |Tomoko Ono                                                        |JH                    |
 |op01n12d |      62|   225|2.3.0   |Ehsan Mohagheghi Fard                                             |AN                    |
+|op02n06b |      26|     0|        |                                                                  |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.0), AW (2.3.0)|
 |op03n01b |      37|   149|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN, AW                |
 |op03n01c |      61|   117|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.1), AW (2.3.0)|
@@ -320,6 +333,8 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op02n01a |      14|     0|        |                                                                  |                      |
 |op02n02a |      22|     0|        |                                                                  |                      |
+|op02n03a |      13|     0|        |                                                                  |                      |
+|op02n06a |      19|     0|        |                                                                  |                      |
 
 
 *Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
