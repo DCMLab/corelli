@@ -335,6 +335,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op02n02a |      22|     0|        |                                                                  |                      |
 |op02n03a |      13|     0|        |                                                                  |                      |
 |op02n06a |      19|     0|        |                                                                  |                      |
+|op02n06c |      28|     0|        |                                                                  |                      |
 
 
 *Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
