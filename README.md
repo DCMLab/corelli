@@ -232,6 +232,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op02n01a |      14|     0|        |                                                                  |                      |
 |op02n02a |      22|     0|        |                                                                  |                      |
 |op02n02b |      50|     0|        |                                                                  |                      |
+|op02n02c |      21|     0|        |                                                                  |                      |
 |op02n03a |      13|     0|        |                                                                  |                      |
 |op02n06a |      19|     0|        |                                                                  |                      |
 |op02n06b |      26|     0|        |                                                                  |                      |
