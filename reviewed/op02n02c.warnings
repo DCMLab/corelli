@@ -1,0 +1,8 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+MCS_NOT_EXCLUDED_FROM_BARCOUNT_WARNING (1, 1) ms3.Parse.corelli.op02n02c
+	MC 1 seems to be offset from the MN's beginning but has not been excluded from barcount. Context:
+	   mc  mn act_dur mc_offset  dont_count  numbering_offset
+	0   1   1     9/8       3/8        <NA>              <NA>
+	1   2   2     3/2         0        <NA>              <NA>
