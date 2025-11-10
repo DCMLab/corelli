@@ -229,6 +229,13 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op01n12b |      36|   101|2.3.0   |Ehsan Mohagheghi Fard                                             |AN                    |
 |op01n12c |      13|    42|2.3.0   |Tomoko Ono                                                        |JH                    |
 |op01n12d |      62|   225|2.3.0   |Ehsan Mohagheghi Fard                                             |AN                    |
+|op02n01a |      14|     0|        |                                                                  |                      |
+|op02n02a |      22|     0|        |                                                                  |                      |
+|op02n02b |      50|     0|        |                                                                  |                      |
+|op02n03a |      13|     0|        |                                                                  |                      |
+|op02n06a |      19|     0|        |                                                                  |                      |
+|op02n06b |      26|     0|        |                                                                  |                      |
+|op02n06c |      28|     0|        |                                                                  |                      |
 |op03n01a |      19|    78|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.0), AW (2.3.0)|
 |op03n01b |      37|   149|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN, AW                |
 |op03n01c |      61|   117|2.3.0   |Gabriela Ortiz Würth (2.1.1), Adrian Nagel (2.3.0)                |AN (2.1.1), AW (2.3.0)|
