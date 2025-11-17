@@ -12,6 +12,18 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/corelli/introduction).
 
+When you use (parts of) this dataset in your work, please read and cite the following article:
+
+_Hentschel, J., Moss, F. C., Neuwirth, M., & Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the 
+distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music 
+Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417_
+
+This corpus forms part of the larger [Distant Listening Corpus](https://github.com/DCMLab/distant_listening_corpus)
+which constitutes a data infrastructure the data report of which has implications for the present corpus, too:
+
+_Hentschel, J., Rammos, Y., Neuwirth, M., & Rohrmeier, M. (2025). A corpus and a modular infrastructure for the 
+empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z_
+
 # Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)
 
 This corpus of annotated [MuseScore](https://musescore.org) files has been created within
