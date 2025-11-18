@@ -222,6 +222,7 @@
     <metaTag name="annotators">Justin Franklin</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="comments">Two different timesigs problematic: onsets in TSV files partly incorrect; tempo marking should be dotted quarters but MuseScore applies it to the 4/4 layer</metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1694</metaTag>
     <metaTag name="composed_start">1694</metaTag>
     <metaTag name="composer">Arcangelo Corelli</metaTag>
@@ -6808,6 +6809,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I|PAC}{</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>I|PAC}</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7123,7 +7130,13 @@
             </FiguredBass>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V2</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V42</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
