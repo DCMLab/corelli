@@ -1,0 +1,10 @@
+Warnings encountered during the last execution of ms3 review
+============================================================
+
+INCOMPLETE_MC_WRONGLY_COMPLETED_WARNING (3, 23) ms3.Parse.corelli.op02n04b
+	Some of the MCs following the irregular MC 23 do, some don't complete it.
+	   nominal_duration actual_duration expected_completion     next
+	mc                                                              
+	23                1             7/8                 1/8  (9, 24)
+	24              3/2             3/2                   0    (25,)
+	9                 1             1/8                 7/8    (10,)
