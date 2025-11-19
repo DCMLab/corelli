@@ -3912,10 +3912,12 @@
       <Measure len="7/8">
         <voice>
           <FiguredBass>
-            <ticks>4/8</ticks>
+            <ticks>2/8</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>7</digit>
+              </FiguredBassItem>
             <offset x="0" y="2"/>
-            <offset x="0" y="2"/>
-            <text>7 6</text>
             </FiguredBass>
           <Chord>
             <durationType>half</durationType>
@@ -3924,6 +3926,21 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <FiguredBass>
+            <onNote>0</onNote>
+            <ticks>2/8</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            <offset x="-0.128656" y="2.0585"/>
+            </FiguredBass>
+          <location>
+            <fractions>1/4</fractions>
+            </location>
           <FiguredBass>
             <ticks>3/8</ticks>
             <FiguredBassItem>
