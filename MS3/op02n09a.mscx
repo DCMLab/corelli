@@ -2837,19 +2837,13 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalNatural</subtype>
-                </Accidental>
               <pitch>72</pitch>
-              <tpc>14</tpc>
+              <tpc>26</tpc>
               </Note>
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>73</pitch>
               <tpc>21</tpc>
               </Note>
@@ -4041,10 +4035,12 @@
               </Note>
             </Chord>
           <FiguredBass>
-            <ticks>2/8</ticks>
+            <ticks>3/16</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>5</digit>
+              </FiguredBassItem>
             <offset x="0" y="2"/>
-            <offset x="0" y="2"/>
-            <text>5 6</text>
             </FiguredBass>
           <Chord>
             <durationType>quarter</durationType>
@@ -4053,6 +4049,18 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/16</fractions>
+            </location>
+          <FiguredBass>
+            <onNote>0</onNote>
+            <ticks>1/16</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            <offset x="-0.128656" y="2.0585"/>
+            </FiguredBass>
           </voice>
         </Measure>
       <Measure>
@@ -4457,6 +4465,14 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <FiguredBass>
+            <ticks>2/8</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <prefix>3</prefix>
+              </FiguredBassItem>
+            <offset x="0" y="2.0585"/>
+            </FiguredBass>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
