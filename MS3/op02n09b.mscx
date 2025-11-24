@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+  <programRevision>7be26eb</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -3879,11 +3879,11 @@
             <onNote>0</onNote>
             <ticks>2/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="3" b1="0" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <prefix>4</prefix>
               </FiguredBassItem>
             <offset x="0.101706" y="4.1"/>
@@ -3956,7 +3956,7 @@
       <Measure>
         <voice>
           <FiguredBass>
-            <ticks>1/4</ticks>
+            <ticks>2/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
@@ -3971,13 +3971,13 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <FiguredBass>
             <onNote>0</onNote>
-            <ticks>2/4</ticks>
+            <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
               </FiguredBassItem>
             </FiguredBass>
@@ -4044,13 +4044,6 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
-          <FiguredBass>
-            <ticks>1/8</ticks>
-            <FiguredBassItem>
-              <brackets b0="0" b1="0" b2="3" b3="0" b4="4"/>
-              <continuationLine>1</continuationLine>
-              </FiguredBassItem>
-            </FiguredBass>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4404,10 +4397,15 @@
       <Measure>
         <voice>
           <FiguredBass>
-            <ticks>3/4</ticks>
-            <text>6[  ]5
-4[  ]3
-</text>
+            <ticks>2/4</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>4</digit>
+              </FiguredBassItem>
             </FiguredBass>
           <Chord>
             <dots>1</dots>
@@ -4417,6 +4415,21 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <FiguredBass>
+            <onNote>0</onNote>
+            <ticks>1/4</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>5</digit>
+              </FiguredBassItem>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>3</digit>
+              </FiguredBassItem>
+            </FiguredBass>
           </voice>
         </Measure>
       <Measure>
@@ -4549,7 +4562,7 @@
             <onNote>0</onNote>
             <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>8</digit>
               </FiguredBassItem>
             </FiguredBass>
@@ -4728,7 +4741,7 @@
       <Measure>
         <voice>
           <FiguredBass>
-            <ticks>1/4</ticks>
+            <ticks>2/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
@@ -4742,20 +4755,14 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
           <FiguredBass>
             <onNote>0</onNote>
             <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
@@ -4853,11 +4860,11 @@
             <onNote>0</onNote>
             <ticks>2/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>7</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
@@ -4866,7 +4873,7 @@
       <Measure>
         <voice>
           <FiguredBass>
-            <ticks>1/4</ticks>
+            <ticks>2/4</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>6</digit>
@@ -4885,17 +4892,17 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <FiguredBass>
             <onNote>0</onNote>
-            <ticks>2/4</ticks>
+            <ticks>1/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="3" b1="0" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <prefix>4</prefix>
               </FiguredBassItem>
             </FiguredBass>
