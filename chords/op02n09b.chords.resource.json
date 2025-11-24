@@ -130,7 +130,15 @@
         "type": "string"
       },
       {
-        "name": "system_text",
+        "name": "tempo",
+        "type": "string"
+      },
+      {
+        "name": "qpm",
+        "type": "string"
+      },
+      {
+        "name": "tempo_visible",
         "type": "string"
       },
       {
@@ -151,8 +159,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "21iJAhSUkoYaSA",
-    "filepath": "chords/21iJAhSUkoYaSA.schema.yaml",
+    "identifier": "JrJGlrYBPFXWAw",
+    "filepath": "chords/JrJGlrYBPFXWAw.schema.yaml",
     "used_in": "op02n09b"
   },
   "creator": {
@@ -165,8 +173,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.6.0"
-  },
-  "git_revision": "9ad0c30b8dd98e13b6996de2e4a9501739ab6231",
-  "git_tag": "v2.9-53-g9ad0c30b"
+    "softwareVersion": "0.0.post1.dev1+g6d954be"
+  }
 }

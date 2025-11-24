@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision>7be26eb</programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -332,13 +332,10 @@
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <SystemText>
-            <swing unit="" ratio= "60"/>
-            <style>Tempo</style>
-            <minDistance>-0.415352</minDistance>
-            <offset x="-5.59382" y="-4.6284"/>
+          <Tempo>
+            <tempo>1.5</tempo>
             <text>Tempo di Sarabanda Largo</text>
-            </SystemText>
+            </Tempo>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -1837,6 +1834,7 @@
           </voice>
         </Measure>
       <Measure>
+        <endRepeat>2</endRepeat>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -3843,11 +3841,11 @@
             <onNote>0</onNote>
             <ticks>2/4</ticks>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>7</digit>
               </FiguredBassItem>
             <FiguredBassItem>
-              <brackets b0="0" b1="3" b2="4" b3="0" b4="0"/>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>5</digit>
               </FiguredBassItem>
             </FiguredBass>
