@@ -1,5 +1,5 @@
 mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	timesig	staff	voice	duration	nominal_duration	scalar	chord_id	staff_text	tempo	qpm	metronome_base	metronome_number	tempo_visible	thoroughbass_duration	thoroughbass_level_1	thoroughbass_level_2	slur
-1	1	0	0	0.0	0	0	Tempo	4/4	1	1	0					𝅘𝅥=52	52.0	𝅘𝅥	52.0	0.0				
+1	1	0	0	0.0	0	0	Tempo	4/4	1	1	0					𝅘𝅥 =52	52.0	𝅘𝅥 	52.0	0.0				
 1	1	0	0	0.0	0	0	StaffText	4/4	1	1	0				Tonart: A-Mixolydisch									
 1	1	0	0	3.0	0	0	Chord	4/4	1	1	3/4	1/2	3/2	0										
 1	1	3	3	1.0	3/4	3/4	Chord	4/4	1	1	1/4	1/4	1	1										
@@ -7,6 +7,7 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 1	1	3	3	1.0	3/4	3/4	Chord	4/4	2	1	1/4	1/4	1	3										
 1	1	0	0	3.0	0	0	Chord	4/4	3	1	3/4	1/2	3/2	4										
 1	1	3	3	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	5										
+1	1	0	0	0.0	0	0	StaffText	4/4	4	1	0				A.I{									
 1	1	0	0	3.0	0	0	Chord	4/4	4	1	3/4	1/2	3/2	6										
 1	1	3	3	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	7										
 2	2	4	4	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	8										
@@ -23,13 +24,17 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 2	2	6	6	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	19										
 2	2	7	7	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	20										
 2	2	4	4	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	6\		
+2	2	4	4	0.0	0	0	StaffText	4/4	4	1	0				viio6									
 2	2	4	4	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	21										
 2	2	5	5	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/8	6		
+2	2	5	5	0.0	1/4	1/4	StaffText	4/4	4	1	0				I6									
 2	2	5	5	0.5	1/4	1/4	Chord	4/4	4	1	1/8	1/8	1	22										
 2	2	11/2	11/2	0.5	3/8	3/8	Chord	4/4	4	1	1/8	1/8	1	23										
 2	2	6	6	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	#		
+2	2	6	6	0.0	1/2	1/2	StaffText	4/4	4	1	0				V									
 2	2	6	6	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	24										
 2	2	7	7	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	6		
+2	2	7	7	0.0	3/4	3/4	StaffText	4/4	4	1	0				I6									
 2	2	7	7	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	25										
 3	3	8	8	2.0	0	0	Chord	4/4	1	1	1/2	1/2	1	26										
 3	3	10	10	1.0	1/2	1/2	Chord	4/4	1	1	1/4	1/4	1	27										
@@ -43,11 +48,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 3	3	10	10	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	35										
 3	3	11	11	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	36										
 3	3	8	8	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	7		
+3	3	8	8	0.0	0	0	StaffText	4/4	4	1	0				ii7									
 3	3	8	8	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	37										
 3	3	9	9	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	7	#	
+3	3	9	9	0.0	1/4	1/4	StaffText	4/4	4	1	0				V7									
 3	3	9	9	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	38										
+3	3	10	10	0.0	1/2	1/2	StaffText	4/4	4	1	0				I|IAC}									
 3	3	10	10	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	39										
 3	3	11	11	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	5		
+3	3	11	11	0.0	3/4	3/4	StaffText	4/4	4	1	0				V.IV{									
 3	3	11	11	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	40										
 4	4	12	12	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	41										
 4	4	13	13	1.0	1/4	1/4	Chord	4/4	1	1	1/4	1/4	1	42										
@@ -60,12 +69,16 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 4	4	14	14	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	49										
 4	4	15	15	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	50										
 4	4	12	12	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	4+	2	
+4	4	12	12	0.0	0	0	StaffText	4/4	4	1	0				V2									
 4	4	12	12	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	51										
 4	4	13	13	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	6		
+4	4	13	13	0.0	1/4	1/4	StaffText	4/4	4	1	0				I6									
 4	4	13	13	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	52										
 4	4	14	14	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	7		
+4	4	14	14	0.0	1/2	1/2	StaffText	4/4	4	1	0				ii7									
 4	4	14	14	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	53										
 4	4	15	15	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	7	#	
+4	4	15	15	0.0	3/4	3/4	StaffText	4/4	4	1	0				V7									
 4	4	15	15	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	54										
 5	5	16	16	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	55										
 5	5	17	17	1.0	1/4	1/4	Chord	4/4	1	1	1/4	1/4	1	56										
@@ -79,11 +92,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 5	5	17	17	2.0	1/4	1/4	Chord	4/4	3	1	1/2	1/2	1	64										
 5	5	19	19	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	65										
 5	5	16	16	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	#		
+5	5	16	16	0.0	0	0	StaffText	4/4	4	1	0				I|IAC}									
 5	5	16	16	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	66										
 5	5	17	17	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	5		
+5	5	17	17	0.0	1/4	1/4	StaffText	4/4	4	1	0				I.V{									
 5	5	17	17	2.0	1/4	1/4	Chord	4/4	4	1	1/2	1/2	1	67										
 5	5	18	18	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	4	2	
+5	5	18	18	0.0	1/2	1/2	StaffText	4/4	4	1	0				vi2									
 5	5	19	19	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	6		
+5	5	19	19	0.0	3/4	3/4	StaffText	4/4	4	1	0				ii6									
 5	5	19	19	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	68										
 6	6	20	20	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	69										
 6	6	21	21	1.0	1/4	1/4	Chord	4/4	1	1	1/4	1/4	1	70										
@@ -96,12 +113,16 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 6	6	22	22	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	77										
 6	6	23	23	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	78										
 6	6	20	20	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	4+	2	
+6	6	20	20	0.0	0	0	StaffText	4/4	4	1	0				V2									
 6	6	20	20	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	79										
 6	6	21	21	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	6		
+6	6	21	21	0.0	1/4	1/4	StaffText	4/4	4	1	0				I6									
 6	6	21	21	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	80										
 6	6	22	22	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	b		
+6	6	22	22	0.0	1/2	1/2	StaffText	4/4	4	1	0				ii7									
 6	6	22	22	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	81										
 6	6	23	23	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	7	#	
+6	6	23	23	0.0	3/4	3/4	StaffText	4/4	4	1	0				V7									
 6	6	23	23	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	82										
 7	7	24	24	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	83										
 7	7	25	25	1.0	1/4	1/4	Chord	4/4	1	1	1/4	1/4	1	84										
@@ -116,11 +137,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 7	7	24	24	2.0	0	0	Chord	4/4	3	1	1/2	1/2	1	93										
 7	7	26	26	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	94										
 7	7	24	24	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5		
+7	7	24	24	0.0	0	0	StaffText	4/4	4	1	0				I|IAC}{									
 7	7	24	24	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	95										
 7	7	25	25	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	6		
+7	7	25	25	0.0	1/4	1/4	StaffText	4/4	4	1	0				vi6									
 7	7	26	26	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	9	#	
+7	7	26	26	0.0	1/2	1/2	StaffText	4/4	4	1	0				V(9)									
 7	7	26	26	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	96										
 7	7	27	27	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	8		
+7	7	27	27	0.0	3/4	3/4	StaffText	4/4	4	1	0				V									
 8	8	28	28	0.5	0	0	Chord	4/4	1	1	1/8	1/8	1	97										
 8	8	57/2	57/2	0.25	1/8	1/8	Chord	4/4	1	1	1/16	1/16	1	98										2
 8	8	115/4	115/4	0.25	3/16	3/16	Chord	4/4	1	1	1/16	1/16	1	99										
@@ -140,11 +165,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 8	8	30	30	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	113										
 8	8	31	31	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	114										
 8	8	28	28	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5	4	
+8	8	28	28	0.0	0	0	StaffText	4/4	4	1	0				ii(4)									
 8	8	28	28	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	115										
 8	8	29	29	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	h3		
+8	8	29	29	0.0	1/4	1/4	StaffText	4/4	4	1	0				ii									
 8	8	29	29	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	116										
 8	8	30	30	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	6	5	
+8	8	30	30	0.0	1/2	1/2	StaffText	4/4	4	1	0				V65									
 8	8	30	30	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	117										
+8	8	31	31	0.0	3/4	3/4	StaffText	4/4	4	1	0				I									
 8	8	31	31	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	118										
 9	9	32	32	0.5	0	0	Chord	4/4	1	1	1/8	1/8	1	119										
 9	9	65/2	65/2	0.5	1/8	1/8	Chord	4/4	1	1	1/8	1/8	1	120										
@@ -163,12 +192,16 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 9	9	34	34	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	133										
 9	9	35	35	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	134										
 9	9	32	32	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	6	5	
+9	9	32	32	0.0	0	0	StaffText	4/4	4	1	0				IVM65									
 9	9	32	32	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	135										
 9	9	33	33	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	5		
+9	9	33	33	0.0	1/4	1/4	StaffText	4/4	4	1	0				viio									
 9	9	33	33	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	136										
 9	9	34	34	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	9		
+9	9	34	34	0.0	1/2	1/2	StaffText	4/4	4	1	0				I(9)									
 9	9	34	34	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	137										
 9	9	35	35	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	8		
+9	9	35	35	0.0	3/4	3/4	StaffText	4/4	4	1	0				I									
 9	9	35	35	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	138										
 10	10	36	36	0.5	0	0	Chord	4/4	1	1	1/8	1/8	1	139										
 10	10	73/2	73/2	0.25	1/8	1/8	Chord	4/4	1	1	1/16	1/16	1	140										8
@@ -191,13 +224,18 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 10	10	38	38	1.5	1/2	1/2	Chord	4/4	3	1	3/8	1/4	3/2	157										
 10	10	79/2	79/2	0.5	7/8	7/8	Chord	4/4	3	1	1/8	1/8	1	158										
 10	10	36	36	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5	4	
+10	10	36	36	0.0	0	0	StaffText	4/4	4	1	0				V(4)									
 10	10	36	36	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	159										
 10	10	37	37	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	5	#	
+10	10	37	37	0.0	1/4	1/4	StaffText	4/4	4	1	0				vi.#viio									
 10	10	37	37	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	160										
 10	10	38	38	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/8	9\		
+10	10	38	38	0.0	1/2	1/2	StaffText	4/4	4	1	0				i(9)									
 10	10	38	38	1.5	1/2	1/2	Chord	4/4	4	1	3/8	1/4	3/2	161										
 10	10	77/2	77/2	0.0	5/8	5/8	FiguredBass	4/4	4	1	0										1/4	8		
+10	10	39	39	0.0	3/4	3/4	StaffText	4/4	4	1	0				i									
 10	10	79/2	79/2	0.0	7/8	7/8	FiguredBass	4/4	4	1	0										1/8	6\		
+10	10	79/2	79/2	0.0	7/8	7/8	StaffText	4/4	4	1	0				iio6									
 10	10	79/2	79/2	0.5	7/8	7/8	Chord	4/4	4	1	1/8	1/8	1	162										
 11	11	40	40	0.5	0	0	Chord	4/4	1	1	1/8	1/8	1	163										
 11	11	81/2	81/2	0.5	1/8	1/8	Chord	4/4	1	1	1/8	1/8	1	164										
@@ -216,13 +254,18 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 11	11	41	41	1.0	1/4	1/4	Chord	4/4	3	1	1/4	1/4	1	177										
 11	11	42	42	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	178										
 11	11	40	40	0.0	0	0	FiguredBass	4/4	4	1	0										1/8	5\	#	
+11	11	40	40	0.0	0	0	StaffText	4/4	4	1	0				V									
 11	11	40	40	0.5	0	0	Chord	4/4	4	1	1/8	1/8	1	179										
 11	11	81/2	81/2	0.0	1/8	1/8	FiguredBass	4/4	4	1	0										1/8	7	5	
 11	11	81/2	81/2	0.5	1/8	1/8	Chord	4/4	4	1	1/8	1/8	1	180										
 11	11	41	41	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/8	5	4	
+11	11	41	41	0.0	1/4	1/4	StaffText	4/4	4	1	0				V(4)									
 11	11	41	41	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	181										
 11	11	83/2	83/2	0.0	3/8	3/8	FiguredBass	4/4	4	1	0										1/8	#		
+11	11	167/4	167/4	0.0	7/16	7/16	StaffText	4/4	4	1	0				V									
+11	11	42	42	0.0	1/2	1/2	StaffText	4/4	4	1	0				i|PAC}									
 11	11	42	42	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	182										
+11	11	43	43	0.0	3/4	3/4	StaffText	4/4	4	1	0				I.vi{									
 12	12	44	44	1.5	0	0	Chord	4/4	1	1	3/8	1/4	3/2	183										
 12	12	91/2	91/2	0.25	3/8	3/8	Chord	4/4	1	1	1/16	1/16	1	184										13
 12	12	183/4	183/4	0.25	7/16	7/16	Chord	4/4	1	1	1/16	1/16	1	185										
@@ -240,11 +283,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 12	12	44	44	2.0	0	0	Chord	4/4	3	1	1/2	1/2	1	197										
 12	12	46	46	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	198										
 12	12	44	44	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5\	4	
+12	12	44	44	0.0	0	0	StaffText	4/4	4	1	0				iii(4)									
 12	12	44	44	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	199										
 12	12	45	45	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	3		
+12	12	45	45	0.0	1/4	1/4	StaffText	4/4	4	1	0				iii									
 12	12	46	46	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	9		
+12	12	46	46	0.0	1/2	1/2	StaffText	4/4	4	1	0				IV(9)									
 12	12	46	46	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	200										
 12	12	47	47	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	8		
+12	12	47	47	0.0	3/4	3/4	StaffText	4/4	4	1	0				IV									
 13	13	48	48	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	201										
 13	13	49	49	1.0	1/4	1/4	Chord	4/4	1	1	1/4	1/4	1	202										
 13	13	50	50	0.5	1/2	1/2	Chord	4/4	1	1	1/8	1/8	1	203										
@@ -264,11 +311,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 13	13	48	48	2.0	0	0	Chord	4/4	3	1	1/2	1/2	1	217										
 13	13	50	50	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	218										
 13	13	48	48	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5	4	
+13	13	48	48	0.0	0	0	StaffText	4/4	4	1	0				I(4)									
 13	13	48	48	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	219										
 13	13	49	49	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	3		
+13	13	49	49	0.0	1/4	1/4	StaffText	4/4	4	1	0				I									
 13	13	50	50	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	5	4	
+13	13	50	50	0.0	1/2	1/2	StaffText	4/4	4	1	0				V(4)									
 13	13	50	50	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	220										
 13	13	51	51	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	#		
+13	13	51	51	0.0	3/4	3/4	StaffText	4/4	4	1	0				V									
 14	14	52	52	1.5	0	0	Chord	4/4	1	1	3/8	1/4	3/2	221										
 14	14	107/2	107/2	0.25	3/8	3/8	Chord	4/4	1	1	1/16	1/16	1	222										21
 14	14	215/4	215/4	0.25	7/16	7/16	Chord	4/4	1	1	1/16	1/16	1	223										
@@ -285,11 +336,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 14	14	55	55	0.5	3/4	3/4	Chord	4/4	3	1	1/8	1/8	1	234										
 14	14	111/2	111/2	0.5	7/8	7/8	Chord	4/4	3	1	1/8	1/8	1	235										
 14	14	52	52	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5\	4	
+14	14	52	52	0.0	0	0	StaffText	4/4	4	1	0				ii(4)									
 14	14	52	52	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	236										
 14	14	53	53	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	3		
+14	14	53	53	0.0	1/4	1/4	StaffText	4/4	4	1	0				ii									
 14	14	54	54	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	7	#	
+14	14	54	54	0.0	1/2	1/2	StaffText	4/4	4	1	0				V									
 14	14	54	54	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	237										
 14	14	55	55	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/8	5		
+14	14	55	55	0.0	3/4	3/4	StaffText	4/4	4	1	0				vi									
 14	14	55	55	0.5	3/4	3/4	Chord	4/4	4	1	1/8	1/8	1	238										
 14	14	111/2	111/2	0.5	7/8	7/8	Chord	4/4	4	1	1/8	1/8	1	239										
 15	15	56	56	1.0	0	0	Chord	4/4	1	1	1/4	1/4	1	240										
@@ -304,11 +359,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 15	15	58	58	1.0	1/2	1/2	Chord	4/4	3	1	1/4	1/4	1	249										
 15	15	59	59	1.0	3/4	3/4	Chord	4/4	3	1	1/4	1/4	1	250										
 15	15	56	56	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	6	5	
+15	15	56	56	0.0	0	0	StaffText	4/4	4	1	0				ii65									
 15	15	56	56	1.0	0	0	Chord	4/4	4	1	1/4	1/4	1	251										
 15	15	57	57	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	#		
+15	15	57	57	0.0	1/4	1/4	StaffText	4/4	4	1	0				V									
 15	15	57	57	1.0	1/4	1/4	Chord	4/4	4	1	1/4	1/4	1	252										
+15	15	58	58	0.0	1/2	1/2	StaffText	4/4	4	1	0				I|PAC}									
 15	15	58	58	1.0	1/2	1/2	Chord	4/4	4	1	1/4	1/4	1	253										
 15	15	59	59	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	6		
+15	15	59	59	0.0	3/4	3/4	StaffText	4/4	4	1	0				I6{									
 15	15	59	59	1.0	3/4	3/4	Chord	4/4	4	1	1/4	1/4	1	254										
 16	16	60	60	0.5	0	0	Chord	4/4	1	1	1/8	1/8	1	255										
 16	16	121/2	121/2	0.25	1/8	1/8	Chord	4/4	1	1	1/16	1/16	1	256										23
@@ -324,11 +383,15 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 16	16	60	60	2.0	0	0	Chord	4/4	3	1	1/2	1/2	1	266										
 16	16	62	62	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	267										
 16	16	60	60	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	9	5	
+16	16	60	60	0.0	0	0	StaffText	4/4	4	1	0				IV(9)									
 16	16	60	60	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	268										
 16	16	61	61	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	8	6	
+16	16	61	61	0.0	1/4	1/4	StaffText	4/4	4	1	0				ii6									
 16	16	62	62	0.0	1/2	1/2	FiguredBass	4/4	4	1	0										1/4	7	#	
+16	16	62	62	0.0	1/2	1/2	StaffText	4/4	4	1	0				V7									
 16	16	62	62	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	269										
 16	16	63	63	0.0	3/4	3/4	FiguredBass	4/4	4	1	0										1/4	7	4	
+16	16	63	63	0.0	3/4	3/4	StaffText	4/4	4	1	0				V(64)									
 17	17	64	64	2.0	0	0	Chord	4/4	1	1	1/2	1/2	1	270										
 17	17	66	66	2.0	1/2	1/2	Chord	4/4	1	1	1/2	1/2	1	271										
 17	17	64	64	1.0	0	0	Chord	4/4	2	1	1/4	1/4	1	272										
@@ -337,6 +400,9 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 17	17	64	64	2.0	0	0	Chord	4/4	3	1	1/2	1/2	1	275										
 17	17	66	66	2.0	1/2	1/2	Chord	4/4	3	1	1/2	1/2	1	276										
 17	17	64	64	0.0	0	0	FiguredBass	4/4	4	1	0										1/4	5	4	
+17	17	64	64	0.0	0	0	StaffText	4/4	4	1	0				V(4)									
 17	17	64	64	2.0	0	0	Chord	4/4	4	1	1/2	1/2	1	277										
 17	17	65	65	0.0	1/4	1/4	FiguredBass	4/4	4	1	0										1/4	#		
+17	17	65	65	0.0	1/4	1/4	StaffText	4/4	4	1	0				V									
+17	17	66	66	0.0	1/2	1/2	StaffText	4/4	4	1	0				I|PAC}									
 17	17	66	66	2.0	1/2	1/2	Chord	4/4	4	1	1/2	1/2	1	278										
