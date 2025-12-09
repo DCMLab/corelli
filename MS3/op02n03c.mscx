@@ -3171,7 +3171,7 @@
       <Measure>
         <voice>
           <FiguredBass>
-            <ticks>2/2</ticks>
+            <ticks>1/2</ticks>
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <digit>7</digit>
@@ -3189,6 +3189,20 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+            </location>
+          <FiguredBass>
+            <onNote>0</onNote>
+            <ticks>1/2</ticks>
+            <FiguredBassItem>
+              <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
+              <digit>6</digit>
+              </FiguredBassItem>
+            </FiguredBass>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
           <FiguredBass>
             <ticks>1/2</ticks>
             <FiguredBassItem>
@@ -3392,6 +3406,7 @@
             <FiguredBassItem>
               <brackets b0="0" b1="0" b2="0" b3="0" b4="0"/>
               <prefix>4</prefix>
+              <continuationLine>2</continuationLine>
               </FiguredBassItem>
             <offset x="0" y="0.5"/>
             </FiguredBass>
