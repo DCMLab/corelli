@@ -233,6 +233,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op02n02a |      22|     0|        |                                                                  |                      |
 |op02n02b |      50|     0|        |                                                                  |                      |
 |op02n03a |      13|     0|        |                                                                  |                      |
+|op02n03b |      22|     0|        |                                                                  |                      |
 |op02n06a |      19|     0|        |                                                                  |                      |
 |op02n06b |      26|     0|        |                                                                  |                      |
 |op02n06c |      28|     0|        |                                                                  |                      |
@@ -338,6 +339,7 @@ is indicated by appended letters `op03n02a`, `op03n02b`, etc.
 |op04n12a |      35|    77|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op04n12b |      39|   111|2.3.0   |Andrew Wilson                                                     |AN                    |
 |op04n12c |      19|    62|2.3.0   |Andrew Wilson                                                     |AN                    |
+|op02n09a |      20|     0|        |                                                                  |                      |
 
 
 *Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
