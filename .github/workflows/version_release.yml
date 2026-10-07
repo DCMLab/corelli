@@ -1,5 +1,7 @@
 on:
-  pull_request:
+  # pull_request_target (not pull_request) so that secrets are available for PRs from forks.
+  # Safe because the job only checks out the base branch and never runs code from the PR head.
+  pull_request_target:
     types:
       - closed
 
