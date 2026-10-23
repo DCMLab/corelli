@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Arcangelo Corelli - Trio Sonatas (A corpus of annotated scores) &#8212; Arcangelo Corelli – Trio Sonatas v2.7 documentation</title>
+    <title>Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores) &#8212; Arcangelo Corelli – Trio Sonatas v2.10 documentation</title>
   
   
   
@@ -113,7 +113,7 @@
   
   
   
-    <p class="title logo__title">Arcangelo Corelli – Trio Sonatas v2.7 documentation</p>
+    <p class="title logo__title">Arcangelo Corelli – Trio Sonatas v2.10 documentation</p>
   
 </a></div>
     
@@ -286,42 +286,36 @@ document.write(`
   <nav class="contents local" id="readme" role="doc-toc">
 <p class="topic-title">README</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#arcangelo-corelli-trio-sonatas-a-corpus-of-annotated-scores" id="id1">Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)</a></p>
+<li><p><a class="reference internal" href="#arcangelo-corelli-trio-sonatas-a-corpus-of-annotated-scores" id="id1">Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)</a></p>
 <ul>
-<li><p><a class="reference internal" href="#version-history" id="id2">Version history</a></p></li>
-<li><p><a class="reference internal" href="#getting-the-data" id="id3">Getting the data</a></p>
+<li><p><a class="reference internal" href="#getting-the-data" id="id2">Getting the data</a></p></li>
+<li><p><a class="reference internal" href="#data-formats" id="id3">Data Formats</a></p>
 <ul>
-<li><p><a class="reference internal" href="#with-full-version-history" id="id4">With full version history</a></p></li>
-<li><p><a class="reference internal" href="#without-full-version-history" id="id5">Without full version history</a></p></li>
+<li><p><a class="reference internal" href="#opening-scores" id="id4">Opening Scores</a></p></li>
+<li><p><a class="reference internal" href="#opening-tsv-files-in-a-spreadsheet" id="id5">Opening TSV files in a spreadsheet</a></p></li>
+<li><p><a class="reference internal" href="#loading-tsv-files-in-python" id="id6">Loading TSV files in Python</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#data-formats" id="id6">Data Formats</a></p>
+<li><p><a class="reference internal" href="#version-history" id="id7">Version history</a></p></li>
+<li><p><a class="reference internal" href="#questions-suggestions-corrections-bug-reports" id="id8">Questions, Suggestions, Corrections, Bug Reports</a></p></li>
+<li><p><a class="reference internal" href="#cite-as" id="id9">Cite as</a></p></li>
+<li><p><a class="reference internal" href="#license" id="id10">License</a></p></li>
+<li><p><a class="reference internal" href="#score-origin" id="id11">Score origin</a></p></li>
+<li><p><a class="reference internal" href="#caveats" id="id12">Caveats</a></p>
 <ul>
-<li><p><a class="reference internal" href="#opening-scores" id="id7">Opening Scores</a></p></li>
-<li><p><a class="reference internal" href="#opening-tsv-files-in-a-spreadsheet" id="id8">Opening TSV files in a spreadsheet</a></p></li>
-<li><p><a class="reference internal" href="#loading-tsv-files-in-python" id="id9">Loading TSV files in Python</a></p></li>
+<li><p><a class="reference internal" href="#wrong-positions" id="id13">Wrong positions</a></p></li>
+<li><p><a class="reference internal" href="#warnings-files" id="id14"><code class="docutils literal notranslate"><span class="pre">.warnings</span></code> files</a></p></li>
+<li><p><a class="reference internal" href="#instruments" id="id15">Instruments</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#column-names" id="id10">Column names</a></p></li>
-<li><p><a class="reference internal" href="#generating-all-tsv-files-from-the-scores" id="id11">Generating all TSV files from the scores</a></p></li>
-<li><p><a class="reference internal" href="#score-origin" id="id12">Score origin</a></p></li>
-<li><p><a class="reference internal" href="#caveats" id="id13">Caveats</a></p>
-<ul>
-<li><p><a class="reference internal" href="#wrong-positions" id="id14">Wrong positions</a></p></li>
-<li><p><a class="reference internal" href="#warnings-files" id="id15"><code class="docutils literal notranslate"><span class="pre">.warnings</span></code> files</a></p></li>
-<li><p><a class="reference internal" href="#instruments" id="id16">Instruments</a></p></li>
-</ul>
-</li>
-<li><p><a class="reference internal" href="#license" id="id17">License</a></p></li>
-<li><p><a class="reference internal" href="#naming-convention" id="id18">Naming convention</a></p></li>
-<li><p><a class="reference internal" href="#questions-suggestions-corrections-bug-reports" id="id19">Questions, Suggestions, Corrections, Bug Reports</a></p></li>
-<li><p><a class="reference internal" href="#overview" id="id20">Overview</a></p></li>
+<li><p><a class="reference internal" href="#file-naming-convention" id="id16">File naming convention</a></p></li>
+<li><p><a class="reference internal" href="#overview" id="id17">Overview</a></p></li>
 </ul>
 </li>
 </ul>
 </nav>
 <p><img alt="Version" src="https://img.shields.io/github/v/release/DCMLab/corelli?display_name=tag" />
-<a class="reference external" href="https://zenodo.org/badge/latestdoi/343145912"><img alt="DOI" src="https://zenodo.org/badge/343145912.svg" /></a>
+<a class="reference external" href="https://doi.org/10.5281/zenodo.7504011"><img alt="DOI" src="https://zenodo.org/badge/343145912.svg" /></a>
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DCMLab/corelli" />
 <img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf" /></p>
 <p>This is a README file for a data repository originating from the <a class="reference external" href="https://github.com/DCMLab/dcml_corpora">DCML corpus initiative</a>
@@ -331,51 +325,20 @@ and serves as welcome page for both</p>
 <li><p>documentation page <a class="reference external" href="https://dcmlab.github.io/corelli">https://dcmlab.github.io/corelli</a></p></li>
 </ul>
 <p>For information on how to obtain and use the dataset, please refer to <a class="reference external" href="https://dcmlab.github.io/corelli/introduction">this documentation page</a>.</p>
-<!-- TOC -->
-<ul class="simple">
-<li><p><span class="xref myst">Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)</span></p>
-<ul>
-<li><p><span class="xref myst">Version history</span></p></li>
-<li><p><span class="xref myst">Getting the data</span></p>
-<ul>
-<li><p><span class="xref myst">With full version history</span></p></li>
-<li><p><span class="xref myst">Without full version history</span></p></li>
-</ul>
-</li>
-<li><p><span class="xref myst">Data Formats</span></p>
-<ul>
-<li><p><span class="xref myst">Opening Scores</span></p></li>
-<li><p><span class="xref myst">Opening TSV files in a spreadsheet</span></p></li>
-<li><p><span class="xref myst">Loading TSV files in Python</span></p></li>
-</ul>
-</li>
-<li><p><span class="xref myst">Column names</span></p></li>
-<li><p><span class="xref myst">Generating all TSV files from the scores</span></p></li>
-<li><p><span class="xref myst">Score origin</span></p></li>
-<li><p><span class="xref myst">Caveats</span></p>
-<ul>
-<li><p><span class="xref myst">Wrong positions</span></p></li>
-<li><p><span class="xref myst"><code class="docutils literal notranslate"><span class="pre">.warnings</span></code> files</span></p></li>
-<li><p><span class="xref myst">Instruments</span></p></li>
-</ul>
-</li>
-<li><p><span class="xref myst">License</span></p></li>
-<li><p><span class="xref myst">Naming convention</span></p></li>
-<li><p><span class="xref myst">Questions, Suggestions, Corrections, Bug Reports</span></p></li>
-<li><p><span class="xref myst">Overview</span></p></li>
-</ul>
-</li>
-</ul>
-<!-- TOC -->
+<p>When you use (parts of) this dataset in your work, please read and cite the following article:</p>
+<p><em>Hentschel, J., Moss, F. C., Neuwirth, M., &amp; Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the
+distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music
+Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417</em></p>
+<p>This corpus forms part of the larger <a class="reference external" href="https://github.com/DCMLab/distant_listening_corpus">Distant Listening Corpus</a>
+which constitutes a data infrastructure the data report of which has implications for the present corpus, too:</p>
+<p><em>Hentschel, J., Rammos, Y., Neuwirth, M., &amp; Rohrmeier, M. (2025). A corpus and a modular infrastructure for the
+empirical study of (an)notated music. Scientific Data, 12(1), 685. https://doi.org/10.1038/s41597-025-04976-z</em></p>
 <section id="arcangelo-corelli-trio-sonatas-a-corpus-of-annotated-scores">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Arcangelo Corelli - Trio Sonatas  (A corpus of annotated scores)</a><a class="headerlink" href="#arcangelo-corelli-trio-sonatas-a-corpus-of-annotated-scores" title="Permalink to this heading">#</a></h1>
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">Arcangelo Corelli – Trio Sonatas (A corpus of annotated scores)</a><a class="headerlink" href="#arcangelo-corelli-trio-sonatas-a-corpus-of-annotated-scores" title="Permalink to this heading">#</a></h1>
 <p>This corpus of annotated <a class="reference external" href="https://musescore.org">MuseScore</a> files has been created within
 the <a class="reference external" href="https://github.com/DCMLab/dcml_corpora">DCML corpus initiative</a> and employs
 the <a class="reference external" href="https://github.com/DCMLab/standards">DCML harmony annotation standard</a>. It was relased together with and as part
-of the “workflow paper”</p>
-<blockquote>
-<div><p>Hentschel, J., Moss, F. C., Neuwirth, M., &amp; Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417</p>
-</div></blockquote>
+of the “workflow paper” (for the reference <span class="xref myst">see below</span> or the file <code class="docutils literal notranslate"><span class="pre">CITATION.cff</span></code>).</p>
 <p>The corpus comprises 36 <code class="docutils literal notranslate"><span class="pre">Sonate</span> <span class="pre">a</span> <span class="pre">tre</span></code>, divided into 149 separate movements. Together they make up for
 three of the four famous cycles of 12 trio sonatas each:</p>
 <table class="table">
@@ -409,47 +372,43 @@ three of the four famous cycles of 12 trio sonatas each:</p>
 </tr>
 </tbody>
 </table>
-<section id="version-history">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Version history</a><a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
-<p>See the <a class="reference external" href="https://github.com/DCMLab/corelli/releases">GitHub releases</a>.</p>
-</section>
 <section id="getting-the-data">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Getting the data</a><a class="headerlink" href="#getting-the-data" title="Permalink to this heading">#</a></h2>
-<section id="with-full-version-history">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">With full version history</a><a class="headerlink" href="#with-full-version-history" title="Permalink to this heading">#</a></h3>
-<p>The dataset is version-controlled via <a class="reference external" href="https://git-scm.com/">git</a>. In order to download the files with all
-revisions they have gone through, git needs to be installed on your machine. Then you can clone this
-repository using the command</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/DCMLab/corelli.git
-</pre></div>
-</div>
-</section>
-<section id="without-full-version-history">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">Without full version history</a><a class="headerlink" href="#without-full-version-history" title="Permalink to this heading">#</a></h3>
-<p>If you are only interested in the current version of the corpus, you can simply download and unpack
-<a class="reference external" href="https://github.com/DCMLab/corelli/archive/refs/heads/main.zip">this ZIP file</a>.</p>
-</section>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Getting the data</a><a class="headerlink" href="#getting-the-data" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>download repository as a <a class="reference external" href="https://github.com/DCMLab/corelli/archive/main.zip">ZIP file</a></p></li>
+<li><p>download a <a class="reference external" href="https://specs.frictionlessdata.io/data-package/">Frictionless Datapackage</a> that includes concatenations
+of the TSV files in the four folders (<code class="docutils literal notranslate"><span class="pre">measures</span></code>, <code class="docutils literal notranslate"><span class="pre">notes</span></code>, <code class="docutils literal notranslate"><span class="pre">chords</span></code>, and <code class="docutils literal notranslate"><span class="pre">harmonies</span></code>) and a JSON descriptor:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/DCMLab/corelli/releases/latest/download/corelli.zip">corelli.zip</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DCMLab/corelli/releases/latest/download/corelli.datapackage.json">corelli.datapackage.json</a></p></li>
+</ul>
+</li>
+<li><p>clone the repo: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/DCMLab/corelli.git</span></code></p></li>
+</ul>
 </section>
 <section id="data-formats">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Data Formats</a><a class="headerlink" href="#data-formats" title="Permalink to this heading">#</a></h2>
-<p>Each piece in this corpus is represented by four files with identical names, each in its own folder. For example,
-the first movement of the first sonata has the following files:</p>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Data Formats</a><a class="headerlink" href="#data-formats" title="Permalink to this heading">#</a></h2>
+<p>Each piece in this corpus is represented by five files with identical name prefixes, each in its own folder.
+For example, the first movement of the first trio sonata has the following files:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">MS3/op01n01a.mscx</span></code>: Uncompressed MuseScore file including the music and annotation labels.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">notes/op01n01a.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">measures/op01n01a.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/op01n01a.tsv</span></code>: A list of the included harmony labels (including cadences and phrases) with their positions in
-the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">MS3/op01n01a.mscx</span></code>: Uncompressed MuseScore 3.6.2 file including the music and annotation labels.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">notes/op01n01a.notes.tsv</span></code>: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">measures/op01n01a.measures.tsv</span></code>: A table with relevant information about the measures in the score.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">chords/op01n01a.chords.tsv</span></code>: A table containing layer-wise unique onset positions with the musical markup (such as dynamics, articulation, lyrics, figured bass, etc.).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">harmonies/op01n01a.harmonies.tsv</span></code>: A table of the included harmony labels (including cadences and phrases) with their positions in the score.</p></li>
 </ul>
+<p>Each TSV file comes with its own JSON descriptor that describes the meanings and datatypes of the columns (“fields”) it contains,
+follows the <a class="reference external" href="https://specs.frictionlessdata.io/tabular-data-resource/">Frictionless specification</a>,
+and can be used to validate and correctly load the described file.</p>
 <section id="opening-scores">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">Opening Scores</a><a class="headerlink" href="#opening-scores" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id4" role="doc-backlink">Opening Scores</a><a class="headerlink" href="#opening-scores" title="Permalink to this heading">#</a></h3>
 <p>After navigating to your local copy, you can open the scores in the folder <code class="docutils literal notranslate"><span class="pre">MS3</span></code> with the free and open source score
 editor <a class="reference external" href="https://musescore.org">MuseScore</a>. Please note that the scores have been edited, annotated and tested with
 <a class="reference external" href="https://github.com/musescore/MuseScore/releases/tag/v3.6.2">MuseScore 3.6.2</a>.
-MuseScore 4 has since been released and preliminary tests suggest that it renders them correctly.</p>
+MuseScore 4 has since been released which renders them correctly but cannot store them back in the same format.</p>
 </section>
 <section id="opening-tsv-files-in-a-spreadsheet">
-<h3><a class="toc-backref" href="#id8" role="doc-backlink">Opening TSV files in a spreadsheet</a><a class="headerlink" href="#opening-tsv-files-in-a-spreadsheet" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Opening TSV files in a spreadsheet</a><a class="headerlink" href="#opening-tsv-files-in-a-spreadsheet" title="Permalink to this heading">#</a></h3>
 <p>Tab-separated value (TSV) files are like Comma-separated value (CSV) files and can be opened with most modern text
 editors. However, for correctly displaying the columns, you might want to use a spreadsheet or an addon for your
 favourite text editor. When you use a spreadsheet such as Excel, it might annoy you by interpreting fractions as
@@ -458,39 +417,39 @@ dates. This can be circumvented by using <code class="docutils literal notransla
 every modern programming language.</p>
 </section>
 <section id="loading-tsv-files-in-python">
-<h3><a class="toc-backref" href="#id9" role="doc-backlink">Loading TSV files in Python</a><a class="headerlink" href="#loading-tsv-files-in-python" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">Loading TSV files in Python</a><a class="headerlink" href="#loading-tsv-files-in-python" title="Permalink to this heading">#</a></h3>
 <p>Since the TSV files contain null values, lists, fractions, and numbers that are to be treated as strings, you may want
 to use this code to load any TSV files related to this repository (provided you’re doing it in Python). After a quick
-<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">ms3</span></code> (requires Python 3.10) you’ll be able to load any TSV like this:</p>
+<code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-U</span> <span class="pre">ms3</span></code> (requires Python 3.10 or later) you’ll be able to load any TSV like this:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ms3</span>
 
-<span class="n">labels</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s1">&#39;harmonies/op01n01a.tsv&#39;</span><span class="p">)</span>
-<span class="n">notes</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s1">&#39;notes/op01n01a.tsv&#39;</span><span class="p">)</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;harmonies/op01n01a.harmonies.tsv&quot;</span><span class="p">)</span>
+<span class="n">notes</span> <span class="o">=</span> <span class="n">ms3</span><span class="o">.</span><span class="n">load_tsv</span><span class="p">(</span><span class="s2">&quot;notes/op01n01a.notes.tsv&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 </section>
-<section id="column-names">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Column names</a><a class="headerlink" href="#column-names" title="Permalink to this heading">#</a></h2>
-<p>You can look up meaning and data type of the columns of all TSV files including <code class="docutils literal notranslate"><span class="pre">metadata.tsv</span></code> in
-<a class="reference external" href="https://johentsch.github.io/ms3/columns">ms3’s documentation</a> (simply search through the page).</p>
+<section id="version-history">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Version history</a><a class="headerlink" href="#version-history" title="Permalink to this heading">#</a></h2>
+<p>See the <a class="reference external" href="https://github.com/DCMLab/corelli/releases">GitHub releases</a>.</p>
 </section>
-<section id="generating-all-tsv-files-from-the-scores">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Generating all TSV files from the scores</a><a class="headerlink" href="#generating-all-tsv-files-from-the-scores" title="Permalink to this heading">#</a></h2>
-<p>When you have made changes to the scores and want to update the TSV files accordingly, you can use the following
-command (provided you have pip-installed <a class="reference external" href="https://github.com/johentsch/ms3">ms3</a>):</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ms3</span> <span class="n">extract</span> <span class="o">-</span><span class="n">M</span> <span class="o">-</span><span class="n">N</span> <span class="o">-</span><span class="n">X</span> <span class="o">-</span><span class="n">D</span> <span class="c1"># for measures, notes, expanded annotations, and metadata</span>
-</pre></div>
-</div>
-<p>If, in addition, you want to generate the reviewed scores with out-of-label notes colored in red, you can do</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ms3</span> <span class="n">review</span> <span class="o">-</span><span class="n">M</span> <span class="o">-</span><span class="n">N</span> <span class="o">-</span><span class="n">X</span> <span class="o">-</span><span class="n">D</span> <span class="c1"># for extracting measures, notes, expanded annotations, and metadata</span>
-</pre></div>
-</div>
-<p>By adding the flag <code class="docutils literal notranslate"><span class="pre">-c</span></code> to the review command, it will additionally compare the (potentially modified) annotations in the score
-with the ones currently present in the harmonies TSV files and reflect the comparison in the reviewed scores.</p>
+<section id="questions-suggestions-corrections-bug-reports">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Questions, Suggestions, Corrections, Bug Reports</a><a class="headerlink" href="#questions-suggestions-corrections-bug-reports" title="Permalink to this heading">#</a></h2>
+<p>Please <a class="reference external" href="https://github.com/DCMLab/corelli/issues">create an issue</a> and/or feel free to fork and submit pull requests.</p>
+</section>
+<section id="cite-as">
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Cite as</a><a class="headerlink" href="#cite-as" title="Permalink to this heading">#</a></h2>
+<blockquote>
+<div><p>Hentschel, J., Moss, F. C., Neuwirth, M., &amp; Rohrmeier, M. A. (2021). A semi-automated workflow paradigm for the distributed creation and curation of expert annotations. Proceedings of the 22nd International Society for Music Information Retrieval Conference, ISMIR, 262–269. https://doi.org/10.5281/ZENODO.5624417</p>
+</div></blockquote>
+</section>
+<section id="license">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">License</a><a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
+<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
+<p><img alt="cc-by-nc-sa-image" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" /></p>
 </section>
 <section id="score-origin">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Score origin</a><a class="headerlink" href="#score-origin" title="Permalink to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">Score origin</a><a class="headerlink" href="#score-origin" title="Permalink to this heading">#</a></h2>
 <p>To create the dataset we downloaded the musicXML conversion available on Craig Sapp’s
 <a class="reference external" href="http://kern.humdrum.org/search?s=t&amp;keyword=Corelli">KernScores</a> (thanks to the engraver(s) who first encoded the
 scores in **kern format), converted them to MuseScore, and had them corrected and completed by the transcription service
@@ -524,9 +483,9 @@ on the International Music Score Library Project (IMSLP) which are included in t
 Rome princeps editions.</p>
 </section>
 <section id="caveats">
-<h2><a class="toc-backref" href="#id13" role="doc-backlink">Caveats</a><a class="headerlink" href="#caveats" title="Permalink to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Caveats</a><a class="headerlink" href="#caveats" title="Permalink to this heading">#</a></h2>
 <section id="wrong-positions">
-<h3><a class="toc-backref" href="#id14" role="doc-backlink">Wrong positions</a><a class="headerlink" href="#wrong-positions" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Wrong positions</a><a class="headerlink" href="#wrong-positions" title="Permalink to this heading">#</a></h3>
 <p>Two files have different time signatures in the upper and lower staff pairs which leads to wrong positions:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">op03n10d</span></code> has 12/8 vs. 2/2</p></li>
@@ -544,7 +503,7 @@ users could multiply <code class="docutils literal notranslate"><span class="pre
 re-computed by adding the stretched onset values to the MC’s quarterbeat.</p>
 </section>
 <section id="warnings-files">
-<h3><a class="toc-backref" href="#id15" role="doc-backlink"><code class="docutils literal notranslate"><span class="pre">.warnings</span></code> files</a><a class="headerlink" href="#warnings-files" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id14" role="doc-backlink"><code class="docutils literal notranslate"><span class="pre">.warnings</span></code> files</a><a class="headerlink" href="#warnings-files" title="Permalink to this heading">#</a></h3>
 <p>As long as such files exist in the <code class="docutils literal notranslate"><span class="pre">reviewed</span></code> folder, the <code class="docutils literal notranslate"><span class="pre">ms3</span> <span class="pre">review</span></code> command has detected</p>
 <ul class="simple">
 <li><p>incongruent phrase beginnings <code class="docutils literal notranslate"><span class="pre">{</span></code> and endings <code class="docutils literal notranslate"><span class="pre">}</span></code>, and/or</p></li>
@@ -554,28 +513,19 @@ re-computed by adding the stretched onset values to the MC’s quarterbeat.</p>
 <p>Pull requests addressing any of these warnings would be highly appreciated.</p>
 </section>
 <section id="instruments">
-<h3><a class="toc-backref" href="#id16" role="doc-backlink">Instruments</a><a class="headerlink" href="#instruments" title="Permalink to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id15" role="doc-backlink">Instruments</a><a class="headerlink" href="#instruments" title="Permalink to this heading">#</a></h3>
 <p>The information on the four parts in the MuseScore files has not been curated. That concerns the staff names,
 brackets, behaviour of barlines, and instruments. If someone could send us a good configuration that looks and sounds
 decent, we would be glad to automatically apply it to the entire dataset.</p>
 </section>
 </section>
-<section id="license">
-<h2><a class="toc-backref" href="#id17" role="doc-backlink">License</a><a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
-<p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
-(<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).</p>
-</section>
-<section id="naming-convention">
-<h2><a class="toc-backref" href="#id18" role="doc-backlink">Naming convention</a><a class="headerlink" href="#naming-convention" title="Permalink to this heading">#</a></h2>
+<section id="file-naming-convention">
+<h2><a class="toc-backref" href="#id16" role="doc-backlink">File naming convention</a><a class="headerlink" href="#file-naming-convention" title="Permalink to this heading">#</a></h2>
 <p>For example, all files starting with <code class="docutils literal notranslate"><span class="pre">op03n02</span></code> are movements of Sonata number 2 from opus 3. The sequence of movements
 is indicated by appended letters <code class="docutils literal notranslate"><span class="pre">op03n02a</span></code>, <code class="docutils literal notranslate"><span class="pre">op03n02b</span></code>, etc.</p>
 </section>
-<section id="questions-suggestions-corrections-bug-reports">
-<h2><a class="toc-backref" href="#id19" role="doc-backlink">Questions, Suggestions, Corrections, Bug Reports</a><a class="headerlink" href="#questions-suggestions-corrections-bug-reports" title="Permalink to this heading">#</a></h2>
-<p>For questions, remarks etc., please create an issue and feel free to fork and submit pull requests.</p>
-</section>
 <section id="overview">
-<h2><a class="toc-backref" href="#id20" role="doc-backlink">Overview</a><a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
+<h2><a class="toc-backref" href="#id17" role="doc-backlink">Overview</a><a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>file_name</p></th>
@@ -1394,7 +1344,7 @@ is indicated by appended letters <code class="docutils literal notranslate"><spa
 </tr>
 <tr class="row-odd"><td><p>op04n05a</p></td>
 <td class="text-right"><p>20</p></td>
-<td class="text-right"><p>101</p></td>
+<td class="text-right"><p>100</p></td>
 <td><p>2.3.0</p></td>
 <td><p>Andrew Wilson</p></td>
 <td><p>JH</p></td>
@@ -1583,7 +1533,7 @@ is indicated by appended letters <code class="docutils literal notranslate"><spa
 </tr>
 <tr class="row-even"><td><p>op04n10e</p></td>
 <td class="text-right"><p>48</p></td>
-<td class="text-right"><p>152</p></td>
+<td class="text-right"><p>153</p></td>
 <td><p>2.3.0</p></td>
 <td><p>Kevin Davis</p></td>
 <td><p>AN JH</p></td>
@@ -1681,20 +1631,17 @@ is indicated by appended letters <code class="docutils literal notranslate"><spa
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the data</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-full-version-history">With full version history</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#without-full-version-history">Without full version history</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the data</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-formats">Data Formats</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-scores">Opening Scores</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-tsv-files-in-a-spreadsheet">Opening TSV files in a spreadsheet</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#loading-tsv-files-in-python">Loading TSV files in Python</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#column-names">Column names</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generating-all-tsv-files-from-the-scores">Generating all TSV files from the scores</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-history">Version history</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-suggestions-corrections-bug-reports">Questions, Suggestions, Corrections, Bug Reports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cite-as">Cite as</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#score-origin">Score origin</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caveats">Caveats</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wrong-positions">Wrong positions</a></li>
@@ -1702,9 +1649,7 @@ is indicated by appended letters <code class="docutils literal notranslate"><spa
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#instruments">Instruments</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#naming-convention">Naming convention</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions-suggestions-corrections-bug-reports">Questions, Suggestions, Corrections, Bug Reports</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File naming convention</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 </ul>
   </nav></div>

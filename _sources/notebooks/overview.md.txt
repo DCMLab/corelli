@@ -5,7 +5,7 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.17.0
+    jupytext_version: 1.19.5
 kernelspec:
   display_name: corpus_docs
   language: python
@@ -62,12 +62,12 @@ def save_figure_as(
 **Loading data**
 
 ```{code-cell}
-D = utils.get_dataset("corelli", corpus_release="v2.7")
+D = utils.get_dataset("corelli", corpus_release="v2.10")
 package = D.inputs.get_package()
 package_info = package._package.custom
 git_tag = package_info.get("git_tag")
 utils.print_heading("Data and software versions")
-print("Arcangelo Corelli – Trio Sonatas version v2.7")
+print("Arcangelo Corelli – Trio Sonatas version v2.10")
 print(f"Datapackage '{package.package_name}' @ {git_tag}")
 print(f"dimcat version {dc.__version__}\n")
 D
